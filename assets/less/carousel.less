@@ -1,0 +1,394 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(../img/Images/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.carouselPresentation
+{
+	.owl-prev{
+		position: absolute!important;
+		top: 50%!important;
+		left: 0!important;
+		.translateY(-50%)!important;
+		padding: 0.3rem 1rem!important;
+		&:hover{
+			background: #869791;
+		}
+	}
+
+	.owl-next{
+		position: absolute!important;
+		top: 50%!important;
+		right: 0!important;
+		.translateY(-50%)!important;
+		padding: 0.3rem 1rem!important;
+		&:hover{
+			background: #869791;
+		}
+	}
+
+	.owl-prev, .owl-next{
+		background: @baseColor;
+		font-size: 1.4rem!important0;
+		opacity: 1!important;
+		border-radius: 0!important;
+		height: 4.4rem;
+		line-height: 4rem;
+		width: 2.8rem;
+		color: #fff;
+	}
+}
+
+
+
+
+//Carousel Image Type
+.owl-demo .item{
+  margin: 3px;
+}
+.owl-demo .item img{
+  display: block;
+  height: auto;
+}
+
+.carouselPresentation{
+	img{
+		width: 100%;
+	}
+}
+
+.demoOwl
+{
+	.owl-buttons
+	{
+		position: relative;
+  		bottom: 9.5rem;
+  		right: 5.5rem;
+  	}
+	.owl-prev{
+		  position: absolute;
+		bottom: 28rem;
+		right: 5.5rem;
+		&:before{
+			content: url(../img/content/aleft.png);
+		}
+	}
+	.owl-next{
+		position: absolute;
+		bottom: 28rem;
+		right: 0.7rem;
+		&:before{
+			content: url(../img/content/aright.png);
+		}
+	}
+	.thumbnail{
+		border:none!important;
+		padding-right: 2rem;
+		text-align: center;
+		a{
+			cursor: default;
+			img{
+				&:last-child{display: none;}
+			}
+		}	
+		&:hover{
+			a img:first-child{
+				display: none;
+				}
+			a img:last-child{
+				display: block;
+				}
+			}	
+		h4{
+			font-weight: 700;
+			color: #000;
+			font-family: @baseFont;
+			font-size: 2.2rem;
+			margin-top: 2.5rem;
+			margin-bottom: 1.5rem;
+			span{
+				font-style: italic;
+				font-weight: 400;
+				color: #000;
+				font-family: @baseFont;
+				font-size: 2.1rem;
+			}
+		}
+		p{
+				font-style: italic;
+				color: #000;
+				font-family: @baseFont;
+				font-size: 1.7rem;
+				line-height: 2rem;
+				color: @txtColor;
+			}
+	}
+}
+/*MY HOUSE*/
+.underline{
+	display: block;
+	 position: relative;
+	 width: 18.43rem;
+	 height: 0.2rem;
+	 margin: 2.5rem auto 0;
+	 background: #404040;
+	 margin-bottom: 2.5rem;
+	  .line{
+	display: block;
+	position: relative;
+	width: 4rem;
+	height: 0.2rem;
+	left: 55%;
+	margin-left: -3rem;
+	background: #b5482f;
+	}
+}
+.sectionTitle
+{
+	&:hover{
+		.underline .line{
+		animation-name: slide;
+		-webkit-animation-name: slide;
+		-webkit-animation-duration: 1s;
+	 	animation-duration: 1s;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+		}
+	}
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(60px);
+  }
+  40% {
+    transform: translateX(-60px);
+  }
+  60% {
+    transform: translateX(60px);
+  }
+  80% {
+    transform: translateX(-60px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+  20% {
+    -webkit-transform: translateX(60px);
+  }
+  40% {
+    -webkit-transform: translateX(-60px);
+  }
+  60% {
+    -webkit-transform: translateX(60px);
+  }
+  80% {
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+@-moz-keyframes slide {
+  0% {
+    -moz-transform: translateX(0px);
+  }
+  20% {
+    -moz-transform: translateX(60px);
+  }
+  40% {
+    -moz-transform: translateX(-60px);
+  }
+  60% {
+    -moz-transform: translateX(60px);
+  }
+  80% {
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    -moz-transform: translateX(0px);
+  }
+}
+@-o-keyframes slide {
+  0% {
+    -o-transform: translateX(0px);
+  }
+  20% {
+    -o-transform: translateX(60px);
+  }
+  40% {
+    -o-transform: translateX(-60px);
+  }
+  60% {
+    -o-transform: translateX(60px);
+  }
+  80% {
+    -o-transform: translateX(-60px);
+  }
+  100% {
+    -o-transform: translateX(0px);
+  }
+}
+
+.carousel-caption{
+	position: initial!important;
+	h2{
+		font-family: @baseFont;
+		font-size: 3rem;
+		font-weight: 700;
+		color: @baseColor;
+		span{
+		font-family: @baseFont;
+		font-size: 3rem;
+		font-weight: 700;
+		color: #fff;
+		}
+	}
+	p{
+		font-family: @baseFont;
+		font-size: 1.7rem;
+		font-weight: 400;
+		color: #d7d7d7;
+		font-style: italic;
+	}
+}
+.testimonialPane{
+	margin-top: 4rem;
+	padding:3rem 6rem 7.5rem 6rem;
+	border-radius: 1rem;
+	background-color: rgba(30, 30, 30, 0.8);
+}
+.author{
+	img{
+		position: relative;
+		top: -5.5rem;
+	}
+}
+.carousel-indicators .active{
+	background-color: transparent!important;
+	width: 1.1rem!important;
+	height: 1.1rem!important;
+	border:0.2rem solid @baseColor!important;
+}
+.carousel-indicators{
+	bottom: -1.5rem;
+
+}
+ol{
+	li{
+		margin-right: 0.3rem!important;
+		border:0.2rem solid #a3a3a3!important;
+	}
+}
+.author{
+	p{
+		font-family: @baseFont;
+		font-size: 1.6rem;
+		font-weight: 400;
+		color: #fff;
+		font-style: inherit;
+		margin-top: -4rem;
+	}
+	h5{
+		font-family: @baseFont;
+		font-size: 1.4rem;
+		font-weight: 400;
+		color: #a3a3a3;
+		span{
+		font-family: @baseFont;
+		font-size: 1.4rem;
+		font-weight: 400;
+		color: @baseColor;
+		}
+	}
+}
+
+
+
+
+
+@media (min-width: 800px) {
+	.descriptions{
+		padding-left: 2.5rem;
+	}
+}
+
+
+
+
+
+
+
