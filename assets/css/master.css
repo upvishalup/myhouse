@@ -8946,7 +8946,7 @@ body {
 }
 .featuresTitle h3 {
   font-family: 'Lato', sans-serif;
-  color: #1d1d1d;
+  color: #213944;
   font-size: 2.4rem;
   text-transform: uppercase;
   position: relative;
@@ -9010,7 +9010,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 1.7rem;
   font-weight: 400;
-  color: #000;
+  color: #213944;
 }
 .boxFeature h4 span {
   font-style: italic;
@@ -9153,7 +9153,7 @@ article .img:hover a img:last-child {
 .items ul li p {
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  color: #9d9d9d;
+  color: #C2E5D5;
   font-size: 1.5rem;
   line-height: 2.6rem;
   padding-left: 2.8rem;
@@ -9344,7 +9344,7 @@ article .img:hover a img:last-child {
   position: absolute;
   top: 0.7rem;
   left: 0.9rem;
-  background: rgba(239, 98, 63, 0.9);
+  background: #cf865a;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
@@ -10224,7 +10224,7 @@ article .img:hover a img:last-child {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #f0542d;
+  color: #cf865a;
 }
 .footer h2:after {
   content: '';
@@ -10233,7 +10233,7 @@ article .img:hover a img:last-child {
   width: 4.5rem;
   height: 0.2rem;
   left: 50%;
-  background: #f0542d;
+  background: #cf865a;
   margin-left: -2.25rem;
   margin-top: 2.2rem;
 }
@@ -10254,7 +10254,7 @@ article .img:hover a img:last-child {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: none repeat scroll 0% 0% #f0542d;
+  background: none repeat scroll 0% 0% #cf865a;
   transition: all 0.2s linear 0s;
 }
 .footer .social a i {
@@ -10338,7 +10338,7 @@ article .img:hover a img:last-child {
   transition: 1s;
 }
 #progstat {
-  background-color: #f0542c;
+  background-color: #cf865a;
   font-size: 0.7em;
   letter-spacing: 3px;
   position: absolute;
