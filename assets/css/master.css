@@ -9474,7 +9474,8 @@ article .img:hover a img:last-child {
   right: -0.8rem;
 }
 .box i:hover {
-  border: 3.4rem solid #c93014;
+  /*border: 3.4rem solid #c93014;*/
+  border: 3.4rem solid #854b30
 }
 .location .row {
   margin-top: 5rem;
@@ -10682,7 +10683,7 @@ skillBarAgency p {
 }
 .blogPost .blogContent ul li i {
   margin-right: 0.7rem;
-  color: #f0542d;
+  color: #cf865a;
 }
 .blogPost .blogContent ul li a {
   color: #a0a0a0;
@@ -10753,7 +10754,7 @@ skillBarAgency p {
   font-family: 'Lato', sans-serif;
 }
 .bottomContent ul li span.comments {
-  color: #f0542d !important;
+  color: #cf865a !important;
 }
 .bottomContent ul li span.likes {
   color: #8c8c8c;
