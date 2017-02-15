@@ -1,1 +1,168 @@
-facebook.html
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html >
+  <head>
+  <title>Login Form</title>
+    
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1447248582180897',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+ /* FB.getLoginStatus(function(response){
+      if(response.status==='connected'){
+        document.getElementById('facebk').innerHTML='we are connected';
+      }
+      else if(response.status==='not_authorized'){
+        document.getElementById('facebk').innerHTML='we are not logged in';
+      }
+
+  });*/
+
+
+  (function(d, s, id){
+  
+  var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+    var permissions = [
+          'email'
+          ].join(',');
+
+           var fields = [
+          'id',
+          'name',
+          'first_name',
+          'middle_name',
+          'last_name',
+          'gender',
+          'locale',
+          'languages',
+          'link',
+          'third_party_id',
+          'installed',
+          'timezone',
+          'updated_time',
+          'verified',
+          'age_range',
+          'bio',
+          'birthday',
+          'cover',
+          'currency',
+
+          'devices',
+          'education',
+          'email',
+          'hometown',
+          'interested_in',
+          'location',
+          'political',
+          'payment_pricepoints',
+          'favorite_athletes',
+          'favorite_teams',
+          'picture','quotes',
+          'relationship_status',
+          'religion',
+          'significant_other',
+          'video_upload_limits',
+          'website',
+          'work'
+          ].join(',');
+    console.log(permissions, fields);
+  function showDetails() {
+    FB.api('/me', {fields: fields}, function(details) {
+      // output the response
+      $('#userdata').html(JSON.stringify(details, null, '\t'));
+      $('#fb-login').attr('style', 'display:none;');
+    });
+  }
+
+
+  $('#fb-login').click(function(){
+    //initiate OAuth Login
+    FB.login(function(response) { 
+      // if login was successful, execute the following code
+      if(response.authResponse) {
+          showDetails();
+      }
+    }, {scope: permissions});
+  });
+
+  function login()
+  {
+    FB.login(function(response)
+    {
+          console.log(response);
+         if(response.status==='connected')
+      {
+        document.getElementById('facebk').innerHTML='we are connected';
+        FB.api('/me', {fields: fields}, function(response) {
+           $('#userdata').html(JSON.stringify(response, null, '\t'));
+           console.log('Good to see you, ' + response.name + '.',response);
+         });
+      }
+      else if(response.status==='not_authorized')
+      {
+        document.getElementById('facebk').innerHTML='we are not logged in';
+      }
+
+      FB.api(
+      "10205633754523292",
+      function (response) {
+            if (response && !response.error) {
+               console.log("photo responses",response);
+            }
+          }
+      );
+
+    });
+
+    
+  }
+
+
+</script>
+    <div id="wrapper">
+  <div class="join">Join Today</div>
+      <h1 id="header">Get Facebook User Data</h1>
+<button id="fb-login">Login to Facebook</button>
+<pre id="userdata">
+
+</pre>
+          <div class="clr"></div>
+            <div class="login-options">Choose on of the following sign up methods.</div>
+                  <a class="twitter" href="#">Twitter</a>
+                    <a class="facebook" href="#">Facebook</a>
+                    <button onclick="login()">Facebook</button>
+                    <a class="google" href="#">Google+</a>
+                    <div id="facebk"></div>
+                    <div class="clr"><hr /></div>
+                        <div class="mail-text">Or sign up using your email address.</div>
+                                <div class="forms">
+                                    <form action="" method="get" name="register">
+                                    <input name="fullname" type="text" value="Name" size="70" onClick="border: 1px solid #30a8da;" id="username"/>
+                                    <input name="email" type="text" value="Email Address" size="70" onClick="border: 1px solid #30a8da;" id="mail"/>
+                                    <input name="password" type="password" value="Password" size="70" onClick="border: 1px solid #30a8da;" id="password"/>
+                                    </form>
+                                    </div>
+            <a class="create-acc" href="#">Create My Account</a>
+</div>
+
+    
+        
+    
+    
+    
+  </body>
+</html>
