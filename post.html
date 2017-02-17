@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Instagram</title>
-	<script src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="//connect.facebook.net/en_US/sdk.js"></script>
-	<script type="text/javascript" src="assets/js/extra.js"></script>
-	<script type="text/javascript">
-		FB.init({
-	      appId      : '1848792298736480',
-	      xfbml      : true,
-	      version    : 'v2.5'
-	    });
-
-	    function login(){
-		     /*FB.login(function(response)
-			    {   
-			        console.log(response);
-			       if(response.status==='connected')
-			          {
-			            FB.api('/me', {fields: {}}, function(response) {
-			                console.log(response);
-			            });
-			          }
-			      else if(response.status==='not_authorized')
-			          {
-			            console.log("Facebook not authorised");
-			          }
-			});*/
-
-		     FB.api('MyFriend/posts', function(response){
-		     	console.log(response)
-		     })
- 		}
-	</script>
+	<title></title>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1848792298736480";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 <body>
-	Facebook
-	<div id="instafeed">
-		<button onclick="login()">Facebook Login</button>
-	</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=443271375714375";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+jQuery(document).ready(function($) {
+  $(window).bind("load resize", function(){  
+  setTimeout(function() {
+  var container_width = $('#container').width();    
+    $('#container').html('<div class="fb-page" ' + 
+    'data-href="http://www.facebook.com/IniciativaAutoMat"' +
+    ' data-width="' + container_width + '" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/IniciativaAutoMat"><a href="http://www.facebook.com/IniciativaAutoMat">Auto*Mat</a></blockquote></div></div>');
+    FB.XFBML.parse( );    
+  }, 100);  
+}); 
+});
+
+</script>
+<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="true" data-width=1000 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+</div>
 </body>
 </html>
