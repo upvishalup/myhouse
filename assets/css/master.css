@@ -9153,7 +9153,7 @@ article .img:hover a img:last-child {
 .items ul li p {
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  color: #C2E5D5;
+  color: #9d9d9d;
   font-size: 1.5rem;
   line-height: 2.6rem;
   padding-left: 2.8rem;
@@ -10325,7 +10325,7 @@ article .img:hover a img:last-child {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #141414;
+  background-color: #213944;
   background-repeat: no-repeat;
   background-position: center;
   transition: 1s 0.4s;

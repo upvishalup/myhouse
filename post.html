@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Facebook Posts for Page</title>
+	<title>Instagram</title>
+	<script src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="//connect.facebook.net/en_US/sdk.js"></script>
+	<script type="text/javascript" src="assets/js/extra.js"></script>
+	<script type="text/javascript">
+		FB.init({
+	      appId      : '1848792298736480',
+	      xfbml      : true,
+	      version    : 'v2.5'
+	    });
+
+	    function login(){
+		     /*FB.login(function(response)
+			    {   
+			        console.log(response);
+			       if(response.status==='connected')
+			          {
+			            FB.api('/me', {fields: {}}, function(response) {
+			                console.log(response);
+			            });
+			          }
+			      else if(response.status==='not_authorized')
+			          {
+			            console.log("Facebook not authorised");
+			          }
+			});*/
+
+		     FB.api('MyFriend/posts', function(response){
+		     	console.log(response)
+		     })
+ 		}
+	</script>
 </head>
 <body>
-	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FFilmymantra&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" style="border:none; overflow:hidden; width:360px; height:591px; background: white; float:left; " allowtransparency="true" frameborder="0"></iframe>
+	Facebook
+	<div id="instafeed">
+		<button onclick="login()">Facebook Login</button>
+	</div>
 </body>
 </html>

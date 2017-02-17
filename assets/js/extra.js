@@ -1,7 +1,8 @@
 
+
 window.onload = function(){
-	//instagramRecentBlog()
-	instagram();
+	//instagram();
+    facebook();
 }
 
 function instagram(){
@@ -15,5 +16,72 @@ function instagram(){
         }
     });
     feed.run();
+}
+
+function facebook(){
+    
+/*
+    var permissions = [
+          'email'
+          ].join(',');
+
+           var fields = [
+          'id',
+          'name',
+          'first_name',
+          'middle_name',
+          'last_name',
+          'gender',
+          'locale',
+          'languages',
+          'link',
+          'third_party_id',
+          'installed',
+          'timezone',
+          'updated_time',
+          'verified',
+          'age_range',
+          'bio',
+          'birthday',
+          'cover',
+          'currency',
+
+          'devices',
+          'education',
+          'email',
+          'hometown',
+          'interested_in',
+          'location',
+          'political',
+          'payment_pricepoints',
+          'favorite_athletes',
+          'favorite_teams',
+          'picture','quotes',
+          'relationship_status',
+          'religion',
+          'significant_other',
+          'video_upload_limits',
+          'website',
+          'work'
+          ].join(',');*/
+    
+    FB.login(function(response)
+    {   
+        console.log(response);
+       if(response.status==='connected')
+          {
+            FB.api('/me', {fields: fields}, function(response) {
+                console.log(response);
+            });
+          }
+      else if(response.status==='not_authorized')
+          {
+            console.log("Facebook not authorised");
+          }
+    });
+
+    
+}
+
 }
 
