@@ -9002,6 +9002,10 @@ body {
   top: 0;
   left: 0;
 }
+.featureBox img : hover{
+  display: none;
+}
+
 .boxFeature {
   margin-top: 13.5rem;
 }
@@ -9219,7 +9223,7 @@ article .img:hover a img:last-child {
   color: #fff;
 }
 .panel-title i:hover {
-  border: 1.5rem solid #c93014;
+  border: 1.5rem solid #854b30;
   color: #fff;
 }
 .panel {
@@ -9947,7 +9951,7 @@ article .img:hover a img:last-child {
   bottom: 0;
 }
 .socialIcons i:hover {
-  border: 15px solid #c93014;
+  border: 15px solid #854b30;
 }
 .agentSocial {
   margin-left: -1.5rem;
@@ -10264,7 +10268,7 @@ article .img:hover a img:last-child {
   color: #fff;
 }
 .footer .social a:hover {
-  background: none repeat scroll 0% 0% #c93014;
+  background: none repeat scroll 0% 0% #854b30;
 }
 .information p:after {
   content: '';
@@ -13459,7 +13463,7 @@ div.dark_square #pp_full_res .pp_inline {
   padding: 0.3rem 1rem!important;
 }
 .carouselPresentation .owl-prev:hover {
-  background: #869791;
+  background: #854b30;
 }
 .carouselPresentation .owl-next {
   position: absolute!important;
@@ -13473,7 +13477,7 @@ div.dark_square #pp_full_res .pp_inline {
   padding: 0.3rem 1rem!important;
 }
 .carouselPresentation .owl-next:hover {
-  background: #869791;
+  background: #854b30;
 }
 .carouselPresentation .owl-prev,
 .carouselPresentation .owl-next {
