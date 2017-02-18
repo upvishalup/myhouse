@@ -10569,7 +10569,7 @@ article .img:hover a img:last-child {
   margin-bottom: 0;
 }
 .agencyBox:first-child {
-  margin-top: 4.5rem;
+  margin-top: 1rem;
 }
 /*BARS*/
 .progress {
@@ -12382,7 +12382,7 @@ div.author-info .right-author-info p {
     transition: all 0.2s linear;
   }
   .menu .navbar-toggle {
-    background: rgba(240, 84, 45, 0.9);
+    background: #cf865a;
     border-radius: 0;
     margin: 0;
     padding-top: 16px;
