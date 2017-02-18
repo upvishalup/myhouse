@@ -9884,12 +9884,12 @@ article .img:hover a img:last-child {
 .aboutAgent .envelope {
   position: relative;
 }
+
 .aboutAgent .envelope img {
   float: left;
 }
 .aboutAgent .envelope img:nth-child(2) {
-  display: none;
-  position: absolute;
+  
   left: 0;
 }
 .aboutAgent .envelope:hover img:nth-child(2) {
@@ -9898,12 +9898,12 @@ article .img:hover a img:last-child {
 .aboutAgent .phone {
   position: relative;
 }
+
 .aboutAgent .phone img {
   float: left;
 }
 .aboutAgent .phone img:nth-child(2) {
-  display: none;
-  position: absolute;
+  
   left: 0;
 }
 .aboutAgent .phone:hover img:nth-child(2) {
@@ -10160,7 +10160,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/mai.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_mail.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -10170,7 +10170,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/hover.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_mail copy.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -10180,7 +10180,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/mai1.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_location.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -10190,7 +10190,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/hover1.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_location copy.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -10200,7 +10200,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/mai2.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_phone.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -10210,7 +10210,7 @@ article .img:hover a img:last-child {
   position: relative;
   width: 73px;
   height: 83px;
-  background: url("../img/content/hvoer2.png") no-repeat scroll center center transparent;
+  background: url("../img/icons/eop_phone copy.png") no-repeat scroll center center transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -13780,3 +13780,12 @@ width: 81px !important;
 height: 81px !important;
 }
 
+
+.envelope-email:hover{
+  display: none;
+}
+
+.envelope-email-2{
+  z-index: 1
+  display: block;
+}
