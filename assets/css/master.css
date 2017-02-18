@@ -9076,30 +9076,38 @@ article .img:hover a img:last-child {
   top: 25px;
   left: 33px;
 }
+/*
 #information > div > div > div.boxFeature > article:nth-child(3) > div > a > img:nth-child(1) {
   left: 21px!important;
   top: 24px!important;
 }
+*/
+/*
 #information > div > div > div.boxFeature > article:nth-child(2) > div > a > img:nth-child(1) {
   left: 25px!important;
   top: 30px!important;
 }
+
 #information > div > div > div.boxFeature > article:nth-child(8) > div > a > img:nth-child(1) {
   left: 32px!important;
   top: 25px!important;
 }
+
 #information > div > div > div.boxFeature > article:nth-child(2) > div > a > img:nth-child(2) {
   left: 25px!important;
   top: 30px!important;
 }
+
 #information > div > div > div.boxFeature > article:nth-child(3) > div > a > img:nth-child(2) {
   left: 21px!important;
   top: 24px!important;
 }
+
 #information > div > div > div.boxFeature > article:nth-child(8) > div > a > img:nth-child(2) {
   left: 32px!important;
   top: 25px!important;
 }
+*/
 /***********************************************************************************************/
 /* DESCRIPTIONS */
 /***********************************************************************************************/
@@ -13763,11 +13771,12 @@ ol li {
   background-color: #BE6B40;
 }
 
-#fb-root {
-  display: none;
+
+
+article .img img{
+top: -33px !important;
+left: 0 !important;
+width: 81px !important;
+height: 81px !important;
 }
 
-/* To fill the container and nothing else */
-.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
-  width: 100% !important;
-}

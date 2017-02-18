@@ -2,9 +2,9 @@
 
 window.onload = function(){
 	//instagram();
-    facebook();
+    //facebook();
 }
-
+/*
 function instagram(){
 	var feed = new Instafeed({
         get: 'user',
@@ -17,7 +17,7 @@ function instagram(){
     });
     feed.run();
 }
-
+*/
 function facebook(){
     
 /*
@@ -83,5 +83,6 @@ function facebook(){
     
 }
 
-}
+
+
 
