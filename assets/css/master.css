@@ -10374,12 +10374,13 @@ article .img:hover a img:last-child {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-.loader i {
+.loader i, .loader i img {
   -webkit-animation: k3d 3.5s infinite linear;
   -moz-animation: k3d 3.5s infinite linear;
   -o-animation: k3d 3.5s infinite linear;
   animation: k3d 3.5s infinite linear;
 }
+
 @-webkit-keyframes k3d {
   0% {
     -webkit-transform: rotateY(0deg);
@@ -12314,7 +12315,7 @@ div.author-info .right-author-info p {
   }
   .menu nav ul li a:hover {
     border: 1px solid transparent;
-    color: #f0542d;
+    color: #cf865a;
     -webkit-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-property: all;
