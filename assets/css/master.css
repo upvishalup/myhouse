@@ -213,6 +213,9 @@ nav,
 section {
   display: block;
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 ol,
 ul {
   padding-left: 2rem;
@@ -251,6 +254,9 @@ img {
 *:focus,
 *:active {
   outline: none;
+}
+::-webkit-scrollbar { 
+    display: noe; 
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -2759,9 +2765,15 @@ input[type="search"] {
 }
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
-  margin-top: 1px \9;
-  line-height: normal;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 0 0 150px;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #000000;
+  border-radius: 100%;
+  vertical-align: middle;
 }
 input[type="file"] {
   display: block;
@@ -8689,7 +8701,7 @@ html body p {
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 2.1rem;
-  color: #000;
+  color: #fbf4ff;
   margin-bottom: 1.5rem;
 }
 table {
@@ -9889,7 +9901,7 @@ article .img:hover a img:last-child {
   float: left;
 }
 .aboutAgent .envelope img:nth-child(2) {
-  
+
   left: 0;
 }
 .aboutAgent .envelope:hover img:nth-child(2) {
@@ -9903,7 +9915,7 @@ article .img:hover a img:last-child {
   float: left;
 }
 .aboutAgent .phone img:nth-child(2) {
-  
+
   left: 0;
 }
 .aboutAgent .phone:hover img:nth-child(2) {
@@ -10805,10 +10817,36 @@ skillBarAgency p {
 /***********************************************************************************************/
 .google-map {
   margin-top: 3rem;
-  height: 420px;
+  height: 465px;
+}
+.google-map-assets {
+  margin-top: 3rem;
+	overflow:scroll;
+	height:465px;
+}
+
+.btn-radio .input:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -.675rem 0 0 -.675rem;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 100%;
+  background-color: #A28F64;
+  content: ' ';
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
 }
 .google-map img {
   max-width: inherit;
+}
+.img-title {
+  background-color: #000000;
+  margin-top: -10px;
+  padding: 10px;
+  color: white;
 }
 @media (max-width: 1220px) {
   .aboutAgent ul {
@@ -13394,7 +13432,7 @@ div.dark_square #pp_full_res .pp_inline {
 .pp_gallery li.default a img {
   display: none;
 }
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.3
  */
@@ -13765,7 +13803,7 @@ ol li {
 }
 
 .light-greeen-color-bck{
- background-color: #213944; 
+ background-color: #213944;
 }
 
 .coper-brown-color-bck{
