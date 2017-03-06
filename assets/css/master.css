@@ -13818,6 +13818,10 @@ left: 0 !important;
 width: 81px !important;
 height: 81px !important;
 }
+.map-section{
+  padding-top: 10px;
+  overflow: scroll;
+}
 
 
 .envelope-email:hover{

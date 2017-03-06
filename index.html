@@ -717,21 +717,22 @@
 						</div>
 					</div>
 				</div>
+				<div class = 'map-section' id = 'loc-neighbour'>
 				<!--Radio-button group starts-->
-				<div class="radio-container" style="padding: 10px 0px 15px 0; background-color: white">
-					<input class="btn-radio" type="radio" name="radio-button" value="mon" checked=""> MONDAY
-					<input class="btn-radio" type="radio" name="radio-button" value="tues"> TUESDAY
-					<input class="btn-radio" type="radio" name="radio-button" value="wed"> WEDNESDAY
-					<input class="btn-radio" type="radio" name="radio-button" value="fri"> FRIDAY
-				</div>
+					<div class="radio-container" style="padding: 10px 0px 15px 0; background-color: white">
+						<input class="btn-radio" type="radio" name="radio-button" value="mon" checked=""> MONDAY
+						<input class="btn-radio" type="radio" name="radio-button" value="tues"> TUESDAY
+						<input class="btn-radio" type="radio" name="radio-button" value="wed"> WEDNESDAY
+						<input class="btn-radio" type="radio" name="radio-button" value="fri"> FRIDAY
+					</div>
 				<!--Radio-button group ends-->
 				<!-- ========== MAP ========== -->
-				<div class="row">
+					<div class="row" style="overflow: auto;">
 					<div class="col-sm-6">
 						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
 					</div>
 					<!--scrolled-assets-starts-here-->
-					<div class="col-sm-6 google-map-assets">
+					<div class="col-sm-6 google-map-assets" id="image-assets-scroll">
 						<div class="col-sm-6">
 							<img src="assets/img/content/g1.jpg" style="width: 100%;">
 							<div class="img-title">
@@ -789,7 +790,8 @@
 							</div>
 						</div>
 					</div>
-				</div><!--end col-sm-5 -->
+					</div><!--end col-sm-5 -->
+				</div>
 		</div><!-- end row-->
 	</div><!--end container -->
 </section>

@@ -418,7 +418,20 @@ function handleSkillBars() {
  handleSkillBars();
 });
 
+var mapSectionHeight = jQuery('#loc-neighbour').offset().top + 210;
+var mapAssetsHeight = jQuery('#image-assets-scroll').css("height");
+console.log( "ndnnd", mapAssetsHeight);
+jQuery(window).scroll(function(){
+	var windowEleHeight = jQuery(window).scrollTop();
+	if (windowEleHeight >= mapSectionHeight) {
+         $('body').css('overflow', 'hidden');
+         //$('.radio-container').css('position', 'fixed');
+        $('#image-assets-scroll').css('position', 'relative');
+   }
+   
+});
 
+console.log("jsjsjsj" , mapAssetsHeight);
 
 
 
