@@ -418,20 +418,42 @@ function handleSkillBars() {
  handleSkillBars();
 });
 
-var mapSectionHeight = jQuery('#loc-neighbour').offset().top + 210;
-var mapAssetsHeight = jQuery('#image-assets-scroll').css("height");
-console.log( "ndnnd", mapAssetsHeight);
+
+//Inner image SCROLL TOP
+//Inner Image Scroll Bottom
+//Window Scroll to Div
+
+var imageScrolled = false;
+var mapImageCombo = jQuery('#mapimageresult').offset().top + 210;
 jQuery(window).scroll(function(){
-	var windowEleHeight = jQuery(window).scrollTop();
-	if (windowEleHeight >= mapSectionHeight) {
-         $('body').css('overflow', 'hidden');
-         //$('.radio-container').css('position', 'fixed');
-        $('#image-assets-scroll').css('position', 'relative');
+	var windowScrolled = jQuery(window).scrollTop();
+	if (windowScrolled >= mapImageCombo && !imageScrolled) {
+        $('html, body').css({
+		    overflow: 'hidden'
+		});
+		$('#mapimageresult')[0].scrollIntoView(true);
+		$('#mapresult').css({'position':'fixed', 'left': '61px', 'top': '52px', 'width':'46%'});
+		$('#imageresult').css({'position':'relative', 'float': 'right'});
    }
+
+   $('#imageresult').on('scroll', function() {
+        if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+            imageScrolled = true;
+            /*$('html, body').css({
+			    overflow: 'auto',
+			    height: 'auto'
+			});*/
+			$('html, body').removeAttr('style');
+			$('#mapresult').removeAttr('style');
+			$('#imageresult').removeAttr('style');
+			var endMapSectionHeight = jQuery('#mapimageresult').offset().top + 211;
+			$(window).scrollTop(endMapSectionHeight);
+        }
+    })
    
 });
 
-console.log("jsjsjsj" , mapAssetsHeight);
+
 
 
 
