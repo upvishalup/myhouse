@@ -13819,10 +13819,12 @@ width: 81px !important;
 height: 81px !important;
 }
 .map-section{
-  padding-top: 10px;
   overflow: scroll;
 }
-
+.mapimage-overlay{
+  background-color: #fff;
+  opacity: 0;
+}
 
 .envelope-email:hover{
   display: none;
