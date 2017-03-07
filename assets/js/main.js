@@ -3,9 +3,8 @@
 <!-- ================================================== -->
 	
 jQuery(document).ready(function(){
-	
 	"use strict";
-
+	$("#mapimageresult", "#mapresult").stick_in_parent({container: $("#location"), offset_top: 10});
 	// For example:
 	jQuery(window).stellar({
   	positionProperty: 'transform',
@@ -417,58 +416,6 @@ function handleSkillBars() {
 
  handleSkillBars();
 });
-
-
-//Inner image SCROLL TOP
-//Inner Image Scroll Bottom
-//Window Scroll to Div
-var tabFixed = false;
-var imageScrolled = false;
-var mapImageCombo = jQuery('#mapimageresult').offset().top + 211;
-var mapImageInnerHeight = jQuery('#mapimageresult').innerHeight;
-jQuery(window).scroll(function(){
-	var windowScrolled = jQuery(window).scrollTop();
-	if ((windowScrolled >= mapImageCombo) && (!imageScrolled && !tabFixed)) {
-		tabFixed = true;
-		console.log("imageScrolled 1");
-        $('html, body').css({
-		    overflow: 'hidden',
-		    height : '100%'
-		});
-		$('#mapimageresult')[0].scrollIntoView(true);
-		$('#mapresult').css({'position':'fixed', 'left': '61px', 'top': '52px', 'width':'46%'});
-		$('#imageresult').css({'position':'relative', 'float': 'right'});
-   }else if(windowScrolled < mapImageCombo){
-   		console.log("imageScrolled 2 tabFixed", tabFixed);
-   		console.log("imageScrolled 2 imageScrolled", imageScrolled);
-   }
-
-   $('#imageresult').on('scroll', function() {
-        if(($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) && tabFixed) {
-        	console.log("imageScrolled 3");
-            imageScrolled = true;
-            tabFixed = false;
-            /*$('html, body').css({
-			    overflow: 'auto',
-			    height: 'auto'
-			});*/
-			$('html, body').removeAttr('style');
-			$('#mapresult').removeAttr('style');
-			$('#imageresult').removeAttr('style');
-			var endMapSectionHeight = jQuery('#mapimageresult').offset().top + 212;
-			$(window).scrollTop(endMapSectionHeight);
-        }else{
-        	console.log("imageScrolled 4");
-        }
-    })
-   
-});
-
-
-
-
-
-
 
 
 <!-- ================================================== -->
