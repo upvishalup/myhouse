@@ -4,8 +4,45 @@
 	
 jQuery(document).ready(function(){
 	"use strict";
-	$("#mapimageresult", "#mapresult").stick_in_parent({container: $("#location"), offset_top: 10});
-	// For example:
+	//$("#mapimageresult").sticky({ topSpacing: 0 });
+	$("#mapimageresult").sticky({ topSpacing: 0, zIndex: 1000, bottomSpacing:1000 });
+	$("#mapresult").sticky({ topSpacing: 40, zIndex: 1000, getWidthFrom:'mapresultv'});
+	
+	$('#mapimageresult').on('sticky-start', function() {
+		console.log("Started"); 
+	});
+	$('#mapimageresult').on('sticky-end', function() {
+	 console.log("Ended"); 
+	});
+	$('#mapimageresult').on('sticky-update', function() { console.log("Update"); });
+	$('#mapimageresult').on('sticky-bottom-reached', function() { console.log("Bottom reached"); });
+	$('#mapimageresult').on('sticky-bottom-unreached', function() { console.log("Bottom unreached"); });
+	var isSticked = true;
+	var imageresultHeight = jQuery("#imageresult").height();
+	var tabHeight = jQuery("#mapimageresult").height();
+	var mapSectionHeight = jQuery('#mapimageresult').offset().top+951+55+210;
+	console.log(mapSectionHeight);
+	var sticked = true;
+	jQuery(window).scroll(function(){
+		var windowEleHeight = jQuery(window).scrollTop();
+		if (windowEleHeight >= mapSectionHeight) {
+			console.log("Before Calling unstick");
+		  //$("#mapimageresult").unstick();
+		  if(sticked){
+		  	$("#mapresult").unstick();	
+		  	console.log('0');
+		  }
+		  sticked = false;	
+	   }else{
+	   		//$("#mapimageresult").sticky({ topSpacing: 0, zIndex: 1000 });
+	   		if(!sticked){
+	   			$("#mapresult").sticky({ topSpacing: 40, zIndex: 1000, getWidthFrom:'imageresult'});	
+	   			console.log('1');
+	   		}
+			var sticked = true;
+	   }
+	});
+	
 	jQuery(window).stellar({
   	positionProperty: 'transform',
   	horizontalScrolling: false

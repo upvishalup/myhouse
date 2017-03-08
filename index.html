@@ -8,6 +8,9 @@
 	<!-- ========== CSS INCLUDES ========== -->
 	<link rel="stylesheet" href="assets/css/master.css">
 	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script> 
+	<!-- <script src="assets/js/min/jquery.sticky-kit.min.js"></script> -->
+	
 </head>
 <body>
 <!-- ========== LOADER ========== -->
@@ -717,6 +720,10 @@
 						</div>
 					</div>
 				</div>
+				<div class="row" class="endingscroll">
+					<div class="col-sm-6" id="mapresultv"></div>
+					<div class="col-sm-6" id="imageresultv"></div>
+				</div>
 				<div class='map-section' id='mapimageresult'>
 				<!--Radio-button group starts-->
 					<div class="radio-container" style="padding: 10px 0px 15px 0; background-color: white">
@@ -727,12 +734,17 @@
 					</div>
 				<!--Radio-button group ends-->
 				<!-- ========== MAP ========== -->
-					<div class="row">
+					<!--end col-sm-5 -->
+				</div>
+				<div class="row">
 					<div class="col-sm-6" id="mapresult">
 						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
 					</div>
+					<div class="col-sm-6">
+				</div>
+				<div class="row">
 					<!--scrolled-assets-starts-here-->
-					<div class="col-sm-6 google-map-assets" id="imageresult">
+					<div class="col-sm-6" id="imageresult">
 						<div class="col-sm-6">
 							<img src="assets/img/content/g1.jpg" style="width: 100%;">
 							<div class="img-title">
@@ -790,9 +802,8 @@
 							</div>
 						</div>
 					</div>
-					</div><!--end col-sm-5 -->
-				</div>
-				<div id='mapimageresultend'>
+					</div>
+					
 		</div><!-- end row-->
 	</div><!--end container -->
 </section>
@@ -1056,7 +1067,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/map.js"></script>
-<script src="assets/js/min/jquery.sticky-kit.min.js"></script>
+
 <script src="assets/js/main.js"></script>
 <script src="assets/js/extra.js"></script>
 

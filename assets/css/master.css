@@ -13834,3 +13834,9 @@ height: 81px !important;
   z-index: 1
   display: block;
 }
+
+.image-with-sticky{
+  position: relative;
+  left: 48%;
+  top: -461px;
+}
