@@ -4,34 +4,15 @@
 	
 jQuery(document).ready(function(){
 	"use strict";
-	//$("#mapimageresult").sticky({ topSpacing: 0 });
-	/*$("#mapimageresult").sticky({ topSpacing: 0, zIndex: 1000, bottomSpacing:1000 });
-	$("#mapresult").sticky({ topSpacing: 40, zIndex: 1000, getWidthFrom:'mapresultv', scope: StickScope.Parent});
-	
-	$('#mapimageresult').on('sticky-start', function() {
-		console.log("Started"); 
-	});
-	$('#mapimageresult').on('sticky-end', function() {
-	 console.log("Ended"); 
-	});
-	$('#mapimageresult').on('sticky-update', function() { console.log("Update"); });
-	$('#mapimageresult').on('sticky-bottom-reached', function() { console.log("Bottom reached"); });
-	$('#mapimageresult').on('sticky-bottom-unreached', function() { console.log("Bottom unreached"); });
-	var isSticked = true;
-	var imageresultHeight = jQuery("#imageresult").height();
-	var tabHeight = jQuery("#mapimageresult").height();
-	var mapSectionHeight = jQuery('#mapimageresult').offset().top+951+55+210;
-	var wrap = $("#imageresult");
-
-	wrap.on("scroll", function(e){
-		if (this.scrollTop > imageresultHeight) {
-		    console.log("add");
-		} else {
-		    console.log("removeClass");
-		}
-	});*/
 	$("#mapimageresult").stickit({ top: 0,zIndex: 1000 });
 	$("#mapresult").stickit({ top: 40, zIndex: 100});
+
+	var poicount = $("#imageresult").innerWidth();
+	var fullWidthPoi = (poicount - (poicount - (2*280)));
+
+	$(".image-poi-container")
+
+
 	jQuery(window).stellar({
   	positionProperty: 'transform',
   	horizontalScrolling: false
