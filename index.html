@@ -740,7 +740,7 @@
 				<div class="row">
 					<!--scrolled-assets-starts-here-->
 					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
-					    <div class="image-poi-container" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}"  >
+					    <div class="image-poi-container" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}">
 							<img ng-src={{poi.image}} class="poi-image" >
 							<div class="img-title">
 								<h4>{{poi.title}}</h4>

@@ -7,8 +7,7 @@ jQuery(document).ready(function(){
 	$("#mapimageresult").stickit({ top: 0,zIndex: 1000 });
 	$("#mapresult").stickit({ top: 40, zIndex: 100});
 
-	var poicount = $("#imageresult").innerWidth();
-	var fullWidthPoi = (poicount - (poicount - (2*280)));
+	
 
 	$(".image-poi-container")
 
