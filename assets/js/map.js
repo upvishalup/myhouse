@@ -38,9 +38,10 @@ google.maps = google.maps || {};
 <!-- =============== START GOOGLE MAP SETTINGS ================ -->
 <!-- ================================================== -->
 
+var map = null;
 jQuery(document).ready(function(){
 
-  var map;
+  
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
@@ -65,10 +66,12 @@ jQuery(document).ready(function(){
           }
         };
 
-    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-    var img = jQuery('#map-canvas').data('img');
-     
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    initialiseMarker();
+    displayLocInMap();
+    
+   // var img = jQuery('#map-canvas').data('img');
+   /* 
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
@@ -88,24 +91,57 @@ jQuery(document).ready(function(){
         content: contentString
     });
     
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map,marker);
-    });
+    
 
     var styledMapOptions = {
       name: 'US Road Atlas'
-    };
-
+    };*/
+/*
     var usRoadMapType = new google.maps.StyledMapType(
-        roadAtlasStyles, styledMapOptions);
+        roadAtlasStyles, styledMapOptions); 
 
     map.mapTypes.set('usroadatlas', usRoadMapType);
     map.setMapTypeId('usroadatlas');
+    */
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
     
 });
+
+// Pop-up Location marker in Google map  
+var markers = [];
+function initialiseMarker(){
+  var locDetail = {};
+  $( ".loc-img" ).each(function( index ) {
+    locDetail = {"lat": $( this ).attr("data-lat"),
+        "lng": $( this ).attr("data-lang"),
+        "locId": $( this ).attr("data-locid")};
+    markers.push(locDetail);          
+});
+}
+
+var displayLocInMap = function () {
+var infoWindow = new google.maps.InfoWindow();
+var lat_lng = new Array();
+var latlngbounds = new google.maps.LatLngBounds();
+for (i = 0; i < markers.length; i++) {
+  var data = markers[i]
+  var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+  lat_lng.push(myLatlng);
+  var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  id: data.locId
+  });
+  google.maps.event.addListener(marker, 'click', function() {    
+        var divId =   this.id;     
+        var divObj = $("div.loc-img[data-locid = '"+divId+"']"); 
+        divObj.css("border", "3px solid black");
+
+        }); 
+  }
+}
 
 <!-- ================================================== -->
 <!-- =============== END GOOGLE MAP SETTINGS ================ -->
