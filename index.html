@@ -740,12 +740,12 @@
 				<div class="row">
 					<!--scrolled-assets-starts-here-->
 					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
-					    <div class="image-poi-container"  ng-repeat="poi in pois">
-							<img ng-src={{poi.image}} class="poi-image">
+					    <div class="image-poi-container" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}"  >
+							<img ng-src={{poi.image}} class="poi-image" >
 							<div class="img-title">
 								<h4>{{poi.title}}</h4>
 								<p class="address">{{poi.name}}</p>
-								<p class="poi-details display-none">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
+								<p class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
 							</div>
 							<div style="height: 10px; background-color: white"></div>
 						</div>
