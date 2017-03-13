@@ -733,14 +733,14 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-6" id="mapresult">
-						<div id="map-canvas" class="google-map" data-lat="51.509865" data-long="-0.118092" data-img="assets/img/icons/logo-map.png"></div>
+						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
 					</div>
 					<div class="col-sm-6">
 				</div>
 				<div class="row">
 					<!--scrolled-assets-starts-here-->
 					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
-					    <div class="image-poi-container" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}">
+					    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}"  data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index+1}}>
 							<img ng-src={{poi.image}} class="poi-image" >
 
 							<div class="img-title">
