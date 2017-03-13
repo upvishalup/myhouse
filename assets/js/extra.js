@@ -121,6 +121,8 @@ app.controller("LocationController", function($scope){
 
       window.addEventListener('marker-cliked', function (e) {
           console.log('printer state changed', e.detail);
+          $scope.toggle(Number(e.detail)-1);
+          $scope.$apply();
       });
 });
 

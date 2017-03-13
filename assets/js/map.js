@@ -57,11 +57,11 @@ jQuery(document).ready(function(){
           zoom: 13,
           center: myLatLng,
           disableDefaultUI: true,
-          scrollwheel: true,
-          navigationControl: true,
-          mapTypeControl: true,
-          scaleControl: true,
-          draggable: true,
+          scrollwheel: false,
+          navigationControl: false,
+          mapTypeControl: false,
+          scaleControl: false,
+          draggable: false,
           mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
           }
