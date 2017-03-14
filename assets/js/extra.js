@@ -111,7 +111,8 @@ app.controller("LocationController", function($scope){
                   var locals = {
                   locId : i+1,
                   lat: $scope.pois[i].location[0],
-                  lng: $scope.pois[i].location[1]
+                  lng: $scope.pois[i].location[1],
+                  title: $scope.pois[i].title
                   } 
                  locations.push(locals);
            }
@@ -124,6 +125,14 @@ app.controller("LocationController", function($scope){
           $scope.toggle(Number(e.detail)-1);
           $scope.$apply();
       });
+
+      $scope.setMenu = function(){
+           // var container = $('#mapimageresult'),
+              scrollTo = $(".radio-container");
+              $('html, body').animate({
+                scrollTop: ((scrollTo).offset().top)
+              },500);
+      };
 });
 
 

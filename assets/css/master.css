@@ -13902,3 +13902,7 @@ height: 81px !important;
 .display-none{
   display: none;
 }
+
+div.loc-info p{
+  color: #000;
+}

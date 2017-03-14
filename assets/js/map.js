@@ -40,19 +40,13 @@ google.maps = google.maps || {};
 
 var map = null;
 var locMarker = [];
-jQuery(document).ready(function(){
-
-  
+jQuery(document).ready(function(){  
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
-
   function initialize() {
-
-    var roadAtlasStyles = [
-      
+    var roadAtlasStyles = [      
     ];
-
     var mapOptions = {
           zoom: 13,
           center: myLatLng,
@@ -68,72 +62,24 @@ jQuery(document).ready(function(){
         };
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    //initialiseMarker();
-    displayLocInMap(getInitLocations());
-    
-    var img = jQuery('#map-canvas').data('img');
-    
+    displayLocInMap(getInitLocations());    
+    var img = jQuery('#map-canvas').data('img');    
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         icon: img,
       title: ''
     });
-    /*
-    var contentString = '<div style="max-width: 300px" id="content">'+
-        '<div id="bodyContent">'+
-      '<h5 class="color-primary"><strong>StylishThemes</strong></h5>' +
-        '<p style="font-size: 12px">Lorem ipsum dolor sit amet,' +
-        'incididunt ut labore et dolore psum dolor magna aliqua.</p>'+
-        '</div>'+
-        '</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
-    
-    
-
-    var styledMapOptions = {
-      name: 'US Road Atlas'
-    };*/
-/*
-    var usRoadMapType = new google.maps.StyledMapType(
-        roadAtlasStyles, styledMapOptions); 
-
-    map.mapTypes.set('usroadatlas', usRoadMapType);
-    map.setMapTypeId('usroadatlas');
-    */
   }
-
   google.maps.event.addDomListener(window, 'load', initialize);
     
 });
-
-// Pop-up Location marker in Google map  
-/*
-function initialiseMarker(){
- // alert("hi");
-  var markers = [];
-  var locDetail = {};
-  $( ".loc-img" ).each(function( index ) {
-    locDetail = {"lat": $( this ).attr("data-lat"),
-        "lng": $( this ).attr("data-lang"),
-        "locId": $( this ).attr("data-locid")};
-    markers.push(locDetail);          
-});
-  return markers;
-}
-*/
 var displayLocInMap = function (markers) {
-  //alert("hello");
-  //setMapOnAll(null);
   if(locMarker !='undefined' && locMarker != null)
   {
     clearMarkers(locMarker);
-  }
-  
-  var infoWindow = new google.maps.InfoWindow();
+  }  
+
   var lat_lng = new Array();
   var latlngbounds = new google.maps.LatLngBounds();
   for (i = 0; i < markers.length; i++) {
@@ -143,17 +89,39 @@ var displayLocInMap = function (markers) {
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      id: data.locId
+      id: data.locId,
+      title: data.title
     });
+/*
+    var infoContentString = "";
+    var infoWindow = null;
+    google.maps.event.addListener(marker, 'mouseover', function() {  
+      infoContentString = "<div class = 'loc-info'><p>"+this.title+"</p></div>";
+      infoWindow = new google.maps.InfoWindow({
+        content: infoContentString, 
+        disableAutoPan: false,        
+      });      
+      infoWindow.open(map, this);  
+    }); 
+    google.maps.event.addListener(marker, 'mouseout', function() {
+      infoWindow.close();  
+    }); 
+    */ 
     locMarker.push(marker);
     google.maps.event.addListener(marker, 'click', function() {    
         var divId =   this.id;     
         var event = new CustomEvent('marker-cliked', { 'detail': divId }); 
-        window.dispatchEvent(event);  
-    }); 
-  }
-  console.log( markers);
+        window.dispatchEvent(event); 
+       // $("div.loc-img[data-locid = '"+divId+"']").scrollTop(); 
+        var container = $('#imageresult'),
+        scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
+        $('html, body').animate({
+          scrollTop: (scrollTo.offset().top -60)
+        },500);
 
+
+    });   
+  }  
 }
 
 function clearMarkers(markers) {
@@ -350,7 +318,8 @@ function getInitLocations() {
             var locals = {
             locId : i+1,
             lat: pois[i].location[0],
-            lng: pois[i].location[1]
+            lng: pois[i].location[1],
+            title: pois[i].title
             } 
            locations.push(locals);
      }

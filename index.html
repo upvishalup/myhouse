@@ -723,7 +723,7 @@
 				</div>
 				<div class='map-section' id='mapimageresult'>
 				<!--Radio-button group starts-->
-					<div class="radio-container">
+					<div class="radio-container" ng-click="setMenu()">
 						<label class="show-case-title" ng-repeat="key in keys track by $index" ><input class="btn-radio" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)"> {{key}}
 						</label>
 					</div>
