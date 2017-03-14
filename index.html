@@ -721,6 +721,8 @@
 					</div>
 				</div>
 				</div>
+
+			<div class ='lod-neighbour-container'>	
 				<div class='map-section' id='mapimageresult'>
 				<!--Radio-button group starts-->
 					<div class="radio-container" ng-click="setMenu()">
@@ -736,8 +738,8 @@
 						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
 					</div>
 					<div class="col-sm-6">
-				</div>
-				<div class="row">
+					</div>
+					<div class="row">
 					<!--scrolled-assets-starts-here-->
 					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
 					    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}"  data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index+1}}>
@@ -753,7 +755,10 @@
 					</div>
 					</div>
 					
-		</div><!-- end row-->
+			</div><!-- end row-->
+		</div>>	
+
+
 	</div><!--end container -->
 </section>
 <!-- ========== END LOCATION ========== -->

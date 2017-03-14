@@ -128,7 +128,7 @@ app.controller("LocationController", function($scope){
 
       $scope.setMenu = function(){
            // var container = $('#mapimageresult'),
-              scrollTo = $(".radio-container");
+              scrollTo = $(".lod-neighbour-container");
               $('html, body').animate({
                 scrollTop: ((scrollTo).offset().top)
               },500);
