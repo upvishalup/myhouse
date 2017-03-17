@@ -87,6 +87,9 @@ app.controller("LocationController", function($scope){
       $scope.checkImageDisplay = function(currentIndex){
             var total = $scope.pois.length;
             if(currentIndex >= (total-1)){
+                  if(total % 2 != 0){
+                    $scope.pois[total-1].isOpened = true;
+                  }
                   return;
             }
             if(($scope.pois[currentIndex].isOpened && $scope.pois[currentIndex+1].isOpened) ||

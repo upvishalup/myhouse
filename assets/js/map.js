@@ -118,7 +118,7 @@ var displayLocInMap = function (markers) {
         selectedMarker = this; 
         if(!map.getBounds().contains(this.getPosition())){
             map.setCenter(this.getPosition());
-            map.setZoom(9);
+            map.setZoom(13);
         }
 
     });   
@@ -178,7 +178,7 @@ function initialisedPoi(){
             },
             {
             "title" : "cologne",
-            "name" : "Korunní 106, Prague 2",
+            "name" : "Italy 106, Prague 2",
             "location" : [45.57862, 9.9418],
             "description" : "",
             "thubnail" : "",
