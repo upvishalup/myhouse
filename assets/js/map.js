@@ -30,6 +30,7 @@ google.maps = google.maps || {};
 
 })();
 
+
 <!-- ================================================== -->
 <!-- =============== END GOOGLE MAP PLUGIN ================ -->
 <!-- ================================================== -->
@@ -50,12 +51,12 @@ jQuery(document).ready(function(){
     var mapOptions = {
           zoom: 13,
           center: myLatLng,
-          disableDefaultUI: true,
+          disableDefaultUI: false,
           scrollwheel: false,
           navigationControl: false,
           mapTypeControl: false,
           scaleControl: false,
-          draggable: false,
+          draggable: true,
           mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
           }
@@ -72,7 +73,7 @@ jQuery(document).ready(function(){
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize);
-    
+  
 });
 var displayLocInMap = function (markers) {
   if(locMarker !='undefined' && locMarker != null)
@@ -86,48 +87,67 @@ var displayLocInMap = function (markers) {
     var data = markers[i];
     var myLatlng = new google.maps.LatLng(data.lat, data.lng);
     lat_lng.push(myLatlng);
+    
     var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      id: data.locId,
-      title: data.title
+        position: myLatlng,
+        map: map,
+        id: data.locId,
+        title: data.title,
+        icon: {
+          url: 'https://www.google.com/mapfiles/marker_green.png'
+        }
     });
-/*
-    var infoContentString = "";
-    var infoWindow = null;
+    //latlngbounds.extend(marker.position);
+    locMarker.push(marker);    
+    var selectedMarker = null;
     google.maps.event.addListener(marker, 'mouseover', function() {  
-      infoContentString = "<div class = 'loc-info'><p>"+this.title+"</p></div>";
-      infoWindow = new google.maps.InfoWindow({
-        content: infoContentString, 
-        disableAutoPan: false,        
-      });      
-      infoWindow.open(map, this);  
+        
+        // console.log(marker);
+          
+
+         // map.setCenter(this.getPosition());  
+          //map.setZoom(9);   
+          //marker.setIcon('https://www.google.com/mapfiles/marker_green.png');   
+        // this.setIcon('https://www.google.com/mapfiles/marker_green.png');         
     }); 
-    google.maps.event.addListener(marker, 'mouseout', function() {
-      infoWindow.close();  
-    }); 
-    */ 
-    locMarker.push(marker);
+    
+       
     google.maps.event.addListener(marker, 'click', function() {    
         var divId =   this.id;     
         var event = new CustomEvent('marker-cliked', { 'detail': divId }); 
         window.dispatchEvent(event); 
-       // $("div.loc-img[data-locid = '"+divId+"']").scrollTop(); 
         var container = $('#imageresult'),
         scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
         $('html, body').animate({
           scrollTop: (scrollTo.offset().top -60)
-        },500);
-
+        },500); 
+        if (selectedMarker) {
+              selectedMarker.setIcon('https://www.google.com/mapfiles/marker_green.png');
+          }
+          this.setIcon('https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png');
+          selectedMarker = this; 
+          if(!map.getBounds().contains(this.getPosition())){
+              map.setCenter(this.getPosition());
+              map.setZoom(9);
+          }
 
     });   
-  }  
+  } 
+  //map.fitBounds(latlngbounds);
+  
+  $("div.loc-img").click(function(){
+        $this = $(this);
+        var divId = $this.data("locid"); 
+        google.maps.event.trigger(locMarker[divId], 'click');
+        //alert("hover");
+    }); 
+  
 }
 
 function clearMarkers(markers) {
-  for (var i = 0; i < markers.length; i++) {
-    markers[i].setMap(null);
-  }
+    for (var i = 0; i < markers.length; i++) {
+        markers[i].setMap(null);
+    }
 }
 
 <!-- ================================================== -->
@@ -160,6 +180,15 @@ function initialisedPoi(){
             "title" : "Yamato",
             "name" : "U Kanálky 14, Prague 2",
             "location" : [50.078406, 14.446084],
+            "description" : "",
+            "thubnail" : "",
+            "image" : "assets/img/content/g1.jpg",
+            "isOpened" : false
+            },
+            {
+            "title" : "cologne",
+            "name" : "Korunní 106, Prague 2",
+            "location" : [45.57862, 9.9418],
             "description" : "",
             "thubnail" : "",
             "image" : "assets/img/content/g1.jpg",
@@ -316,12 +345,13 @@ function getInitLocations() {
     var locations = [];
       for(var i = 0; i < pois.length; i++){
             var locals = {
-            locId : i+1,
-            lat: pois[i].location[0],
-            lng: pois[i].location[1],
-            title: pois[i].title
+              locId : i,
+              lat: pois[i].location[0],
+              lng: pois[i].location[1],
+              title: pois[i].title
             } 
            locations.push(locals);
      }
     return locations;
 }
+

@@ -742,7 +742,7 @@
 					<div class="row">
 					<!--scrolled-assets-starts-here-->
 					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
-					    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}"  data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index+1}}>
+					    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}"  data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}}>
 							<img ng-src={{poi.image}} class="poi-image" >
 
 							<div class="img-title">
@@ -1027,12 +1027,13 @@
 
 <!--[if lte IE 9 ]>
 <script src="assets/js/placeholder.js"></script>
-<script>
+<!--[if lte IE 9 ]><script>
 	jQuery(function() {
 		jQuery('input, textarea').placeholder();
 	});
 </script>
 <![endif]-->
+
 
 <!-- ================================================== -->
 <!-- =============== END JQUERY SCRIPTS ================ -->

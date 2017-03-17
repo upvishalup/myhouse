@@ -21,7 +21,7 @@ window.onload = function(){
   document.getElementById("agent-phone-2").onmouseleave = function(){
       document.getElementById("agent-phone-2").style.display = "none";
       document.getElementById("agent-phone-1").style.display = "block";
-  }
+  } 
 
 }
 
@@ -51,7 +51,7 @@ app.controller("LocationController", function($scope){
                   $scope.openedAccount[$scope.pois.length-1] = true;
             }
             $("#imageresult").scrollTop = ($("#imageresult").scrollTop + 40);
-            displayLocInMap(getLocations());  
+            displayLocInMap(getLocations());              
       };
 
       
@@ -81,7 +81,7 @@ app.controller("LocationController", function($scope){
                         delete $scope.openedAccount[index];
                   }
             }
-            $scope.checkImageDisplay(0);
+            $scope.checkImageDisplay(0);            
       };
 
       $scope.checkImageDisplay = function(currentIndex){
@@ -109,7 +109,7 @@ app.controller("LocationController", function($scope){
           var locations = [];
             for(var i = 0; i < $scope.pois.length; i++){
                   var locals = {
-                  locId : i+1,
+                  locId : i,
                   lat: $scope.pois[i].location[0],
                   lng: $scope.pois[i].location[1],
                   title: $scope.pois[i].title

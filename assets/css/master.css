@@ -13884,6 +13884,7 @@ height: 81px !important;
   height: inherit;
   width: 280px;
   margin: auto;
+  cursor: pointer;
 }
 
 .poi-image{
