@@ -13907,3 +13907,7 @@ height: 81px !important;
 div.loc-info p{
   color: #000;
 }
+
+#mapimageresult{
+  width: 104%;
+}
