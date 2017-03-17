@@ -86,7 +86,7 @@ app.controller("LocationController", function($scope){
 
       $scope.checkImageDisplay = function(currentIndex){
             var total = $scope.pois.length;
-            if(currentIndex >= total){
+            if(currentIndex >= (total-1)){
                   return;
             }
             if(($scope.pois[currentIndex].isOpened && $scope.pois[currentIndex+1].isOpened) ||
@@ -122,7 +122,7 @@ app.controller("LocationController", function($scope){
 
       window.addEventListener('marker-cliked', function (e) {
           console.log('printer state changed', e.detail);
-          $scope.toggle(Number(e.detail)-1);
+          $scope.toggle(Number(e.detail));
           $scope.$apply();
       });
 

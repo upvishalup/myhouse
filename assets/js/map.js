@@ -45,22 +45,23 @@ jQuery(document).ready(function(){
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
+  
   function initialize() {
     var roadAtlasStyles = [      
     ];
     var mapOptions = {
-          zoom: 13,
-          center: myLatLng,
-          disableDefaultUI: false,
-          scrollwheel: false,
-          navigationControl: false,
-          mapTypeControl: false,
-          scaleControl: false,
-          draggable: true,
-          mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
-          }
-        };
+      zoom: 13,
+      center: myLatLng,
+      disableDefaultUI: false,
+      scrollwheel: false,
+      navigationControl: false,
+      mapTypeControl: false,
+      scaleControl: false,
+      draggable: true,
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
+      }
+    };
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     displayLocInMap(getInitLocations());    
@@ -97,20 +98,9 @@ var displayLocInMap = function (markers) {
           url: 'https://www.google.com/mapfiles/marker_green.png'
         }
     });
-    //latlngbounds.extend(marker.position);
+
     locMarker.push(marker);    
     var selectedMarker = null;
-    google.maps.event.addListener(marker, 'mouseover', function() {  
-        
-        // console.log(marker);
-          
-
-         // map.setCenter(this.getPosition());  
-          //map.setZoom(9);   
-          //marker.setIcon('https://www.google.com/mapfiles/marker_green.png');   
-        // this.setIcon('https://www.google.com/mapfiles/marker_green.png');         
-    }); 
-    
        
     google.maps.event.addListener(marker, 'click', function() {    
         var divId =   this.id;     
@@ -119,28 +109,28 @@ var displayLocInMap = function (markers) {
         var container = $('#imageresult'),
         scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
         $('html, body').animate({
-          scrollTop: (scrollTo.offset().top -60)
+        scrollTop: (scrollTo.offset().top -60)
         },500); 
         if (selectedMarker) {
-              selectedMarker.setIcon('https://www.google.com/mapfiles/marker_green.png');
-          }
-          this.setIcon('https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png');
-          selectedMarker = this; 
-          if(!map.getBounds().contains(this.getPosition())){
-              map.setCenter(this.getPosition());
-              map.setZoom(9);
-          }
+            selectedMarker.setIcon('https://www.google.com/mapfiles/marker_green.png');
+        }
+        this.setIcon('https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png');
+        selectedMarker = this; 
+        if(!map.getBounds().contains(this.getPosition())){
+            map.setCenter(this.getPosition());
+            map.setZoom(9);
+        }
 
     });   
   } 
   //map.fitBounds(latlngbounds);
   
   $("div.loc-img").click(function(){
-        $this = $(this);
-        var divId = $this.data("locid"); 
-        google.maps.event.trigger(locMarker[divId], 'click');
-        //alert("hover");
-    }); 
+      $this = $(this);
+      var divId = $this.data("locid"); 
+      console.log(divId);
+      google.maps.event.trigger(locMarker[divId], 'click');
+  }); 
   
 }
 
