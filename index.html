@@ -738,7 +738,7 @@
 				<!--scrolled-assets-starts-here-->
 				<div class="col-xs-12 col-sm-6 col-md-6">
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
+				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 15px 0; flex-direction: row; flex-wrap: wrap;" >
 				    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
 						<img ng-src={{poi.image}} class="poi-image" >
 						<div class="img-title">

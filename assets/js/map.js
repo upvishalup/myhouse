@@ -21,7 +21,7 @@ google.maps = google.maps || {};
   
   google.maps.Load = function(apiLoad) {
     delete google.maps.Load;
-    getScript("http://maps.googleapis.com/maps/api/js?sensor=true");
+    getScript("http://maps.googleapis.com/maps/api/js?key=AIzaSyBax2Z-Mm86035_JtrIP8YR-0I71dVWdIo&callback=initialize");
   };
 
   var loadScriptTime = (new Date).getTime();
@@ -45,7 +45,7 @@ jQuery(document).ready(function(){
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
-  
+
   function initialize() {
     var roadAtlasStyles = [      
     ];
@@ -95,7 +95,7 @@ var displayLocInMap = function (markers) {
         id: data.locId,
         title: data.title,
         icon: {
-          url: 'https://www.google.com/mapfiles/marker_green.png'
+          url: getMarkerUrl()
         }
     });
 
@@ -112,9 +112,9 @@ var displayLocInMap = function (markers) {
         scrollTop: (scrollTo.offset().top -60)
         },500); 
         if (selectedMarker) {
-            selectedMarker.setIcon('https://www.google.com/mapfiles/marker_green.png');
+            selectedMarker.setIcon(getMarkerUrl());
         }
-        this.setIcon('https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png');
+        this.setIcon('https://www.google.com/mapfiles/marker_green.png');
         selectedMarker = this; 
         if(!map.getBounds().contains(this.getPosition())){
             map.setCenter(this.getPosition());
@@ -346,3 +346,7 @@ function getInitLocations() {
     return locations;
 }
 
+function getMarkerUrl(){
+  var fullUrl = window.location.protocol + "//" +window.location.hostname + ":" + window.location.port + window.location.pathname + "assets/img/icons/marker.png";
+  return fullUrl;
+}
