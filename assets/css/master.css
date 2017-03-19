@@ -13920,3 +13920,15 @@ div.loc-info p{
     margin-bottom: 50px;
     padding: 0px 5px 0px 5px;
 }
+.fa-icon {
+    background: transparent url("../img/icons/poi-toggle.svg") no-repeat center center;
+    height: 20px;
+    position: relative;
+    left: 213px !important;
+  }
+
+.fa-icon-upward{
+  transform: rotate(180deg);
+  webkit-transform: rotate(180deg);
+  left: 95px !important;
+}
