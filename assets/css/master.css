@@ -2780,7 +2780,7 @@ input[type="checkbox"] {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  margin: 0 0 0 125px;
+  margin: 0 0 0 10px;
   width: 3rem;
   height: 3rem;
   border: 1px solid #000000;
@@ -10883,6 +10883,9 @@ skillBarAgency p {
     float: left;
     margin-right: 32px;
   }
+  #mapresult, #map-canvas{
+    display: none;
+  }
 }
 @media (max-width: 800px) {
   .progress {
@@ -10974,9 +10977,7 @@ skillBarAgency p {
   .infoBox {
     margin-left: inherit;
   }
-  .location .row .col-sm-6 {
-    padding-left: 1.5rem;
-  }
+  
   body > section:nth-child(6) > div > div > div.col-sm-7.location {
     margin-top: -7rem;
   }
@@ -13882,8 +13883,8 @@ height: 81px !important;
 
 .image-poi-container{
   height: inherit;
-  width: 280px;
-  margin: auto;
+  width: 44% ;
+  margin: 1em;
   cursor: pointer;
 }
 
@@ -13893,7 +13894,7 @@ height: 81px !important;
 }
 
 .poi-container-full{
-  width: 100%;
+  width: 92% !important;
   height: inherit;
 }
 

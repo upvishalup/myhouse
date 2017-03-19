@@ -54,13 +54,31 @@ app.controller("LocationController", function($scope){
             displayLocInMap(getLocations());              
       };
 
-      
-      $scope.originalWidth = "280px";
+      function getTotalPoiWidth(theDiv){
+        var theDiv = $(theDiv);
+        var totalWidth = theDiv.width();
+        totalWidth += parseInt(theDiv.css("padding-left"), 10) + parseInt(theDiv.css("padding-right"), 10); //Total Padding Width
+        totalWidth += parseInt(theDiv.css("margin-left"), 10) + parseInt(theDiv.css("margin-right"), 10); //Total Margin Width
+        totalWidth += parseInt(theDiv.css("borderLeftWidth"), 10) + parseInt(theDiv.css("borderRightWidth"), 10); //Total Border Width
+        return totalWidth;
+      }
+
+      $scope.originalWidthValue = 240;
+      $scope.originalWidth = $scope.originalWidthValue+"px";
       $scope.getImageWidth = function(isOpened){
+            var id = 0;
+            for(var i = 0; i < $scope.pois.length; i++){
+                if(!$scope.pois[i].isOpened){
+                  id = i;
+                  break;
+                }
+            }
+            var outerHeight = getTotalPoiWidth('#poi'+id);
             var poicount = $("#imageresult").innerWidth();
-            var fullWidthPoi = (poicount - (poicount - (2*$scope.originalWidth))) + "px;";
-            $scope.fullWidthPoi = "width:"+fullWidthPoi;
+            var fullWidthPoi = (poicount - (poicount - (2*outerWidth))) + "px;";
+            $scope.fullWidthPoi = fullWidthPoi;
             console.log($scope.fullWidthPoi);
+            return $scope.fullWidthPoi; 
       };
       $scope.getImageWidth();
       
@@ -81,7 +99,7 @@ app.controller("LocationController", function($scope){
                         delete $scope.openedAccount[index];
                   }
             }
-            $scope.checkImageDisplay(0);            
+            $scope.checkImageDisplay(0);
       };
 
       $scope.checkImageDisplay = function(currentIndex){

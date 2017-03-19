@@ -722,41 +722,36 @@
 				</div>
 				</div>
 
-			<div class ='lod-neighbour-container'>	
-				<div class='map-section' id='mapimageresult'>
-				<!--Radio-button group starts-->
-					<div class="radio-container" ng-click="setMenu()">
-						<label class="show-case-title" ng-repeat="key in keys track by $index" ><input class="btn-radio" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)"> {{key}}
-						</label>
-					</div>
-				<!--Radio-button group ends-->
-				<!-- ========== MAP ========== -->
-					<!--end col-sm-5 -->
+			<div class ='row lod-neighbour-container radio-container' id='mapimageresult' ng-click="setMenu()">	
+				<div class="col-sm-{{12/(keys.length)}}" ng-repeat="key in keys track by $index">
+					<label class="show-case-title"><input class="btn-radio" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)"> {{key}}
+					</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6" id="mapresult">
+					<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
 				</div>
 				<div class="row">
-					<div class="col-sm-6" id="mapresult">
-						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
-					</div>
-					<div class="col-sm-6">
-					</div>
-					<div class="row">
-					<!--scrolled-assets-starts-here-->
-					<div class="col-sm-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
-					    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}" style="width: {{poi.isOpened ?  fullWidthPoi : originalWidth}}"  data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}}>
-							<img ng-src={{poi.image}} class="poi-image" >
-
-							<div class="img-title">
-								<h4>{{poi.title}}</h4>
-								<p class="address">{{poi.name}}</p>
-								<p class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
-							</div>
-							<div style="height: 10px; background-color: white"></div>
+				<!--scrolled-assets-starts-here-->
+				<div class="col-xs-12 col-sm-6 col-md-6">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 33px 0; flex-direction: row; flex-wrap: wrap;" >
+				    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
+						<img ng-src={{poi.image}} class="poi-image" >
+						<div class="img-title">
+							<h4>{{poi.title}}</h4>
+							<p class="address">{{poi.name}}</p>
+							<p class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
 						</div>
+						<div style="height: 10px; background-color: white"></div>
 					</div>
-					</div>
-					
+				</div>
+				</div>
+				
 			</div><!-- end row-->
-		</div>>	
 
 
 	</div><!--end container -->

@@ -4,13 +4,18 @@
 	
 jQuery(document).ready(function(){
 	"use strict";
+	
 	$("#mapimageresult").stickit({ top: 0,zIndex: 1000 });
 	$("#mapresult").stickit({ top: 40, zIndex: 100});
 
-	
-
-	$(".image-poi-container")
-
+	$( window ).resize(function() {
+		if($(window).width() < 1030){
+			$('#mapresult').stickit('destroy');
+		}else{
+			$("#mapimageresult").stickit('refresh');
+			$("#mapresult").stickit('refresh');
+		}
+	});
 
 	jQuery(window).stellar({
   	positionProperty: 'transform',
