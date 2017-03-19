@@ -266,6 +266,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-y: hidden;
 }
 article,
 aside,
@@ -13913,7 +13914,7 @@ div.loc-info p{
 }
 
 #mapimageresult{
-  width: 104%;
+  width: 100%;
 }
 .width-controller {
     margin: auto;
