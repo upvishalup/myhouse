@@ -13925,11 +13925,11 @@ div.loc-info p{
     background: transparent url("../img/icons/poi-toggle.svg") no-repeat center center;
     height: 20px;
     position: relative;
-    left: 213px !important;
+    left: 43% !important;
   }
 
 .fa-icon-upward{
   transform: rotate(180deg);
   webkit-transform: rotate(180deg);
-  left: 95px !important;
+  left: 36% !important;
 }
