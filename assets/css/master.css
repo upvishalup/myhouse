@@ -3545,8 +3545,8 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #cf865a;
+  border-color: #cf865a;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -13770,9 +13770,9 @@ div.dark_square #pp_full_res .pp_inline {
   height: 1.1rem!important;
   border: 0.2rem solid #f0542d !important;
 }
-.carousel-indicators {
+/*.carousel-indicators {
   bottom: -1.5rem;
-}
+}*/
 ol li {
   margin-right: 0.3rem!important;
   border: 0.2rem solid #a3a3a3!important;
@@ -13934,14 +13934,83 @@ div.loc-info p{
   left: 36% !important;
 }
 
+@media (min-width: 1020px){
+  .carousel-inner > .item > img,  
+  .carousel-inner > .item > a > img {  
+      width: 100%;  
+      margin: auto; 
+      height: calc(100vh - 20px) !important;
+  }  
+}
+
+@media (max-width: 500px){
+  h3, .h3{
+    font-size: 12px !important;
+  }
+
+  p, .p{
+    font-size: 8px !important;
+  }
+
+  .carousel-inner > .item > img,  
+  .carousel-inner > .item > a > img {  
+      width: 100%;  
+      margin: auto; 
+      height: calc(50vh - 20px) !important;
+  } 
+
+  .triangle-right {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    width: 15px; height: 15px;
+    transform: rotate(-45deg);
+}
+
+.triangle-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    width: 15px; height: 15px;
+    transform: rotate(127deg);
+}
+
+.btn{
+  padding: 4px 8px;
+  font-size: 12px;
+}
+}
+
 .carousel-inner > .item > img,  
   .carousel-inner > .item > a > img {  
       width: 100%;  
       margin: auto; 
-      height: calc(100vh - 20px); 
-  }
+  } 
 
-  .triangle-right {
+  
+@media (min-width: 501px){
+  .triangle-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    border-right: 5px solid; 
+    border-bottom: 5px solid;
+    width: 20px; height: 20px;
+    transform: rotate(127deg);
+}
+
+.triangle-right {
     position: absolute;
     top: 50%;
     z-index: 5;
@@ -13952,17 +14021,6 @@ div.loc-info p{
     width: 20px; height: 20px;
     transform: rotate(-45deg);
 }
-
-.triangle-left {
-    position: absolute;
-    top: 50%;
-    z-index: 5;
-    display: inline-block;
-    margin-top: -10px;
-    border-right: 5px solid; 
-    border-bottom: 5px solid;
-    width: 20px; height: 20px;
-    transform: rotate(127deg);
 }
 
 .carousel-indicators li {
@@ -13977,6 +14035,7 @@ div.loc-info p{
     border: 1px solid #fff;
     border-radius: 10px;
 }
+
 
 .carousel-indicators .active {
     width: 12px;
