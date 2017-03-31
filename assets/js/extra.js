@@ -82,11 +82,9 @@ app.controller("LocationController", function($scope){
       };
       $scope.getImageWidth();
       
-      $scope.fromUI = false;
       $scope.toggle = function(index, fromUI){
             $scope.fromUI = true;
             if(fromUI){
-              
               var event1 = new CustomEvent('poi-image-cliked', 
                         {'detail': {index, "loc" : "toggle"} }); 
               window.dispatchEvent(event1);  
@@ -96,13 +94,11 @@ app.controller("LocationController", function($scope){
 
       $scope.openCloseImage = function(index, fromUI){
         var copiedOpenStatus = angular.copy($scope.pois[index].isOpened);
-        if(copiedOpenStatus && fromUI){
+        if(copiedOpenStatus){
                 $scope.closeImages(index);
                 return;
           }
-          if(fromUI || !copiedOpenStatus){
-            $scope.pois[index].isOpened = !$scope.pois[index].isOpened;
-          }
+          $scope.pois[index].isOpened = !$scope.pois[index].isOpened;
           var isImageOpened = $scope.pois[index].isOpened;
           if(isImageOpened){
                 $scope.openedAccount[index] = isImageOpened;
@@ -176,7 +172,6 @@ app.controller("LocationController", function($scope){
       }
 
       window.addEventListener('marker-cliked', function (e) {
-          $scope.fromUI = true;
           $scope.openCloseImage(Number(e.detail.index), false);
           $scope.$apply();
       });

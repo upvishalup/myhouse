@@ -104,7 +104,7 @@ var displayLocInMap = function (markers) {
        
     google.maps.event.addListener(marker, 'click', function() {    
         var divId =   this.id;     
-        var event = new CustomEvent('marker-cliked', { 'detail': {"index" : divId, "loc" : "map" }}); 
+        var event = new CustomEvent('marker-cliked', { 'detail': {"index" :divId, "loc" : "map" }}); 
         window.dispatchEvent(event); 
         var container = $('#imageresult'),
         scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
