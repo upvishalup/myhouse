@@ -82,24 +82,59 @@ app.controller("LocationController", function($scope){
       };
       $scope.getImageWidth();
       
-      $scope.toggle = function(index){
-            if($scope.pois[index].isOpened){
-                  return;
+      $scope.fromUI = false;
+      $scope.toggle = function(index, fromUI){
+            $scope.fromUI = true;
+            if(fromUI){
+              
+              var event1 = new CustomEvent('poi-image-cliked', 
+                        {'detail': {index, "loc" : "toggle"} }); 
+              window.dispatchEvent(event1);  
             }
+            
+      };
+
+      $scope.openCloseImage = function(index, fromUI){
+        var copiedOpenStatus = angular.copy($scope.pois[index].isOpened);
+        if(copiedOpenStatus && fromUI){
+                $scope.closeImages(index);
+                return;
+          }
+          if(fromUI || !copiedOpenStatus){
             $scope.pois[index].isOpened = !$scope.pois[index].isOpened;
-            var isImageOpened = $scope.pois[index].isOpened;
-            if(isImageOpened){
-                  $scope.openedAccount[index] = isImageOpened;
-            }else{
-                  delete $scope.openedAccount[index];
+          }
+          var isImageOpened = $scope.pois[index].isOpened;
+          if(isImageOpened){
+                $scope.openedAccount[index] = isImageOpened;
+          }else{
+                delete $scope.openedAccount[index];
+          }
+          for(var i = 0; i < $scope.pois.length; i++){
+                if(index !== i){
+                      $scope.pois[i].isOpened = false;
+                      delete $scope.openedAccount[index];
+                }
+          }
+          $scope.checkImageDisplay(0);
+      }
+
+      $scope.closeImages = function(index){
+          var total = $scope.pois.length;
+          for(var i = 0; i < $scope.pois.length; i++){
+                $scope.pois[i].isOpened = false;
+                delete $scope.openedAccount[i];
             }
-            for(var i = 0; i < $scope.pois.length; i++){
-                  if(index !== i){
-                        $scope.pois[i].isOpened = false;
-                        delete $scope.openedAccount[index];
-                  }
-            }
-            $scope.checkImageDisplay(0);
+          if(total % 2 != 0){
+            $scope.pois[total-1].isOpened = true;
+            $scope.openedAccount[total-1] = true;
+          }
+
+          if(((total-1) == index) && (total % 2 != 0)){
+            $scope.pois[0].isOpened = true;
+            $scope.pois[total-1].isOpened = false;
+            delete $scope.openedAccount[total-1];
+            $scope.openedAccount[0] = true;
+          }
       };
 
       $scope.checkImageDisplay = function(currentIndex){
@@ -137,18 +172,16 @@ app.controller("LocationController", function($scope){
                   } 
                  locations.push(locals);
            }
-            //console.log("Printing all markers:",locations);
             return locations;
       }
 
       window.addEventListener('marker-cliked', function (e) {
-          console.log('printer state changed', e.detail);
-          $scope.toggle(Number(e.detail));
+          $scope.fromUI = true;
+          $scope.openCloseImage(Number(e.detail.index), false);
           $scope.$apply();
       });
 
       $scope.setMenu = function(){
-           // var container = $('#mapimageresult'),
               scrollTo = $(".lod-neighbour-container");
               $('html, body').animate({
                 scrollTop: ((scrollTo).offset().top)

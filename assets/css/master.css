@@ -13988,6 +13988,11 @@ div.loc-info p{
   padding: 4px 8px;
   font-size: 12px;
 }
+
+.aboutAgent ul li a {
+  overflow-wrap: break-word;
+  max-width: 140px;
+}
 }
 
 .carousel-inner > .item > img,  
@@ -14042,4 +14047,10 @@ div.loc-info p{
     height: 12px;
     margin: 0;
     background-color: #fff;
+}
+
+.poi-header-h4{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

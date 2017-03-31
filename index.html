@@ -6,10 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Project Name</title>
 	<!-- ========== CSS INCLUDES ========== -->
-	<link rel="stylesheet" href="assets/css/less/carousel.less">
-	<link rel="stylesheet" href="assets/css/less/image.less">
 	<link rel="stylesheet" href="assets/css/master.css">
-
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/jquery.stickit.js"></script>
 
@@ -507,13 +504,13 @@
 				<div class="col-xs-12 col-sm-6 col-md-6">
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 15px 0; flex-direction: row; flex-wrap: wrap;" >
-				    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index)" ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
-						<img ng-src={{poi.image}} class="poi-image" >
+				    <div class="image-poi-container loc-img" ng-repeat="poi in pois track by $index" ng-click="toggle($index, true);$event.stopPropagation();" ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
+						<img ng-src={{poi.image}} class="poi-image" ng-click="toggle($index, true);$event.stopPropagation();">
 						<div class="img-title">
-							<h4>{{poi.title}}</h4>
-							<p class="address">{{poi.name}}</p>
-							<p class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
-							<div class="fa-icon" ng-class="{'fa-icon-upward' : !poi.isOpened}"></div>
+							<h4 class="poi-header-h4" ng-click="toggle($index,  true);$event.stopPropagation();">{{poi.title}}</h4>
+							<p class="address" ng-click="toggle($index, true);$event.stopPropagation();">{{poi.name}}</p>
+							<p ng-click="toggle($index, true);$event.stopPropagation();" class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
+							<div ng-click="toggle($index, true);$event.stopPropagation();" class="fa-icon" ng-class="{'fa-icon-upward' : !poi.isOpened}"></div>
 						</div>
 						<div style="height: 10px; background-color: white"></div>
 					</div>

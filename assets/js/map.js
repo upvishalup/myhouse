@@ -104,7 +104,7 @@ var displayLocInMap = function (markers) {
        
     google.maps.event.addListener(marker, 'click', function() {    
         var divId =   this.id;     
-        var event = new CustomEvent('marker-cliked', { 'detail': divId }); 
+        var event = new CustomEvent('marker-cliked', { 'detail': {"index" : divId, "loc" : "map" }}); 
         window.dispatchEvent(event); 
         var container = $('#imageresult'),
         scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
@@ -124,13 +124,18 @@ var displayLocInMap = function (markers) {
     });   
   } 
   //map.fitBounds(latlngbounds);
+
+  window.addEventListener('poi-image-cliked', function (e) {
+      console.log(e.detail);
+      var divId = e.detail.index;
+      google.maps.event.trigger(locMarker[divId], 'click');
+  });
   
-  $("div.loc-img").click(function(){
+  /*$("div.loc-img").click(function(){
       $this = $(this);
       var divId = $this.data("locid"); 
-      console.log(divId);
       google.maps.event.trigger(locMarker[divId], 'click');
-  }); 
+  }); */
   
 }
 
