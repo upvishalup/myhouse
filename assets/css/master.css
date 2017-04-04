@@ -415,8 +415,9 @@ input[type="radio"]:checked:before {
   background: #cf865a;  
 }
 
-.mac-os{
-  left: 1 px;
+.mac-os:before {
+  position: relative; 
+  left: 1px
 }
 
 input[type="number"]::-webkit-inner-spin-button,
