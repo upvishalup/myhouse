@@ -51,7 +51,9 @@ app.controller("LocationController", function($scope){
                   $scope.openedAccount[$scope.pois.length-1] = true;
             }
             $("#imageresult").scrollTop = ($("#imageresult").scrollTop + 40);
-            displayLocInMap(getLocations());              
+            displayLocInMap(getLocations());   
+            if(navigator.userAgent.indexOf('Mac') > 0)
+              $('#custom-radio-nav-button').addClass('mac-os');           
       };
 
       function getTotalPoiWidth(theDiv){
