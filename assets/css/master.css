@@ -417,7 +417,8 @@ input[type="radio"]:checked:before {
 
 .mac-os:before {
   position: relative; 
-  left: 1px
+  left: 1px !important;
+  top: 8px !important;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
