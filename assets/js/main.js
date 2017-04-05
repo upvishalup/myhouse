@@ -17,8 +17,6 @@ jQuery(document).ready(function(){
 		}
 	});
 
-	if(navigator.userAgent.indexOf('Mac') > 0)
-		$('#custom-radio-nav-button').addClass('mac-os');
 
 	jQuery(window).stellar({
   	positionProperty: 'transform',

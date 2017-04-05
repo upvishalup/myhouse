@@ -28,6 +28,10 @@ window.onload = function(){
 var app = angular.module("Location", []);
 
 app.controller("LocationController", function($scope){
+
+      $scope.isMacOs = false;
+      if(navigator.userAgent.indexOf('Mac') > 0)
+          $scope.isMacOs = true;
       $scope.openedAccount = {};
       $scope.data = initialisedPoi();
       $scope.keys = Object.keys($scope.data);
@@ -52,7 +56,7 @@ app.controller("LocationController", function($scope){
             }
             $("#imageresult").scrollTop = ($("#imageresult").scrollTop + 40);
             displayLocInMap(getLocations());   
-            if(navigator.userAgent.indexOf('Mac') > 0)
+            //if(navigator.userAgent.indexOf('Mac') > 0)
               $('#custom-radio-nav-button').addClass('mac-os');           
       };
 

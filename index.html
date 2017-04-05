@@ -481,7 +481,7 @@
 
 			<div class ='row lod-neighbour-container radio-container' id='mapimageresult' ng-click="setMenu()">	
 				<div class="col-sm-{{12/(keys.length)}}" ng-repeat="key in keys track by $index">
-					<label class="show-case-title"><input class="btn-radio" id="custom-radio-nav-button" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)"> {{key}}
+					<label class="show-case-title"><input class="btn-radio" id="custom-radio-nav-button" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)" ng-class="{'mac-os': isMacOs}"> {{key}}
 					</label>
 				</div>
 			</div>
