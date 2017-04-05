@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 	"use strict";
 	
 	$("#mapimageresult").stickit({ top: 0,zIndex: 1000 });
-	$("#mapresult").stickit({ top: 40, zIndex: 100});
+	$("#mapresult").stickit({ top: 18, zIndex: 100});
 
 	$( window ).resize(function() {
 		if($(window).width() < 1030){

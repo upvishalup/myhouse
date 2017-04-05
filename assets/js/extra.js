@@ -179,7 +179,7 @@ app.controller("LocationController", function($scope){
 
       window.addEventListener('marker-cliked', function (e) {
           $scope.openCloseImage(Number(e.detail.index), false);
-          $scope.$apply();
+          //$scope.$apply();
       });
 
       $scope.setMenu = function(){
