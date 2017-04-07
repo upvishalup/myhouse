@@ -32,6 +32,7 @@ app.controller("LocationController", function($scope){
       $scope.isMacOs = false;
       if(navigator.userAgent.indexOf('Mac') > 0)
           $scope.isMacOs = true;
+
       $scope.openedAccount = {};
       $scope.data = initialisedPoi();
       $scope.keys = Object.keys($scope.data);
@@ -56,7 +57,7 @@ app.controller("LocationController", function($scope){
             }
             $("#imageresult").scrollTop = ($("#imageresult").scrollTop + 40);
             displayLocInMap(getLocations());   
-            //if(navigator.userAgent.indexOf('Mac') > 0)
+            if(navigator.userAgent.indexOf('Mac') > 0)
               $('#custom-radio-nav-button').addClass('mac-os');           
       };
 
@@ -68,6 +69,9 @@ app.controller("LocationController", function($scope){
         totalWidth += parseInt(theDiv.css("borderLeftWidth"), 10) + parseInt(theDiv.css("borderRightWidth"), 10); //Total Border Width
         return totalWidth;
       }
+
+     
+
 
       $scope.originalWidthValue = 240;
       $scope.originalWidth = $scope.originalWidthValue+"px";
@@ -88,22 +92,13 @@ app.controller("LocationController", function($scope){
       };
       $scope.getImageWidth();
       
-      $scope.toggle = function(index, fromUI){
-            $scope.fromUI = true;
-            if(fromUI){
-              var event1 = new CustomEvent('poi-image-cliked', 
-                        {'detail': {index, "loc" : "toggle"} }); 
-              window.dispatchEvent(event1);  
-            }
-            
+      $scope.toggle = function(index){
+       // $this = $(this);
+       // var divId = $this.data("locid"); 
+        google.maps.event.trigger(locMarker[index], 'click');     
       };
 
-      $scope.openCloseImage = function(index, fromUI){
-        var copiedOpenStatus = angular.copy($scope.pois[index].isOpened);
-        if(copiedOpenStatus){
-                $scope.closeImages(index);
-                return;
-          }
+      $scope.openCloseImage = function(index){
           $scope.pois[index].isOpened = !$scope.pois[index].isOpened;
           var isImageOpened = $scope.pois[index].isOpened;
           if(isImageOpened){
@@ -117,7 +112,7 @@ app.controller("LocationController", function($scope){
                       delete $scope.openedAccount[index];
                 }
           }
-          $scope.checkImageDisplay(0);
+          $scope.checkImageDisplay(0);  
       }
 
       $scope.closeImages = function(index){
@@ -157,10 +152,7 @@ app.controller("LocationController", function($scope){
                   $scope.pois[currentIndex+1].isOpened = true;
                   currentIndex = currentIndex +2;
             }
-            
             $scope.checkImageDisplay(currentIndex);      
-            
-            
       };
 
       function getLocations() {
@@ -178,8 +170,8 @@ app.controller("LocationController", function($scope){
       }
 
       window.addEventListener('marker-cliked', function (e) {
-          $scope.openCloseImage(Number(e.detail.index), false);
-          //$scope.$apply();
+          $scope.openCloseImage(Number(e.detail.index));
+          $scope.$apply();
       });
 
       $scope.setMenu = function(){

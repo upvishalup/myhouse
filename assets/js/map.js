@@ -41,10 +41,12 @@ google.maps = google.maps || {};
 
 var map = null;
 var locMarker = [];
+var locMarkerListener = {};
 jQuery(document).ready(function(){  
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
+  var listenerFlag = null;
 
   function initialize() {
     var roadAtlasStyles = [      
@@ -74,12 +76,15 @@ jQuery(document).ready(function(){
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize);
-  
+
+
 });
+
 var displayLocInMap = function (markers) {
   if(locMarker !='undefined' && locMarker != null)
   {
     clearMarkers(locMarker);
+    locMarker = [];
   }  
 
   var lat_lng = new Array();
@@ -101,47 +106,32 @@ var displayLocInMap = function (markers) {
 
     locMarker.push(marker);    
     var selectedMarker = null;
-       
-    google.maps.event.addListener(marker, 'click', function() {    
-        var divId =   this.id;     
-        var event = new CustomEvent('marker-cliked', { 'detail': {"index" :divId, "loc" : "map" }}); 
-        window.dispatchEvent(event); 
-        var container = $('#imageresult'),
-        scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
-        $('html, body').animate({
-        scrollTop: (scrollTo.offset().top -60)
-        },500); 
-        if (selectedMarker) {
-            selectedMarker.setIcon(getMarkerUrl());
-        }
-        this.setIcon('https://www.google.com/mapfiles/marker_green.png');
-        selectedMarker = this; 
-        if(!map.getBounds().contains(this.getPosition())){
-            map.setCenter(this.getPosition());
-            map.setZoom(13);
-        }
+      locMarkerListener[i] = google.maps.event.addListener(marker, 'click', function() {
+          var divId =   this.id;     
+          var container = $('#imageresult'),
+          scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
+          $('html, body').animate({
+          scrollTop: (scrollTo.offset().top -60)
+          },500); 
+          if (selectedMarker) {
+              selectedMarker.setIcon(getMarkerUrl());
+          }
+          this.setIcon('https://www.google.com/mapfiles/marker_green.png');
+          selectedMarker = this; 
+          if(!map.getBounds().contains(this.getPosition())){
+              map.setCenter(this.getPosition());
+              map.setZoom(13);
+          }
+          var event = new CustomEvent('marker-cliked', { 'detail': {"index" :divId, "loc" : "map" }}); 
+          window.dispatchEvent(event); 
+      });
+  }
 
-    });   
-  } 
-  //map.fitBounds(latlngbounds);
-
-  window.addEventListener('poi-image-cliked', function (e) {
-      console.log(e.detail);
-      var divId = e.detail.index;
-      google.maps.event.trigger(locMarker[divId], 'click');
-  });
-  
-  /*$("div.loc-img").click(function(){
-      $this = $(this);
-      var divId = $this.data("locid"); 
-      google.maps.event.trigger(locMarker[divId], 'click');
-  }); */
-  
 }
 
 function clearMarkers(markers) {
     for (var i = 0; i < markers.length; i++) {
-        markers[i].setMap(null);
+          markers[i].setMap(null); 
     }
     markers.length = 0;
 }
@@ -194,6 +184,15 @@ function initialisedPoi(){
             "title" : "Vinohrady Brewery",
             "name" : "Korunní 106, Prague 2",
             "location" : [50.075188, 14.457489],
+            "description" : "",
+            "thubnail" : "",
+            "image" : "assets/img/content/g1.jpg",
+            "isOpened" : false
+            },
+            {
+            "title" : "My Random",
+            "name" : "Korunní 106, Prague 2",
+            "location" : [50.075186, 14.457486],
             "description" : "",
             "thubnail" : "",
             "image" : "assets/img/content/g1.jpg",
@@ -355,3 +354,4 @@ function getMarkerUrl(){
   var fullUrl = window.location.protocol + "//" +window.location.hostname + ":" + window.location.port + window.location.pathname + "assets/img/icons/marker.png";
   return fullUrl;
 }
+
