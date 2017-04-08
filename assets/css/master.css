@@ -13927,17 +13927,20 @@ div.loc-info p{
     margin-bottom: 50px;
     padding: 0px 5px 0px 5px;
 }
+
 .fa-icon {
     background: transparent url("../img/icons/poi-toggle.svg") no-repeat center center;
+    transform: rotate(180deg);
+    webkit-transform: rotate(180deg);
     height: 20px;
     position: relative;
-    webkit-transform: rotate(180deg);
-    left: 43% !important;
+    left: 43% !important;  
   }
 
 .fa-icon-upward{
+  transform: rotate(0deg) !important;
+  webkit-transform: rotate(0deg) !important;
   left: 36% !important;
-  webkit-transform: rotate(0deg);
 }
 
 @media (min-width: 1020px){

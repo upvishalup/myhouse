@@ -111,7 +111,7 @@ var displayLocInMap = function (markers) {
           var container = $('#imageresult'),
           scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
           $('html, body').animate({
-          scrollTop: (scrollTo.offset().top -60)
+          scrollTop: (scrollTo.offset().top - 80)
           },500); 
           if (selectedMarker) {
               selectedMarker.setIcon(getMarkerUrl());
