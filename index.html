@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html ng-app="BohemiaRes">
 <html lang="en">
 <head>
 	<title>Bohemia</title>
@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 </head>
-<body class="container-fluid">
+<body class="container-fluid body-x-overflow">
 	<!--  HEADER STARTS	 -->
 	<nav class="navbar navbar-default custom-carousel nav-menu-top">
 	  <div class="container-fluid">
@@ -18,9 +18,9 @@
 	      <a class="navbar-brand" href="#"></a>
 	    </div>
 	    <ul class="nav navbar-nav navbar-right">
-	      <li><a class="active" href="#">STANDARY</a></li>
-	      <li><a href="#">GALERIE</a></li>
-	      <li><a href="#">LOCATION</a></li>
+	      <li><a class="active" href="#br-section-1">STANDARY</a></li>
+	      <li><a href="#br-section-2">GALERIE</a></li>
+	      <li><a href="#br-section-3">LOCATION</a></li>
 	      <li><a href="#">ABOUT US</a></li>
 	      <li><a href="#">CONTACT</a></li>
 	      <li><a href="#">|</a></li>
@@ -33,34 +33,35 @@
 
 
 	<!-- CORAUSEL STARTS -->
-	<div class="row section-container-bottom">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner" role="listbox">
-	      <div class="item active">
-	        <img src="assets/img/main3.jpg" alt="Chania" width="460" height="345">
-	      </div>
-	      <div class="infotab">
-	      	<div>
-	      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
-		      	<span class="section-heading home-header-space">NEW DESIGN OF CAROUSEL BOHEMIA</span>
-		      	<p class="infotab-info">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-		      	<P class="learn-more">Learn More --></P>
-	      	</div>
-	      </div>
-	    </div>
-	</div>
+	<div class="row section-container-bottom" id="br-section-1">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <div class="carousel-inner" role="listbox">
+		      <div class="item active">
+		        <img src="assets/img/main3.jpg" alt="Chania" width="460" height="345">
+		      </div>
+		      <div class="infotab">
+		      	<div>
+		      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
+			      	<span class="section-heading home-header-space">NEW DESIGN OF CAROUSEL BOHEMIA</span>
+			      	<p class="infotab-info">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+			      	<P class="learn-more">Learn More --></P>
+		      	</div>
+		      </div>
+		    </div>
+		</div>
 	</div>
 	<!-- CORAUSEL ENDS -->
-	<div class="row section-container">
+
+	<div class="row section-container container-margin">
 		<div class="col-sm-12">
 			<span class="section-heading">NASE NAMOVITOSTI</span>
 		</div>
-		<div class="col-sm-12">
+		<div class="col-sm-12 property-describe">
 			<p>
-			Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical and something else
+			Prague is a metropolis with a multifarious history, charming architecture
 			</p>
 			<p>
-			Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical
+			Prague is a metropolis with a multifarious history
 			</p>
 		</div>
 		
@@ -107,19 +108,65 @@
 	</div>
 
 	<div class="row section-container dark-green-bgk">
-		<div class="col-sm-5 inner-margin">
+		<div class="col-sm-5 inner-margin desc-image">
 			<img src="assets/img/chair-mac.jpg">
 		</div>
 		<div class="col-sm-7 inner-margin">
 			<div>
-				<span class="section-heading">
-					PROPERTY DESCRIPTION
-				</span>
-			</div>
+					<span class="section-heading property-heading-width">
+						PROPERTY DESCRIPTIONS
+					</span>
+					<span class="property-info-para theme-border-color">
+						Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical.
+					</span>
+				</div>
+				<div class="property-features-list">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="row">
+								<div class="col-sm-12 header-color-x">
+									INTERIOR FEATURES
+								</div>
+								<div class="row">
+									<div class="col-sm-7">
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>
+										<div class="col-sm-4">
+											Lorem	
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
 		</div>
 	</div>
 
-	<div class="row section-container">
+	<div class="row section-container" id="br-section-2">
 		<div class="col-sm-12">
 			<div class="contentGallery row">
 				<ul class="clearfix">
@@ -135,44 +182,48 @@
 		</div>
 		<div class="col-sm-5 inner-margin">
 			<div>
-				<span class="section-heading">
+				<span class="section-heading property-heading-width">
 					PROPERTY DESCRIPTION
 				</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="section-container">
-		<div class="row">
-			<div class="col-sm-3">
-				<span class="section-heading">BOHEMIA RESIDENCE</span>
-			</div>
-			<div class="col-sm-9">
-				<span class="residence-details">
-					Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města.	
-				</span>
+	<div class="row section-container container-margin">
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-3">
+					<span class="section-heading">BOHEMIA RESIDENCE</span>
+				</div>
+				<div class="col-sm-9">
+					<span class="residence-details">
+						Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města.	
+					</span>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-3">
-				<div>01</div>
-				<div>LOREM IPSUM</div>
-				<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-			</div>
-			<div class="col-sm-3">
-				<div>02</div>
-				<div>LOREM IPSUM</div>
-				<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-			</div>
-			<div class="col-sm-3">
-				<div>03</div>
-				<div>LOREM IPSUM</div>
-				<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-			</div>
-			<div class="col-sm-3">
-				<div>04</div>
-				<div>LOREM IPSUM</div>
-				<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-3">
+					<div>01</div>
+					<div>LOREM IPSUM</div>
+					<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+				</div>
+				<div class="col-sm-3">
+					<div>02</div>
+					<div>LOREM IPSUM</div>
+					<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+				</div>
+				<div class="col-sm-3">
+					<div>03</div>
+					<div>LOREM IPSUM</div>
+					<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+				</div>
+				<div class="col-sm-3">
+					<div>04</div>
+					<div>LOREM IPSUM</div>
+					<div>Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -229,7 +280,7 @@
 	
 
 	<!-- CONTACT US STARTS -->
-	<div class="row section-container">
+	<div class="row section-container container-margin">
 			<!-- HEADER STARTS -->
 			<div class="col-sm-12">
 				<div class="section-heading">KONTAKTUJTE NAS</div>
