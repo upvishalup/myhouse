@@ -1,0 +1,7990 @@
+{
+  "payload": [
+    {
+      "keywords": [
+        "Containers",
+        "Insulated",
+        "Packaging",
+        "Printing"
+      ],
+      "externalRating": 0,
+      "name": "Baroda Bushings & Insulators",
+      "phones": [
+        "9879611685"
+      ],
+      "id": 26075,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Home",
+        "Furnishing",
+        "Stores",
+        "Furnishings",
+        "Furniture"
+      ],
+      "externalRating": 0,
+      "name": "Hari Om Decor",
+      "phones": [
+        "9227103318",
+        "9904838847"
+      ],
+      "id": 26076,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Adhesives",
+        "Glues",
+        "Printing",
+        "Supplies",
+        "Packaging"
+      ],
+      "externalRating": 0,
+      "name": "Swan Chemicals",
+      "phones": [
+        "9898095285",
+        "9898583198",
+        "02652661870"
+      ],
+      "id": 26077,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Semiconductors",
+        "Electronic",
+        "Components",
+        "Supplies",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Urja Conductors",
+      "phones": [
+        "9825083084"
+      ],
+      "id": 26078,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Childrens",
+        "Wear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Mehul Garments",
+      "phones": [
+        "9998102619"
+      ],
+      "id": 26079,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Caterers",
+        "Event",
+        "Catering",
+        "Services",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Caterers",
+      "phones": [
+        "9974144196"
+      ],
+      "id": 26080,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Microwaves",
+        "Kitchen",
+        "Appliances",
+        "Electric",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Pratik Agencies",
+      "phones": [
+        "9426332990"
+      ],
+      "id": 26081,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Yoga",
+        "Training",
+        "Centres",
+        "Fitness",
+        "Services",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Diva The Naturo Spa & Wellness Centre",
+      "phones": [
+        "9898933726",
+        "02652392961"
+      ],
+      "id": 26082,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Glass",
+        "Glazing",
+        "Products",
+        "Interior",
+        "Requisites",
+        "Accessories",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Vishwakarma Glass",
+      "phones": [
+        "9228409332",
+        "9227439332",
+        "02652323724"
+      ],
+      "id": 26083,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electricians",
+        "Repairs",
+        "Maintenance",
+        "Service",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "N K Electricals",
+      "phones": [
+        "9825061543",
+        "02653083410"
+      ],
+      "id": 26084,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Precision",
+        "Measuring",
+        "Instruments",
+        "Meters",
+        "Electronic",
+        "Electronics",
+        "Electricals",
+        "Commercial",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Avni Engineering",
+      "phones": [
+        "9824079542"
+      ],
+      "id": 26085,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Die",
+        "Moulds",
+        "Castings",
+        "Production",
+        "Process",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "R K Die Works",
+      "phones": [
+        "9426368198",
+        "02652646727"
+      ],
+      "id": 26086,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Die",
+        "Moulds",
+        "Castings",
+        "Production",
+        "Process",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "R K Die Works",
+      "phones": [
+        "9265264973",
+        "02652660493"
+      ],
+      "id": 26087,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Chetan Medical & Optical",
+      "phones": [
+        "9998817273",
+        "9998817125"
+      ],
+      "id": 26088,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bathroom",
+        "Fittings",
+        "Sanitaryware",
+        "Interior",
+        "Requisites",
+        "Accessories",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Ceramic Galaxy",
+      "phones": [
+        "9428765403",
+        "9409032976",
+        "02652342062"
+      ],
+      "id": 26089,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Advertising",
+        "Agencies",
+        "Services",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "Adert Advertising & Marketing",
+      "phones": [
+        "9824037050"
+      ],
+      "id": 26090,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Royal Medico",
+      "phones": [
+        "9824425489",
+        "02652391752"
+      ],
+      "id": 26091,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Automobile",
+        "Security",
+        "Alarms",
+        "Auto",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Samraksha Digital Security Systems",
+      "phones": [
+        "9947088260",
+        "9974088258",
+        "02652464570"
+      ],
+      "id": 26092,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Homeopathic",
+        "Medicine",
+        "Alternative",
+        "Therapy",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Jagdish J Patel",
+      "phones": [
+        "9825069926",
+        "02652464294"
+      ],
+      "id": 26093,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Landscape",
+        "Architects",
+        "Contractors",
+        "Building",
+        "Construction",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Akar Architect And Interior Designer",
+      "phones": [
+        "9824017374"
+      ],
+      "id": 26094,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Elevators",
+        "Escalators",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Jaibhavani Engineering Works",
+      "phones": [
+        "9033966475"
+      ],
+      "id": 26095,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Boutiques",
+        "Ladies",
+        "Tailors",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Rachana Ladies Tailor",
+      "phones": [
+        "9904071064"
+      ],
+      "id": 26096,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Rubber",
+        "Moulded",
+        "Components",
+        "Allied",
+        "Products",
+        "Plastic",
+        "Polymers"
+      ],
+      "externalRating": 0,
+      "name": "Can Power Rubber Industries",
+      "phones": [
+        "9426721905"
+      ],
+      "id": 26097,
+      "category": "Plastics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Confectionery",
+        "Bakery",
+        "Products",
+        "Food",
+        "Supplies",
+        "Household",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "New Raju Pan Houses",
+      "phones": [
+        "9723611267"
+      ],
+      "id": 26098,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Leather",
+        "Fashion",
+        "Jewellery",
+        "Goods",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "R 1 Fashion",
+      "phones": [
+        "8141121177"
+      ],
+      "id": 26099,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mens",
+        "Wear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "R 1 Fashion",
+      "phones": [
+        "9898611985",
+        "02652415682"
+      ],
+      "id": 26100,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tours",
+        "Travel",
+        "Operators",
+        "Domestic",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Sheetal Travels",
+      "phones": [
+        "9824023671",
+        "02652514090"
+      ],
+      "id": 26101,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Florists",
+        "Flowers",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Flora India",
+      "phones": [
+        "9350551301",
+        "9871888344",
+        "9350299802"
+      ],
+      "id": 26102,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Car",
+        "Hiring",
+        "Services",
+        "Road",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Parshva Online",
+      "phones": [
+        "9374430872",
+        "02656641040"
+      ],
+      "id": 26103,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Water",
+        "Cans",
+        "Pipes",
+        "Hoses",
+        "Gardening",
+        "Equipment",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "N Pandya & Company",
+      "phones": [
+        "9825075034"
+      ],
+      "id": 26104,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Alarm",
+        "Installation",
+        "Services",
+        "Security",
+        "Detective",
+        "Safety"
+      ],
+      "externalRating": 0,
+      "name": "Innovative Investment Solutions",
+      "phones": [
+        "9879345656",
+        "02652252536"
+      ],
+      "id": 26105,
+      "category": "Security",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transporters",
+        "Transportation",
+        "Services",
+        "Transport",
+        "Logistics",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Howrah Roadlines Pvt Ltd",
+      "phones": [
+        "9377281139",
+        "02652481139",
+        "02653012072"
+      ],
+      "id": 26106,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Buses",
+        "Charter",
+        "Road",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Sahjanand Travels",
+      "phones": [
+        "9727768201"
+      ],
+      "id": 26107,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Footwear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Modern Shoe Centre",
+      "phones": [
+        "9808153111",
+        "02652414697"
+      ],
+      "id": 26108,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Construction",
+        "Equipments",
+        "Multi",
+        "Range",
+        "Building"
+      ],
+      "externalRating": 0,
+      "name": "Gopal Traders",
+      "phones": [
+        "9428978435",
+        "02652510384"
+      ],
+      "id": 26109,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Boarding",
+        "Day",
+        "Schools",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Kids World",
+      "phones": [
+        "9924260015",
+        "02652785733"
+      ],
+      "id": 26110,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Biotechnology",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Spinco Biotech Pvt Ltd",
+      "phones": [
+        "9824006072",
+        "02652339125"
+      ],
+      "id": 26111,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "English",
+        "Language",
+        "Institutes",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Ambe School",
+      "phones": [
+        "9998905536"
+      ],
+      "id": 26112,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bathroom",
+        "Fittings",
+        "Sanitaryware",
+        "Interior",
+        "Requisites",
+        "Accessories",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Bath Gallery",
+      "phones": [
+        "9898872237",
+        "9898596693",
+        "02653080451"
+      ],
+      "id": 26113,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cell",
+        "Phones",
+        "Accessories",
+        "Telecom",
+        "Equipment",
+        "Supplies",
+        "Computer",
+        "IT",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Arsh Mobile",
+      "phones": [
+        "9724200719"
+      ],
+      "id": 26114,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Welding",
+        "Equipments",
+        "Supplies",
+        "Industrial",
+        "Machinery",
+        "Parts"
+      ],
+      "externalRating": 0,
+      "name": "Indian Agencies",
+      "phones": [
+        "9427346354",
+        "02652412170",
+        "02652432694",
+        "9227105116"
+      ],
+      "id": 26115,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Home",
+        "Appliances",
+        "Accessories",
+        "Life",
+        "Style",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "New Adarsh Vasan Bhandar",
+      "phones": [
+        "9898810865"
+      ],
+      "id": 26116,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Security",
+        "Softwares",
+        "Software",
+        "Products",
+        "IT",
+        "Telecom"
+      ],
+      "externalRating": 0,
+      "name": "Kwark Initiatives",
+      "phones": [
+        "7405886619"
+      ],
+      "id": 26117,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vahora Kamil I",
+      "phones": [
+        "9924164456"
+      ],
+      "id": 26118,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vahora Sabbir U",
+      "phones": [
+        "9825093736"
+      ],
+      "id": 26119,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vahora Rashia U",
+      "phones": [
+        "9825018455"
+      ],
+      "id": 26120,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vahora Ismile A",
+      "phones": [
+        "9898536047"
+      ],
+      "id": 26121,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Compressors",
+        "Air",
+        "Gas",
+        "Production",
+        "Process",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Unitrade India",
+      "phones": [
+        "9824035273",
+        "9725026611",
+        "02652651759",
+        "02652644803"
+      ],
+      "id": 26122,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Restaurants",
+        "Continental",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Jayswal Punjabi Food",
+      "phones": [
+        "9825225772"
+      ],
+      "id": 26123,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Home",
+        "Tuitions",
+        "Primary",
+        "Classes",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Sahajgyan Classes",
+      "phones": [
+        "9825874173"
+      ],
+      "id": 26124,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Kennels",
+        "Accessories",
+        "Pets",
+        "Houses",
+        "Furniture",
+        "Home",
+        "Garden"
+      ],
+      "externalRating": 0,
+      "name": "The Pet Shop",
+      "phones": [
+        "9898128890"
+      ],
+      "id": 26125,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transporters",
+        "Transportation",
+        "Services",
+        "Transport",
+        "Logistics",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Indogulf Enterprises",
+      "phones": [
+        "9825062158"
+      ],
+      "id": 26126,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Commercial",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Preet Engineering",
+      "phones": [
+        "9824512708"
+      ],
+      "id": 26127,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Stationery",
+        "Aids",
+        "Accessories",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Mira Enterprise",
+      "phones": [
+        "9429113332"
+      ],
+      "id": 26128,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Waterproofing",
+        "Contractors",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Parth Waterwar X",
+      "phones": [
+        "8511171049",
+        "9727410806"
+      ],
+      "id": 26129,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Galvanization",
+        "Coatings",
+        "Industrial",
+        "Supplies",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Vishwaarma Engineering Works",
+      "phones": [
+        "9428879836",
+        "02652581043"
+      ],
+      "id": 26130,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Switchgear",
+        "Electric",
+        "Charge",
+        "Carriers",
+        "Connectors",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Uma Electric Parts",
+      "phones": [
+        "9427252492",
+        "02652439973",
+        "02652416493"
+      ],
+      "id": 26131,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Certification",
+        "Courses",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Concept Consulting Enterprise",
+      "phones": [
+        "9377055941",
+        "02652466401"
+      ],
+      "id": 26132,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Astrologers",
+        "Fortune",
+        "Telling",
+        "Professionals",
+        "Consultants"
+      ],
+      "externalRating": 0,
+      "name": "Himkant Dave & Sons",
+      "phones": [
+        "9909503806"
+      ],
+      "id": 26133,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Optical",
+        "Goods",
+        "Eye",
+        "Care",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Ambica Optics",
+      "phones": [
+        "9998004229"
+      ],
+      "id": 26134,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Packers",
+        "Movers",
+        "Domestic",
+        "Transport",
+        "Logistics",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Industrial Carrying Corporation",
+      "phones": [
+        "9998430002",
+        "9327230430",
+        "02653042708",
+        "02652975170"
+      ],
+      "id": 26135,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Zain Medical Store",
+      "phones": [
+        "9724316487",
+        "02652356308"
+      ],
+      "id": 26136,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wire",
+        "Mesh",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Polynet Machinery",
+      "phones": [
+        "9727078153",
+        "02656556898"
+      ],
+      "id": 26137,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Stainless",
+        "Steel",
+        "Utensils",
+        "Crockery",
+        "Cutlery",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Om Steel Centre",
+      "phones": [
+        "9426976622",
+        "9427986741",
+        "02652417273"
+      ],
+      "id": 26138,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Investment",
+        "Advisors",
+        "Banking",
+        "Financial",
+        "Professionals",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Jalsa Investment",
+      "phones": [
+        "9979138049"
+      ],
+      "id": 26139,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Promoters",
+        "Developers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Sun City",
+      "phones": [
+        "9227107804"
+      ],
+      "id": 26140,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Kashmira Patel",
+      "phones": [
+        "9974157875"
+      ],
+      "id": 26141,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Granite",
+        "Building",
+        "Stones",
+        "Services",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "MAA Chamunda Stone & Ceramic",
+      "phones": [
+        "9913184724",
+        "9601545155"
+      ],
+      "id": 26142,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Modular",
+        "Kitchen",
+        "Equipment",
+        "Supplies",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Ashita Aluminium",
+      "phones": [
+        "9824083905"
+      ],
+      "id": 26143,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mutual",
+        "Funds",
+        "Investment",
+        "Financial",
+        "Services",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "L & T Investment Management Ltd",
+      "phones": [
+        "8128997153",
+        "02652491673"
+      ],
+      "id": 26144,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Astrologers",
+        "Fortune",
+        "Telling",
+        "Professionals",
+        "Consultants"
+      ],
+      "externalRating": 0,
+      "name": "Crystal House",
+      "phones": [
+        "9724327716"
+      ],
+      "id": 26145,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Aryan Traders",
+      "phones": [
+        "9879566116",
+        "02652411828"
+      ],
+      "id": 26146,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Domestic",
+        "Household",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Gujarat Pest Remedies",
+      "phones": [
+        "9275029870",
+        "9898962335",
+        "9904765972"
+      ],
+      "id": 26147,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Commercial",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Gujarat Pest Control",
+      "phones": [
+        "9904758662"
+      ],
+      "id": 26148,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cargo",
+        "Movers",
+        "Logistics",
+        "Management",
+        "Transport",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Samarth Cargo Logistics",
+      "phones": [
+        "9879595461",
+        "9909914965"
+      ],
+      "id": 26149,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cosmetics",
+        "Multi",
+        "Range",
+        "Beauty",
+        "Hair",
+        "Products",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Parivar Pharmacy",
+      "phones": [
+        "9825591654",
+        "02653291654"
+      ],
+      "id": 26150,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Electronics",
+        "Stores",
+        "Consumer",
+        "Electricals"
+      ],
+      "externalRating": 0,
+      "name": "Mayur Electronics",
+      "phones": [
+        "9727738604",
+        "02652661866"
+      ],
+      "id": 26151,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Office",
+        "Stationery",
+        "Supplies",
+        "Equipment"
+      ],
+      "externalRating": 0,
+      "name": "Yogi Stationary & Xerox",
+      "phones": [
+        "9824189736"
+      ],
+      "id": 26152,
+      "category": "Office Supplies",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "CCTV",
+        "Closed-Circuit",
+        "Television",
+        "Surveillance",
+        "Systems",
+        "Equipments",
+        "Safety",
+        "Security"
+      ],
+      "externalRating": 0,
+      "name": "Unique Sales & Services",
+      "phones": [
+        "9825030353",
+        "02652321740"
+      ],
+      "id": 26153,
+      "category": "Security",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mutual",
+        "Funds",
+        "Investment",
+        "Financial",
+        "Services",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Almond Global Securities Ltd",
+      "phones": [
+        "9898279382",
+        "9898649182",
+        "02656636034",
+        "02656636020",
+        "02656636000"
+      ],
+      "id": 26154,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transporters",
+        "Transportation",
+        "Services",
+        "Transport",
+        "Logistics",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Gurpreet Transport Co",
+      "phones": [
+        "9227101725",
+        "02652308592"
+      ],
+      "id": 26155,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Electronics",
+        "Stores",
+        "Consumer",
+        "Electricals"
+      ],
+      "externalRating": 0,
+      "name": "Lynx Empowering Business",
+      "phones": [
+        "9662508040",
+        "02652325803"
+      ],
+      "id": 26156,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ayurvedic",
+        "Medicine",
+        "Alternative",
+        "Therapy",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Ayurved Opchar Kendra & Infertility Sex Cure Clinic",
+      "phones": [
+        "9824855356",
+        "02652560440"
+      ],
+      "id": 26157,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Yoga",
+        "Training",
+        "Centres",
+        "Fitness",
+        "Services",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Ayurved Yog Center",
+      "phones": [
+        "9327711235",
+        "9227141235",
+        "8000164921",
+        "02656580741"
+      ],
+      "id": 26158,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gymnasiums",
+        "Health",
+        "Clubs",
+        "Fitness",
+        "Centres",
+        "Services",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Nopex Healthcare",
+      "phones": [
+        "9375867757",
+        "02653263325"
+      ],
+      "id": 26159,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Chaturvedi Nitu Dineshchandra",
+      "phones": [
+        "9924420924",
+        "02652283014"
+      ],
+      "id": 26160,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fertilizers",
+        "Agricultural",
+        "Supplies",
+        "Livestock",
+        "Agriculture"
+      ],
+      "externalRating": 0,
+      "name": "Paresh Fertilizers",
+      "phones": [
+        "9898329290",
+        "9898197088"
+      ],
+      "id": 26161,
+      "category": "Agriculture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Agricultural",
+        "Plants",
+        "Supplies",
+        "Livestock",
+        "Agriculture"
+      ],
+      "externalRating": 0,
+      "name": "National Instruments",
+      "phones": [
+        "9825075557"
+      ],
+      "id": 26162,
+      "category": "Agriculture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Trade",
+        "Fairs",
+        "Business",
+        "Promotion",
+        "Advertising",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "Tigers Expo",
+      "phones": [
+        "9879515838",
+        "02653070771",
+        "02653070770"
+      ],
+      "id": 26163,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ice",
+        "Cream",
+        "Desserts",
+        "Suppliers",
+        "Food",
+        "Supplies",
+        "Hotels",
+        "Restaurants",
+        "Beverage"
+      ],
+      "externalRating": 0,
+      "name": "Shree Janta ICe Cream",
+      "phones": [
+        "9898886575"
+      ],
+      "id": 26164,
+      "category": "Kitchen",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Shirishbhai Shanital Patels Clinic",
+      "phones": [
+        "9824985390"
+      ],
+      "id": 26165,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pipe",
+        "Fittings",
+        "Multi",
+        "Range",
+        "Pipes",
+        "Tubes",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Nikhil Trading Co",
+      "phones": [
+        "9427356217",
+        "02652425660",
+        "02652831751"
+      ],
+      "id": 26166,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Laboratory",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "S R Enterprise",
+      "phones": [
+        "9374022867",
+        "02652251556"
+      ],
+      "id": 26167,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Sachin Chaware Dr",
+      "phones": [
+        "9904260928"
+      ],
+      "id": 26168,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Orchestra",
+        "Bands",
+        "Entertainers",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Band With Orchestra",
+      "phones": [
+        "9725324075"
+      ],
+      "id": 26169,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabricators",
+        "Fabricated",
+        "Products",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "J D Mistry Fabrication",
+      "phones": [
+        "9426947614"
+      ],
+      "id": 26170,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Study",
+        "Abroad",
+        "Colleges",
+        "Universities",
+        "Studies",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Laxya Education",
+      "phones": [
+        "9725035939",
+        "9714032995",
+        "02652488863",
+        "02652488854"
+      ],
+      "id": 26171,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Paper",
+        "Plastic",
+        "Leaf",
+        "Disposables",
+        "Decorators",
+        "Event",
+        "Supplies",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Riddhi Medical & Surgical",
+      "phones": [
+        "9824121502",
+        "02652423692"
+      ],
+      "id": 26172,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Sheet",
+        "Metal",
+        "Products",
+        "Multi",
+        "Range",
+        "Metals",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "Raghupati Enterprise",
+      "phones": [
+        "9227436184",
+        "9427358185",
+        "02656596184"
+      ],
+      "id": 26173,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tours",
+        "Cruise",
+        "Liners",
+        "Travel",
+        "Tourism",
+        "International"
+      ],
+      "externalRating": 0,
+      "name": "Shri Krishna Tours & Travels",
+      "phones": [
+        "9724315562",
+        "02653098566"
+      ],
+      "id": 26174,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Travel",
+        "Bureaus",
+        "Tourist",
+        "Needs",
+        "Services",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Shri Krishna Tours & Travels",
+      "phones": [
+        "9725556066"
+      ],
+      "id": 26175,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Instrumentation",
+        "Control",
+        "Panels",
+        "Electrical",
+        "Protection",
+        "Equipments",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Ushai Sales & Services",
+      "phones": [
+        "9825028150",
+        "02652642146",
+        "02652630684"
+      ],
+      "id": 26176,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tailors",
+        "Gents",
+        "Boutiques",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Unison Gents Tailor",
+      "phones": [
+        "9898101066"
+      ],
+      "id": 26177,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transportation",
+        "Public",
+        "Utilities",
+        "Law",
+        "Attorneys",
+        "Utility",
+        "Services",
+        "Social",
+        "Organisations"
+      ],
+      "externalRating": 0,
+      "name": "M G Dyer",
+      "phones": [
+        "9426505177"
+      ],
+      "id": 26178,
+      "category": "Public Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electricians",
+        "Repairs",
+        "Maintenance",
+        "Service",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Maxell Electricals",
+      "phones": [
+        "9824031732",
+        "02652463570"
+      ],
+      "id": 26179,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Haresh Mehta And Mehta Associates",
+      "phones": [
+        "9426081827",
+        "02652428317",
+        "02652655939"
+      ],
+      "id": 26180,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cartons",
+        "Boxes",
+        "Containers",
+        "Packaging",
+        "Printing"
+      ],
+      "externalRating": 0,
+      "name": "Reliable Enterprises",
+      "phones": [
+        "9824071812",
+        "02656643471",
+        "02652634471"
+      ],
+      "id": 26181,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Advertising",
+        "Agencies",
+        "Services",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "The Z Blue Advertisement",
+      "phones": [
+        "9904749701"
+      ],
+      "id": 26182,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemical",
+        "Plant",
+        "Equipments",
+        "Chemicals"
+      ],
+      "externalRating": 0,
+      "name": "S A Industries",
+      "phones": [
+        "9978915894",
+        "9825214894",
+        "02653932548",
+        "02652645736"
+      ],
+      "id": 26183,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Air",
+        "Conditioners",
+        "Parts",
+        "Spares",
+        "Conditioning",
+        "Refrigeration",
+        "Equipments",
+        "and"
+      ],
+      "externalRating": 0,
+      "name": "Patel Services",
+      "phones": [
+        "9687587883"
+      ],
+      "id": 26184,
+      "category": "Cooling",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Air",
+        "Conditioners",
+        "Multi",
+        "Range",
+        "Conditioning",
+        "and",
+        "Refrigeration"
+      ],
+      "externalRating": 0,
+      "name": "Patel Chemical",
+      "phones": [
+        "9909099413"
+      ],
+      "id": 26185,
+      "category": "Cooling",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Electronics",
+        "Stores",
+        "Consumer",
+        "Electricals"
+      ],
+      "externalRating": 0,
+      "name": "Ravi Electricals",
+      "phones": [
+        "9825836686"
+      ],
+      "id": 26186,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Manohar Chemist",
+      "phones": [
+        "9825553663",
+        "02652345626"
+      ],
+      "id": 26187,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Steel",
+        "Specialization",
+        "By",
+        "Materials",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Real Touch Laminates",
+      "phones": [
+        "9426277622",
+        "02652325632"
+      ],
+      "id": 26188,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Engineers",
+        "Fabrication",
+        "Engineer",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Ishan Equipments",
+      "phones": [
+        "9825011389",
+        "02652308589"
+      ],
+      "id": 26189,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Parmeshwar Reality",
+      "phones": [
+        "9227575085"
+      ],
+      "id": 26190,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabricators",
+        "Fabricated",
+        "Products",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Techno Mech Industries",
+      "phones": [
+        "9879555675"
+      ],
+      "id": 26191,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Restaurants",
+        "Non-Vegetarian",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Alif Peri -Peri Grill Chicken",
+      "phones": [
+        "7600874148"
+      ],
+      "id": 26192,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Book",
+        "Publishers",
+        "Advertising",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Law House",
+      "phones": [
+        "9426721605",
+        "02652340933",
+        "02652350293"
+      ],
+      "id": 26193,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electric",
+        "Cookers",
+        "Kitchen",
+        "Appliances",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Shreya Kitchen",
+      "phones": [
+        "9879526403"
+      ],
+      "id": 26194,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Abrasive",
+        "Machines",
+        "Parts",
+        "Abrasives",
+        "Finishing",
+        "Equipments",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Open Space Property",
+      "phones": [
+        "9426052225"
+      ],
+      "id": 26195,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Travel",
+        "Bureaus",
+        "Tourist",
+        "Needs",
+        "Services",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Vraj Tours And Travels",
+      "phones": [
+        "9879758550"
+      ],
+      "id": 26196,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Back",
+        "Office",
+        "Data",
+        "Processing",
+        "Document",
+        "Management",
+        "Equipment",
+        "Supplies"
+      ],
+      "externalRating": 0,
+      "name": "Divya Services",
+      "phones": [
+        "9925174639"
+      ],
+      "id": 26197,
+      "category": "Office Supplies",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Investment",
+        "Advisors",
+        "Banking",
+        "Financial",
+        "Professionals",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Purav Shah & Company",
+      "phones": [
+        "9898913164"
+      ],
+      "id": 26198,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Multi",
+        "Range",
+        "Lights",
+        "Fixtures",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Vinil Lights",
+      "phones": [
+        "9227105195"
+      ],
+      "id": 26199,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photocopying",
+        "Fax",
+        "Services",
+        "Domestic"
+      ],
+      "externalRating": 0,
+      "name": "Intech Communication",
+      "phones": [
+        "9824301163"
+      ],
+      "id": 26200,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ladders",
+        "Industrial",
+        "Construction",
+        "Equipments",
+        "Building"
+      ],
+      "externalRating": 0,
+      "name": "Swastik Aluminium",
+      "phones": [
+        "9979278902",
+        "9825606640"
+      ],
+      "id": 26201,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cranes",
+        "Rental",
+        "Industrial",
+        "Services",
+        "Supplies"
+      ],
+      "externalRating": 0,
+      "name": "Patil Crain Service",
+      "phones": [
+        "9909927413"
+      ],
+      "id": 26202,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Water",
+        "Distillation",
+        "Treatment",
+        "Processes",
+        "Environment"
+      ],
+      "externalRating": 0,
+      "name": "Multi Chem",
+      "phones": [
+        "9824088612",
+        "9998062424",
+        "02653062424",
+        "02652841414"
+      ],
+      "id": 26203,
+      "category": "Environment",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Air",
+        "Conditioners",
+        "Multi",
+        "Range",
+        "Conditioning",
+        "and",
+        "Refrigeration"
+      ],
+      "externalRating": 0,
+      "name": "Pooja Electronics & Appliances",
+      "phones": [
+        "9898908956",
+        "02652433720"
+      ],
+      "id": 26204,
+      "category": "Cooling",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Gaming",
+        "Software",
+        "Applications",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Spiky ARC",
+      "phones": [
+        "9998006029",
+        "02652290452"
+      ],
+      "id": 26205,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Electronics",
+        "Stores",
+        "Consumer",
+        "Electricals"
+      ],
+      "externalRating": 0,
+      "name": "Madhav Sales",
+      "phones": [
+        "9974703975",
+        "9879798244",
+        "02653924000"
+      ],
+      "id": 26206,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Dabhi Ketankumar Ashok",
+      "phones": [
+        "9427301843"
+      ],
+      "id": 26207,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Home",
+        "Appliances",
+        "Accessories",
+        "Life",
+        "Style",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "All Mart",
+      "phones": [
+        "9067050774"
+      ],
+      "id": 26208,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Office",
+        "Stationery",
+        "Supplies",
+        "Equipment"
+      ],
+      "externalRating": 0,
+      "name": "Alpana Copy Centre",
+      "phones": [
+        "9824433522"
+      ],
+      "id": 26209,
+      "category": "Office Supplies",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Optical",
+        "Goods",
+        "Eye",
+        "Care",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "I Care Optics",
+      "phones": [
+        "8347867290"
+      ],
+      "id": 26210,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Hardware",
+        "Multi",
+        "Range",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Chirag Computer Education",
+      "phones": [
+        "9913734842"
+      ],
+      "id": 26211,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Printer",
+        "Cartridges",
+        "Computer",
+        "Hardware",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Dhruv Teletech",
+      "phones": [
+        "9825050575",
+        "02652313001"
+      ],
+      "id": 26212,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Aluminium",
+        "Products",
+        "Non-Ferrous",
+        "Metals",
+        "Alloys",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "Hanswal Aluminium Sales & Services",
+      "phones": [
+        "9825359722"
+      ],
+      "id": 26213,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Ravindra Joshi",
+      "phones": [
+        "9824433809",
+        "02652413085"
+      ],
+      "id": 26214,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Rubber",
+        "Stamps",
+        "Self",
+        "Inking",
+        "Office",
+        "Supplies",
+        "Equipment"
+      ],
+      "externalRating": 0,
+      "name": "Manish Bhavsar",
+      "phones": [
+        "9228139561"
+      ],
+      "id": 26215,
+      "category": "Office Supplies",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Prefabricated",
+        "Furniture",
+        "Stores",
+        "dealers",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Mahaveer Traders",
+      "phones": [
+        "9904263065"
+      ],
+      "id": 26216,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Electronics",
+        "Stores",
+        "Consumer",
+        "Electricals"
+      ],
+      "externalRating": 0,
+      "name": "Prime Marketing",
+      "phones": [
+        "9879619865"
+      ],
+      "id": 26217,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Domestic",
+        "Household",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Pest Control (India)",
+      "phones": [
+        "9376232431",
+        "9327422096",
+        "02652327404",
+        "02652327403",
+        "02652327402"
+      ],
+      "id": 26218,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Commercial",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Pest Control Of Eskay",
+      "phones": [
+        "9998946253"
+      ],
+      "id": 26219,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Software",
+        "Accounting",
+        "Applications",
+        "Computer",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "F 5 Systems",
+      "phones": [
+        "9998219862",
+        "02652518654"
+      ],
+      "id": 26220,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cosmetics",
+        "Multi",
+        "Range",
+        "Beauty",
+        "Hair",
+        "Products",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Uphar Gift Artical Cosmetic Stores",
+      "phones": [
+        "9428765364",
+        "02652523286"
+      ],
+      "id": 26221,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Dental",
+        "Clinic",
+        "Care",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Rajan M Trambadiya Dental Surgeon",
+      "phones": [
+        "9428123223",
+        "02653293291"
+      ],
+      "id": 26222,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Adhesives",
+        "Glues",
+        "Printing",
+        "Supplies",
+        "Packaging"
+      ],
+      "externalRating": 0,
+      "name": "Jalaram Machinery & Hardware Mart",
+      "phones": [
+        "9825683921"
+      ],
+      "id": 26223,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transport",
+        "Tanks",
+        "Containers",
+        "Packaging",
+        "Printing"
+      ],
+      "externalRating": 0,
+      "name": "Jalaram Transport Co",
+      "phones": [
+        "9377356808",
+        "9377356821",
+        "02653255845",
+        "02652516438"
+      ],
+      "id": 26224,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Sanjay Patel",
+      "phones": [
+        "9825310396"
+      ],
+      "id": 26225,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Sanjaykumar Patel",
+      "phones": [
+        "9825310369",
+        "02652351084"
+      ],
+      "id": 26226,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Water",
+        "Coolers",
+        "Suppliers",
+        "Treatment",
+        "Purification",
+        "Domestic",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Deccan Environmental Consultants Pvt Ltd",
+      "phones": [
+        "9227141013",
+        "02652290130"
+      ],
+      "id": 26227,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Two",
+        "Wheelers",
+        "Rental",
+        "Automobile",
+        "Rentals",
+        "Pooling",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Savvy Go Ebike",
+      "phones": [
+        "9426550080"
+      ],
+      "id": 26228,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Kitchen",
+        "Furniture",
+        "Fixtures",
+        "Equipment",
+        "Supplies",
+        "Hotels",
+        "Restaurants",
+        "Food",
+        "Beverage"
+      ],
+      "externalRating": 0,
+      "name": "Dora Furniture",
+      "phones": [
+        "9879089659",
+        "9879890154",
+        "02653260505"
+      ],
+      "id": 26229,
+      "category": "Kitchen",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Metal",
+        "Scrap",
+        "Iron",
+        "Steel",
+        "Ferro-Alloys",
+        "Metals",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "Western India Scrap Traders",
+      "phones": [
+        "9825322776"
+      ],
+      "id": 26230,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Four",
+        "Wheeler",
+        "Parts",
+        "Spares",
+        "Automobiles",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Ringspann Elecon India Ltd",
+      "phones": [
+        "9909917442",
+        "02656641806",
+        "02656643021"
+      ],
+      "id": 26231,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Travel",
+        "Insurance",
+        "Finance"
+      ],
+      "externalRating": 0,
+      "name": "Smooth Tours & Travels",
+      "phones": [
+        "9898560060",
+        "02653010054",
+        "02652487482",
+        "02652485962"
+      ],
+      "id": 26232,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electrical",
+        "Consultants",
+        "Contractors",
+        "Building",
+        "Construction",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Kalpana Electricals",
+      "phones": [
+        "9824439708"
+      ],
+      "id": 26233,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Boutiques",
+        "Ladies",
+        "Tailors",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Dayal Tailoring Mart",
+      "phones": [
+        "9825618760"
+      ],
+      "id": 26234,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabric",
+        "Ladies",
+        "Wear",
+        "Boutiques",
+        "Tailors",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Dayal Cloth Store",
+      "phones": [
+        "9228715716"
+      ],
+      "id": 26235,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Plastic",
+        "Products",
+        "Multi",
+        "Range",
+        "Kitchen",
+        "Equipment",
+        "Supplies",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Siddhi Vinayak Industries",
+      "phones": [
+        "9925920202",
+        "9825070365",
+        "02652523391"
+      ],
+      "id": 26236,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wires",
+        "Electric",
+        "Charge",
+        "Carriers",
+        "Connectors",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Mahakali Wire Works",
+      "phones": [
+        "9979870567"
+      ],
+      "id": 26237,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabric",
+        "Ladies",
+        "Wear",
+        "Boutiques",
+        "Tailors",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Laxminarayana Lady Tailoring",
+      "phones": [
+        "9924782354"
+      ],
+      "id": 26238,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Vidhi Clinic",
+      "phones": [
+        "9428167514"
+      ],
+      "id": 26239,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Multi",
+        "Range",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Uma Organics",
+      "phones": [
+        "9427931190",
+        "9426510831",
+        "02667264059"
+      ],
+      "id": 26240,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Domestic",
+        "Household",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Bigico Pest Control",
+      "phones": [
+        "9825295439"
+      ],
+      "id": 26241,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Commercial",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Bigico",
+      "phones": [
+        "9924328998"
+      ],
+      "id": 26242,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bus",
+        "Express",
+        "Service",
+        "Road",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Jay Matadi Travel",
+      "phones": [
+        "9898237709",
+        "02652483875"
+      ],
+      "id": 26243,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Machine",
+        "Tools",
+        "Parts",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Dashmesh Enterprises",
+      "phones": [
+        "9824935411"
+      ],
+      "id": 26244,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Paints",
+        "Primers",
+        "Wall",
+        "Putty",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Berger Paints India Ltd",
+      "phones": [
+        "9096569690",
+        "7844068983"
+      ],
+      "id": 26245,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Research",
+        "Institutes",
+        "Academic",
+        "Support",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Umesh Classes",
+      "phones": [
+        "9898739053"
+      ],
+      "id": 26246,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Nilesh M Shah Dr",
+      "phones": [
+        "9824354925"
+      ],
+      "id": 26247,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Consultants",
+        "Earth",
+        "Resources",
+        "Environment",
+        "Building",
+        "Construction",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Enviro Gis Services",
+      "phones": [
+        "9879064544"
+      ],
+      "id": 26248,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wires",
+        "Wire",
+        "Mesh",
+        "Work",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Jalaram Wire Mesh Company",
+      "phones": [
+        "9377899610"
+      ],
+      "id": 26249,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fertilizers",
+        "Agricultural",
+        "Supplies",
+        "Livestock",
+        "Agriculture"
+      ],
+      "externalRating": 0,
+      "name": "Narayan Fertilizers",
+      "phones": [
+        "9377993924",
+        "02652336785"
+      ],
+      "id": 26250,
+      "category": "Agriculture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Website",
+        "Designing",
+        "Hosting",
+        "Services",
+        "Computer",
+        "IT",
+        "Telecom"
+      ],
+      "externalRating": 0,
+      "name": "Sanah Info Solution Pvt Ltd",
+      "phones": [
+        "9727759941"
+      ],
+      "id": 26251,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gift",
+        "Novelty",
+        "Shops",
+        "Supermarkets",
+        "Malls",
+        "High",
+        "Streets",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Dream World",
+      "phones": [
+        "9825535244",
+        "02652434463"
+      ],
+      "id": 26252,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mens",
+        "Wear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Dream Land",
+      "phones": [
+        "9904236467"
+      ],
+      "id": 26253,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Aircraft",
+        "Interiors",
+        "Equipments",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Indeor",
+      "phones": [
+        "9879043323"
+      ],
+      "id": 26254,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Coaching",
+        "Centres",
+        "Secondary",
+        "Centers",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Talent Classes",
+      "phones": [
+        "9898437465",
+        "9725909970"
+      ],
+      "id": 26255,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Shopping",
+        "Luggage",
+        "Trolleys",
+        "Furniture",
+        "Specialty",
+        "Customized",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Saleha Suitcase Center",
+      "phones": [
+        "9427032513",
+        "02652425864"
+      ],
+      "id": 26256,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Vinayak Associates",
+      "phones": [
+        "9825093611",
+        "9825452030",
+        "02652661615"
+      ],
+      "id": 26257,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cement",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Ram Trading Co",
+      "phones": [
+        "9898516498",
+        "02653206498"
+      ],
+      "id": 26258,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Promoters",
+        "Developers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Shree Punit Traders",
+      "phones": [
+        "9409233015",
+        "02652661494"
+      ],
+      "id": 26259,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabricators",
+        "Fabricated",
+        "Products",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Shree Sai Krupa Traders",
+      "phones": [
+        "9825309495",
+        "9879579947"
+      ],
+      "id": 26260,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Plywood",
+        "Veneers",
+        "Laminates",
+        "Wood",
+        "Products",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Vishwakarma Cast Kala",
+      "phones": [
+        "9909424500"
+      ],
+      "id": 26261,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cement",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Bhagwati Traders",
+      "phones": [
+        "9825040637",
+        "02652642637"
+      ],
+      "id": 26262,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tiles",
+        "Interior",
+        "Requisites",
+        "Accessories",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Ceramic Sales",
+      "phones": [
+        "9428301096",
+        "9428691435"
+      ],
+      "id": 26263,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Bharat kumar Patel",
+      "phones": [
+        "9825917341"
+      ],
+      "id": 26264,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Bharat K Parikh",
+      "phones": [
+        "9824048160",
+        "02652652537",
+        "02652425817"
+      ],
+      "id": 26265,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Bharat M Patel",
+      "phones": [
+        "9825017341",
+        "02652581375",
+        "02652330341"
+      ],
+      "id": 26266,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Multi",
+        "Range",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Subh Chemicals",
+      "phones": [
+        "9537669168"
+      ],
+      "id": 26267,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ribbons",
+        "Garment",
+        "Parts",
+        "Accessories",
+        "Textile",
+        "Leather"
+      ],
+      "externalRating": 0,
+      "name": "Reski Marketing",
+      "phones": [
+        "9825607356"
+      ],
+      "id": 26268,
+      "category": "Fabrics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mutual",
+        "Funds",
+        "Investment",
+        "Financial",
+        "Services",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Integrateo Enterprises India Ltd",
+      "phones": [
+        "9879607831",
+        "02652421099"
+      ],
+      "id": 26269,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Pawan Group",
+      "phones": [
+        "9227480230",
+        "9427346775"
+      ],
+      "id": 26270,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Caterers",
+        "Event",
+        "Catering",
+        "Services",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Om Shiv Shakti Caterers",
+      "phones": [
+        "9825784504",
+        "02655547504"
+      ],
+      "id": 26271,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Dharti Corporation",
+      "phones": [
+        "9898008882"
+      ],
+      "id": 26272,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Reedhis Construction",
+      "phones": [
+        "9825041435",
+        "02652340608"
+      ],
+      "id": 26273,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ticketing",
+        "Agencies",
+        "Rail",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Gupta Travels",
+      "phones": [
+        "9327241632",
+        "02652511487"
+      ],
+      "id": 26274,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Anti-Glare",
+        "Screens",
+        "Computer",
+        "Hardware",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Hallmark Computer",
+      "phones": [
+        "9662549708"
+      ],
+      "id": 26275,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Switchgear",
+        "Electric",
+        "Charge",
+        "Carriers",
+        "Connectors",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Futuristic Technologies",
+      "phones": [
+        "9824087618"
+      ],
+      "id": 26276,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Criminal",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Brahmbhatt Niranjan Satyendraray",
+      "phones": [
+        "9428424969"
+      ],
+      "id": 26277,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Brahmbhatt Bharat Satyendraray",
+      "phones": [
+        "9429950578",
+        "9426594139"
+      ],
+      "id": 26278,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Rubber",
+        "Extruded",
+        "Components",
+        "Allied",
+        "Products",
+        "Plastic",
+        "Polymers"
+      ],
+      "externalRating": 0,
+      "name": "Mech Enterprise",
+      "phones": [
+        "9904160777",
+        "02652560289"
+      ],
+      "id": 26279,
+      "category": "Plastics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Stores",
+        "Multi",
+        "Range",
+        "dealers",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Jhulelal Hardware",
+      "phones": [
+        "9427356275"
+      ],
+      "id": 26280,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Recruitment",
+        "Agencies",
+        "Placement",
+        "Job",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "R9 Management Solutionss",
+      "phones": [
+        "9898969977"
+      ],
+      "id": 26281,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Raadhey Realtors",
+      "phones": [
+        "9979592929",
+        "9824006337"
+      ],
+      "id": 26282,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Krishnakant A Kalani",
+      "phones": [
+        "9825152775",
+        "9898031235",
+        "02652417109"
+      ],
+      "id": 26283,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Krishnachandra N Dave",
+      "phones": [
+        "9328035600"
+      ],
+      "id": 26284,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Perforated",
+        "Metals",
+        "Sheet",
+        "Metal",
+        "Products",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "META LAB ENGINEERS",
+      "phones": [
+        "9426007776"
+      ],
+      "id": 26285,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Adhesives",
+        "Glues",
+        "Printing",
+        "Supplies",
+        "Packaging"
+      ],
+      "externalRating": 0,
+      "name": "H R Trading",
+      "phones": [
+        "9374125939",
+        "9978961600"
+      ],
+      "id": 26286,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Builders",
+        "Hardware",
+        "Material",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Sahjanand Hardware Mart",
+      "phones": [
+        "9824028061"
+      ],
+      "id": 26287,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Builders",
+        "Hardware",
+        "Material",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Yogi Trading Co",
+      "phones": [
+        "9824353441",
+        "02652655731"
+      ],
+      "id": 26288,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Watches",
+        "Time-Pieces",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "The World Of Titan",
+      "phones": [
+        "7965133777",
+        "02652782271"
+      ],
+      "id": 26289,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Asbestos",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Ozm M Sangeeta",
+      "phones": [
+        "9825334606",
+        "02652657811"
+      ],
+      "id": 26290,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Commercial",
+        "Bank",
+        "Banks",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "ICICI Bank",
+      "phones": [
+        "9825403131"
+      ],
+      "id": 26291,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "CCTV",
+        "Closed-Circuit",
+        "Television",
+        "Surveillance",
+        "Systems",
+        "Equipments",
+        "Safety",
+        "Security"
+      ],
+      "externalRating": 0,
+      "name": "Lotus Security Hub",
+      "phones": [
+        "9904320269",
+        "9824267430"
+      ],
+      "id": 26292,
+      "category": "Security",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Beauty",
+        "Parlors",
+        "Salons",
+        "Unisex",
+        "Hair",
+        "Centers",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Darpan Beauty Parlour",
+      "phones": [
+        "9879173808",
+        "9909099419",
+        "02652323779"
+      ],
+      "id": 26293,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Stores",
+        "Multi",
+        "Range",
+        "dealers",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Mehsana Steel Furnitures",
+      "phones": [
+        "9825152360"
+      ],
+      "id": 26294,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Sarees",
+        "Womens",
+        "Wear",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Tash Fashion",
+      "phones": [
+        "9825660135",
+        "9979889198"
+      ],
+      "id": 26295,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Asha N Dholakia",
+      "phones": [
+        "9426352977",
+        "02652436034",
+        "02652647540",
+        "02652427065"
+      ],
+      "id": 26296,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Internet",
+        "Service",
+        "Provider",
+        "Email",
+        "services",
+        "Computer",
+        "IT",
+        "Telecom"
+      ],
+      "externalRating": 0,
+      "name": "Tata Communication Internet Services Ltd",
+      "phones": [
+        "7878791919",
+        "02656622881"
+      ],
+      "id": 26297,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Software",
+        "Training",
+        "Centres",
+        "Computer",
+        "Education"
+      ],
+      "externalRating": 0,
+      "name": "Developer & Programmer",
+      "phones": [
+        "9873469501"
+      ],
+      "id": 26298,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Restaurants",
+        "Continental",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Magic Food",
+      "phones": [
+        "9898844888"
+      ],
+      "id": 26299,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Heena Shah Dr",
+      "phones": [
+        "9825309960"
+      ],
+      "id": 26300,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Dakshesh Kumar Jani",
+      "phones": [
+        "7567568243"
+      ],
+      "id": 26301,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gas",
+        "Fuel",
+        "Supplies",
+        "Kitchen",
+        "Equipment",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Sudha Gas Agency",
+      "phones": [
+        "9825008537"
+      ],
+      "id": 26302,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Musical",
+        "Instruments",
+        "Multi",
+        "Range",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Swami Tabla Store",
+      "phones": [
+        "9824798842"
+      ],
+      "id": 26303,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Air",
+        "Conditioners",
+        "Multi",
+        "Range",
+        "Conditioning",
+        "and",
+        "Refrigeration"
+      ],
+      "externalRating": 0,
+      "name": "Hitachi Air Conditioners",
+      "phones": [
+        "9824409782",
+        "02652362864"
+      ],
+      "id": 26304,
+      "category": "Cooling",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Infrastructure",
+        "Developers",
+        "Builders",
+        "Contractors",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shrijikrupa Developers",
+      "phones": [
+        "9375303138",
+        "02652520860"
+      ],
+      "id": 26305,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Path",
+        "Labs",
+        "Testing",
+        "Centres",
+        "Diagnostic",
+        "Centers",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Arin Multi speciality Clinic",
+      "phones": [
+        "9377437784",
+        "9712984352",
+        "02652343281"
+      ],
+      "id": 26306,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cell",
+        "Phones",
+        "Accessories",
+        "Telecom",
+        "Equipment",
+        "Supplies",
+        "Computer",
+        "IT",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Sai Mobile",
+      "phones": [
+        "9638809044",
+        "9879777023",
+        "9898316883"
+      ],
+      "id": 26307,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cell",
+        "Phones",
+        "Accessories",
+        "Telecom",
+        "Equipment",
+        "Supplies",
+        "Computer",
+        "IT",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Sai Mobile",
+      "phones": [
+        "9722110708"
+      ],
+      "id": 26308,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Unity Realty",
+      "phones": [
+        "9376511190",
+        "8000842224",
+        "9825067472"
+      ],
+      "id": 26309,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Networking",
+        "Products",
+        "Hardware",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Vital Computer Sales & Services",
+      "phones": [
+        "9924122379"
+      ],
+      "id": 26310,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Filters",
+        "Filter",
+        "Equipments",
+        "Production",
+        "Process",
+        "Machinery",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Manhattan Technologies Pvt Ltd",
+      "phones": [
+        "9825755149",
+        "9979400055",
+        "02652485819"
+      ],
+      "id": 26311,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "Pathology",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Rashmi R Singh Dr",
+      "phones": [
+        "9638467729",
+        "02652789374"
+      ],
+      "id": 26312,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Consultants",
+        "Management",
+        "Business",
+        "Industrial",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Sushram Business Development & Franchise Solutions",
+      "phones": [
+        "9088554985"
+      ],
+      "id": 26313,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Laptop",
+        "Safes",
+        "Computer",
+        "Security",
+        "Products",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Newtrik Technologies",
+      "phones": [
+        "9374691727",
+        "02653296655"
+      ],
+      "id": 26314,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Hardware",
+        "Multi",
+        "Range",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Newtrik Technologies",
+      "phones": [
+        "9662750154"
+      ],
+      "id": 26315,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Machine",
+        "Tools",
+        "Parts",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Ravi Industries",
+      "phones": [
+        "9898859736"
+      ],
+      "id": 26316,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Presses",
+        "Pneumatic",
+        "Hydraulic",
+        "Mechanical",
+        "Production",
+        "Process",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Ross Enterprises",
+      "phones": [
+        "9824018510",
+        "02652354556",
+        "02652354780"
+      ],
+      "id": 26317,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Absorbent",
+        "Cotton",
+        "Products",
+        "Textile",
+        "Leather"
+      ],
+      "externalRating": 0,
+      "name": "Rohin Cotton Enterprises",
+      "phones": [
+        "9426416727",
+        "02652483789"
+      ],
+      "id": 26318,
+      "category": "Fabrics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bathroom",
+        "Fittings",
+        "Sanitaryware",
+        "Interior",
+        "Requisites",
+        "Accessories",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Diwani Trading Corporation",
+      "phones": [
+        "9426564303",
+        "9427460108",
+        "02652580278",
+        "02652415704"
+      ],
+      "id": 26319,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Homeopathic",
+        "Medicine",
+        "Alternative",
+        "Therapy",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Shri Kirishna Clinic",
+      "phones": [
+        "9824071415"
+      ],
+      "id": 26320,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Stores",
+        "Multi",
+        "Range",
+        "dealers",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Joy Awnings",
+      "phones": [
+        "9328728921",
+        "02653258445"
+      ],
+      "id": 26321,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pneumatic",
+        "Tools",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Airmax Pneumatic Controls",
+      "phones": [
+        "9825044807",
+        "02652411691"
+      ],
+      "id": 26322,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tours",
+        "Travel",
+        "Operators",
+        "Domestic",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "The Holiday Makers",
+      "phones": [
+        "9327213358"
+      ],
+      "id": 26323,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Printer",
+        "Cartridges",
+        "Computer",
+        "Hardware",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Vama Enterprises",
+      "phones": [
+        "9428430400",
+        "02652414466"
+      ],
+      "id": 26324,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vaghela Himanshu M",
+      "phones": [
+        "9825466056",
+        "02652361500",
+        "02652363292"
+      ],
+      "id": 26325,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vaghela Dipaksinh M",
+      "phones": [
+        "9712587007",
+        "02653014563"
+      ],
+      "id": 26326,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Share",
+        "Stock",
+        "Brokers",
+        "Shares",
+        "Stocks",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Karvy",
+      "phones": [
+        "9725013178",
+        "02652493048",
+        "02652463783"
+      ],
+      "id": 26327,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Polyvinyl",
+        "Chloride",
+        "PVC",
+        "Products",
+        "Polymers",
+        "Poly",
+        "Compounds",
+        "Rubber",
+        "Plastic"
+      ],
+      "externalRating": 0,
+      "name": "Aropack Polyplasts Pvt Ltd",
+      "phones": [
+        "9825608190",
+        "02652284988"
+      ],
+      "id": 26328,
+      "category": "Plastics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ergonomic",
+        "Chairs",
+        "Health",
+        "Furniture",
+        "Furnishings",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Kelvino Furniture",
+      "phones": [
+        "9426826758"
+      ],
+      "id": 26329,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Builders",
+        "Hardware",
+        "Material",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Parul Transport Company",
+      "phones": [
+        "9824077998",
+        "02652710047"
+      ],
+      "id": 26330,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mens",
+        "Wear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Alvi Garments",
+      "phones": [
+        "9426074408",
+        "9426074407",
+        "02652430131"
+      ],
+      "id": 26331,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Beauty",
+        "Parlors",
+        "Salons",
+        "Unisex",
+        "Hair",
+        "Centers",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Hair Art & Beauty Parlour",
+      "phones": [
+        "8980199108",
+        "9824625499"
+      ],
+      "id": 26332,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Event",
+        "Management",
+        "Companies",
+        "Planners",
+        "Organizers",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Twenty First Entertainment",
+      "phones": [
+        "9327920867"
+      ],
+      "id": 26333,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cranes",
+        "Rental",
+        "Industrial",
+        "Services",
+        "Supplies"
+      ],
+      "externalRating": 0,
+      "name": "Shreeji Crane Service",
+      "phones": [
+        "9879931113"
+      ],
+      "id": 26334,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Restro",
+        "Bars",
+        "Restaurants",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Cosmopolitan Delicious Hydrabadi Dishes",
+      "phones": [
+        "9825034327"
+      ],
+      "id": 26335,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Advertising",
+        "Agencies",
+        "Services",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "M J M Advertising",
+      "phones": [
+        "9998980521"
+      ],
+      "id": 26336,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Krishna Photo",
+      "phones": [
+        "9824572033",
+        "02656991592"
+      ],
+      "id": 26337,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "NGOs",
+        "Social",
+        "Voluntary",
+        "Organizations",
+        "Organisations"
+      ],
+      "externalRating": 0,
+      "name": "Sahaj Shishu Milap",
+      "phones": [
+        "9898076529"
+      ],
+      "id": 26338,
+      "category": "Public Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wires",
+        "Electric",
+        "Charge",
+        "Carriers",
+        "Connectors",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Bharat Saw Mill",
+      "phones": [
+        "9825594868",
+        "9825784413",
+        "02652413175"
+      ],
+      "id": 26339,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Architects",
+        "Building",
+        "Construction",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Tushar Parikh & Associates",
+      "phones": [
+        "9824338345",
+        "02652343139"
+      ],
+      "id": 26340,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Retail",
+        "Outlets",
+        "New",
+        "Computers",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Gujarats Largest Retail Chain",
+      "phones": [
+        "9624098800",
+        "02656540660"
+      ],
+      "id": 26341,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bus",
+        "Express",
+        "Service",
+        "Road",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Kalindi Tours & Travels",
+      "phones": [
+        "9998009260",
+        "02652782575"
+      ],
+      "id": 26342,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Academic",
+        "Bookshops",
+        "Support",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Amber Stores",
+      "phones": [
+        "9662497600",
+        "02652490671"
+      ],
+      "id": 26343,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fabric",
+        "Clothing",
+        "Stores",
+        "Supermarkets",
+        "Malls",
+        "High",
+        "Streets",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Dresses Rangoli",
+      "phones": [
+        "9879525429"
+      ],
+      "id": 26344,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Network",
+        "Administration",
+        "Services",
+        "IT",
+        "Telecom"
+      ],
+      "externalRating": 0,
+      "name": "Navkar Infotronics",
+      "phones": [
+        "9601988282",
+        "02653208628",
+        "02652431249"
+      ],
+      "id": 26345,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Paper",
+        "Products",
+        "Multi",
+        "Range",
+        "Packaging",
+        "Printing"
+      ],
+      "externalRating": 0,
+      "name": "Aditya Padia Paper Maker",
+      "phones": [
+        "9727801825"
+      ],
+      "id": 26346,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Courier",
+        "Service",
+        "International",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "ACE Express",
+      "phones": [
+        "9725015325",
+        "9898424254"
+      ],
+      "id": 26347,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Stationery",
+        "Aids",
+        "Accessories",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Arpan Stationery Corner",
+      "phones": [
+        "9825094831"
+      ],
+      "id": 26348,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Ceramic",
+        "Marble",
+        "Specialization",
+        "By",
+        "Materials",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Spectom Ceramics",
+      "phones": [
+        "9426547356",
+        "02652643732"
+      ],
+      "id": 26349,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Beauty",
+        "Parlors",
+        "Salons",
+        "Mens",
+        "Hair",
+        "Centers",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Kalas Beauty & Hair Studio",
+      "phones": [
+        "9978569500",
+        "02652341542"
+      ],
+      "id": 26350,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Machine",
+        "Tools",
+        "Parts",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Standard Sales Corporation",
+      "phones": [
+        "9825542112",
+        "02652411992"
+      ],
+      "id": 26351,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "CCTV",
+        "Closed-Circuit",
+        "Television",
+        "Surveillance",
+        "Systems",
+        "Equipments",
+        "Industrial",
+        "Safety",
+        "Security"
+      ],
+      "externalRating": 0,
+      "name": "Nobel Safety",
+      "phones": [
+        "9824404546"
+      ],
+      "id": 26352,
+      "category": "Security",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Kashyap Shah & Associates",
+      "phones": [
+        "9825215839",
+        "9408356839",
+        "02652424453"
+      ],
+      "id": 26353,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Transporters",
+        "Transportation",
+        "Services",
+        "Transport",
+        "Logistics",
+        "Relocation"
+      ],
+      "externalRating": 0,
+      "name": "Air Transport Corporation (assam) Ltd",
+      "phones": [
+        "9374990950",
+        "9824251778"
+      ],
+      "id": 26354,
+      "category": "Logistics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Consultants",
+        "Intl",
+        "Quality",
+        "Standards",
+        "Business",
+        "Industrial",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "ERP Consultants India",
+      "phones": [
+        "9724554484",
+        "02652343406"
+      ],
+      "id": 26355,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Furniture",
+        "Steel",
+        "Specialization",
+        "By",
+        "Materials",
+        "Furnishing"
+      ],
+      "externalRating": 0,
+      "name": "Chandni Steel Furniture",
+      "phones": [
+        "9824025114",
+        "02652580176"
+      ],
+      "id": 26356,
+      "category": "Furniture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Driving",
+        "Instructors",
+        "Schools",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Jayraj Motor Training School",
+      "phones": [
+        "9904810316"
+      ],
+      "id": 26357,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Website",
+        "Designing",
+        "Hosting",
+        "Services",
+        "Computer",
+        "IT",
+        "Telecom"
+      ],
+      "externalRating": 0,
+      "name": "Soar Software Solutions",
+      "phones": [
+        "8866450038",
+        "02653058489"
+      ],
+      "id": 26358,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gift",
+        "Novelty",
+        "Shops",
+        "Supermarkets",
+        "Malls",
+        "High",
+        "Streets",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Evergreen Imp  Exp Company",
+      "phones": [
+        "9998787144"
+      ],
+      "id": 26359,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Bakery",
+        "Cake",
+        "Shops",
+        "Eateries",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Gujarat Essence & Gas Company",
+      "phones": [
+        "9898335442",
+        "02653113481",
+        "02652418281"
+      ],
+      "id": 26360,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mens",
+        "Wear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Amar Sons Mens Wear",
+      "phones": [
+        "9923298466",
+        "9423729767",
+        "02653095880"
+      ],
+      "id": 26361,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Colour N Clay",
+      "phones": [
+        "9898794411",
+        "9725042411"
+      ],
+      "id": 26362,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Jewellery",
+        "Multi",
+        "Range",
+        "Gems",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Babubhai Gangaramsheth",
+      "phones": [
+        "9427327209",
+        "02652437335"
+      ],
+      "id": 26363,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Certification",
+        "Courses",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Avani Software",
+      "phones": [
+        "9327348071"
+      ],
+      "id": 26364,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Hospitals",
+        "Private",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Jivan Jyot Hospital & ICU",
+      "phones": [
+        "9925033652",
+        "02662226227"
+      ],
+      "id": 26365,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Water",
+        "Meters",
+        "Fluid",
+        "Gas",
+        "Control",
+        "Equipments",
+        "Industrial",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Water Meter",
+      "phones": [
+        "9924118230",
+        "02656505868"
+      ],
+      "id": 26366,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Insulation",
+        "Materials",
+        "Cold",
+        "Heat",
+        "Manufacturing",
+        "Material",
+        "Supplies",
+        "Industrial",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Thermal Insulation Industries",
+      "phones": [
+        "9925207757"
+      ],
+      "id": 26367,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Digital",
+        "Photography",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Pink Diamond Digital Studio",
+      "phones": [
+        "9898220081"
+      ],
+      "id": 26368,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lights",
+        "Bulbs",
+        "Tubes",
+        "Consumer",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Havells Galaxy",
+      "phones": [
+        "9687607025"
+      ],
+      "id": 26369,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Beauty",
+        "Parlors",
+        "Salons",
+        "Womens",
+        "Hair",
+        "Centers",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "Sukalpi Beauty Parlour & Training",
+      "phones": [
+        "9998809606",
+        "9725618623"
+      ],
+      "id": 26370,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Car",
+        "Hiring",
+        "Services",
+        "Road",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Sunil Travels Agency",
+      "phones": [
+        "9898420906",
+        "02652780922"
+      ],
+      "id": 26371,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Corporate",
+        "Gifts",
+        "Office",
+        "Supplies",
+        "Equipment"
+      ],
+      "externalRating": 0,
+      "name": "Paridhi",
+      "phones": [
+        "9925009751"
+      ],
+      "id": 26372,
+      "category": "Office Supplies",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Literary",
+        "Agents",
+        "Educational",
+        "Professionals",
+        "Consultants"
+      ],
+      "externalRating": 0,
+      "name": "Grant Macewan College",
+      "phones": [
+        "9824085115"
+      ],
+      "id": 26373,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cell",
+        "Phones",
+        "Accessories",
+        "Telecom",
+        "Equipment",
+        "Supplies",
+        "Computer",
+        "IT",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Baroda Mobile Shop",
+      "phones": [
+        "7874627861"
+      ],
+      "id": 26374,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fiber",
+        "Glass",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Nandinee Fibre Glass Enggineers",
+      "phones": [
+        "9824272172",
+        "02653047461",
+        "02653088952"
+      ],
+      "id": 26375,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lime",
+        "Products",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Calcium Chemicals",
+      "phones": [
+        "9824115584",
+        "02656545239",
+        "02652655045"
+      ],
+      "id": 26376,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pipe",
+        "Fittings",
+        "Multi",
+        "Range",
+        "Pipes",
+        "Tubes",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Bhavani Fabricators",
+      "phones": [
+        "9825186813",
+        "02653924537",
+        "9727076678"
+      ],
+      "id": 26377,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wooden",
+        "Doors",
+        "Windows",
+        "Grills",
+        "Gates",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Mahavir Hardware & Ply",
+      "phones": [
+        "9427352169"
+      ],
+      "id": 26378,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pipes",
+        "Multi",
+        "Range",
+        "Tubes",
+        "Fittings",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Ambica Engineering Works",
+      "phones": [
+        "9426054736",
+        "9725054736",
+        "02652651329"
+      ],
+      "id": 26379,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Shree Dutt Engineering Works",
+      "phones": [
+        "9824419882"
+      ],
+      "id": 26380,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Paints",
+        "Primers",
+        "Wall",
+        "Putty",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Paint Industries",
+      "phones": [
+        "9824232003",
+        "02652632137"
+      ],
+      "id": 26381,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Shree Parshwanath Infra",
+      "phones": [
+        "9978882617"
+      ],
+      "id": 26382,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Criminal",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Gajjar Deepakkumar Jayantilal",
+      "phones": [
+        "9173086022",
+        "9428878180"
+      ],
+      "id": 26383,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Research",
+        "Institutes",
+        "Academic",
+        "Support",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Yoga At Your Door Step",
+      "phones": [
+        "9898057282",
+        "02652510065"
+      ],
+      "id": 26384,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Garment",
+        "Packaging",
+        "Accessories",
+        "Material",
+        "Supplies",
+        "Printing"
+      ],
+      "externalRating": 0,
+      "name": "Hemalis Studio",
+      "phones": [
+        "9924944311",
+        "02652350637"
+      ],
+      "id": 26385,
+      "category": "Printing",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Sarees",
+        "Womens",
+        "Wear",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Bhairunath Saree",
+      "phones": [
+        "9978091805",
+        "9099217808"
+      ],
+      "id": 26386,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Security",
+        "Softwares",
+        "Software",
+        "Applications",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Webmyne Systems",
+      "phones": [
+        "9428068001",
+        "02652336907"
+      ],
+      "id": 26387,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Refrigerators",
+        "Freezers",
+        "Renting",
+        "Leasing",
+        "Air",
+        "Conditioners",
+        "Equipments",
+        "Rental",
+        "Conditioning",
+        "and",
+        "Refrigeration"
+      ],
+      "externalRating": 0,
+      "name": "Reliance Refrigeration",
+      "phones": [
+        "9898415708",
+        "02652426512"
+      ],
+      "id": 26388,
+      "category": "Cooling",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Leather",
+        "Garments",
+        "Clothing",
+        "Goods",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Sakhi Dresses",
+      "phones": [
+        "9974030217"
+      ],
+      "id": 26389,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Boutiques",
+        "Ladies",
+        "Tailors",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Sakhi Ladies Tailor Sardar Bhavans Street",
+      "phones": [
+        "9825684309",
+        "02652415503"
+      ],
+      "id": 26390,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Mutual",
+        "Funds",
+        "Investment",
+        "Financial",
+        "Services",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Money Manager",
+      "phones": [
+        "9824279807",
+        "02652250909"
+      ],
+      "id": 26391,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Share",
+        "Stock",
+        "Brokers",
+        "Shares",
+        "Stocks",
+        "Finance",
+        "Insurance"
+      ],
+      "externalRating": 0,
+      "name": "Money Multiplier Services",
+      "phones": [
+        "8128233697",
+        "8128307978"
+      ],
+      "id": 26392,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Groceries",
+        "Provisions",
+        "Food",
+        "Supplies",
+        "Household",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Akash Store",
+      "phones": [
+        "9898234239"
+      ],
+      "id": 26393,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Ans Photo Art",
+      "phones": [
+        "9376233833"
+      ],
+      "id": 26394,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Engineers",
+        "Gas",
+        "Oil",
+        "Engineer",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Link Consulting Engineers",
+      "phones": [
+        "9913172619"
+      ],
+      "id": 26395,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wood",
+        "Timber",
+        "Seasoning",
+        "Plant",
+        "Woodworking",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Shree Ganesh Timber Mart",
+      "phones": [
+        "9825043996",
+        "02652714596"
+      ],
+      "id": 26396,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Life",
+        "Insurance",
+        "Finance"
+      ],
+      "externalRating": 0,
+      "name": "Dipti J Jiandani",
+      "phones": [
+        "9904258163"
+      ],
+      "id": 26397,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Saini Clinic",
+      "phones": [
+        "9824136009"
+      ],
+      "id": 26398,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Digital",
+        "Photography",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Saptarang Album",
+      "phones": [
+        "9824216180",
+        "02652460548"
+      ],
+      "id": 26399,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ammonia",
+        "Paper",
+        "Architects",
+        "Supplies",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Ashok Paper Manufacturing Industries",
+      "phones": [
+        "9428876952",
+        "02652644272"
+      ],
+      "id": 26400,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Tours",
+        "Travel",
+        "Operators",
+        "Domestic",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Beverley Holidays",
+      "phones": [
+        "9825006277",
+        "02653052120",
+        "02653025151"
+      ],
+      "id": 26401,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "General",
+        "Medicine",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "C D Bhuptani Dr",
+      "phones": [
+        "9879429420",
+        "02652652184"
+      ],
+      "id": 26402,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Consultants",
+        "Engineering",
+        "Engineer",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Rajesh",
+      "phones": [
+        "9925033674"
+      ],
+      "id": 26403,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Aluminium",
+        "Products",
+        "Non-Ferrous",
+        "Metals",
+        "Alloys",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "Tirth Alufab",
+      "phones": [
+        "9825099902"
+      ],
+      "id": 26404,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Building",
+        "Contractors",
+        "Turnkey",
+        "Projects",
+        "Builders",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "M S K Projects (India) Ltd",
+      "phones": [
+        "9327546332",
+        "02652341642",
+        "02652344756",
+        "02652359893"
+      ],
+      "id": 26405,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Valves",
+        "Fluid",
+        "Gas",
+        "Control",
+        "Equipments",
+        "Industrial",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Maxflow Valves Pvt Ltd",
+      "phones": [
+        "9727766183",
+        "02653044207",
+        "02653044200"
+      ],
+      "id": 26406,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Footwear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Madhuraj International",
+      "phones": [
+        "9227647923",
+        "02652434031"
+      ],
+      "id": 26407,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Caterers",
+        "Event",
+        "Catering",
+        "Services",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Satnam Caterers",
+      "phones": [
+        "9825343326"
+      ],
+      "id": 26408,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gymnasiums",
+        "Health",
+        "Clubs",
+        "Fitness",
+        "Centres",
+        "Services",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "New Miseko Gymnasium",
+      "phones": [
+        "9824160567"
+      ],
+      "id": 26409,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Baroda Medical & Provision Store",
+      "phones": [
+        "9898209907",
+        "02652361380"
+      ],
+      "id": 26410,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Motor",
+        "Cycles",
+        "New",
+        "Vehicles",
+        "Two",
+        "Wheelers",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Amit Automobiles",
+      "phones": [
+        "9825642325",
+        "02652416570"
+      ],
+      "id": 26411,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Executive",
+        "Bags",
+        "Leather",
+        "Non-Leather",
+        "Luggage",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Gurukrupa Bag House",
+      "phones": [
+        "9925268136"
+      ],
+      "id": 26412,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Footwear",
+        "Multi",
+        "Range",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Gurukrupa Footwear",
+      "phones": [
+        "9824419735",
+        "9904717681"
+      ],
+      "id": 26413,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Smruti Studio",
+      "phones": [
+        "9428067227",
+        "02652580196"
+      ],
+      "id": 26414,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Certification",
+        "Courses",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Delta System & Software Incorporation",
+      "phones": [
+        "9978903892",
+        "02652635025"
+      ],
+      "id": 26415,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Stationery",
+        "Aids",
+        "Accessories",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Sudarshan File Manufacturing Co",
+      "phones": [
+        "9825274878",
+        "02652566667"
+      ],
+      "id": 26416,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Book",
+        "Publishers",
+        "Advertising",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "Indian Age Communication",
+      "phones": [
+        "9825163388",
+        "02652637055",
+        "02653047490"
+      ],
+      "id": 26417,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Academic",
+        "Bookshops",
+        "Support",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Law House",
+      "phones": [
+        "9426721605",
+        "02652340933",
+        "02652350293"
+      ],
+      "id": 26418,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pesticides",
+        "Agricultural",
+        "Supplies",
+        "Livestock",
+        "Agriculture"
+      ],
+      "externalRating": 0,
+      "name": "Bhagwad Agri Input",
+      "phones": [
+        "9825026444"
+      ],
+      "id": 26419,
+      "category": "Agriculture",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fasteners",
+        "Hardware",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Sagar Hardware Centre",
+      "phones": [
+        "9824001259",
+        "02652395952"
+      ],
+      "id": 26420,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Multi",
+        "Range",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Faircom",
+      "phones": [
+        "9428399600",
+        "02652424340"
+      ],
+      "id": 26421,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Dairy",
+        "Products",
+        "Food",
+        "Supplies",
+        "Household",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Jain Dairy",
+      "phones": [
+        "9825041010",
+        "02653057068"
+      ],
+      "id": 26422,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Compounds",
+        "Inorganic",
+        "Chemicals"
+      ],
+      "externalRating": 0,
+      "name": "Acm Chemicals",
+      "phones": [
+        "9825167861"
+      ],
+      "id": 26423,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Computer",
+        "Gaming",
+        "Software",
+        "Applications",
+        "IT",
+        "Telecom",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "Rattn Computer",
+      "phones": [
+        "9426345583"
+      ],
+      "id": 26424,
+      "category": "IT Service",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pulleys",
+        "Sheaves",
+        "Industrial",
+        "Machinery",
+        "Parts",
+        "Equipments"
+      ],
+      "externalRating": 0,
+      "name": "Yogesh H Mujumdar",
+      "phones": [
+        "9904071922",
+        "02652514640"
+      ],
+      "id": 26425,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Asbestos",
+        "Products",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Hetu Sales",
+      "phones": [
+        "9376224637",
+        "02655530566",
+        "02656592319"
+      ],
+      "id": 26426,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Interior",
+        "Decorator",
+        "Designers",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Sujan Impex Pvt Ltd",
+      "phones": [
+        "9328728935"
+      ],
+      "id": 26427,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cutting",
+        "Tools",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Jalaram Engineering Works",
+      "phones": [
+        "9898088859",
+        "02652642967"
+      ],
+      "id": 26428,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Bharaj Kulwinder Kaur M",
+      "phones": [
+        "9879111779",
+        "02652657575"
+      ],
+      "id": 26429,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Real",
+        "Estate",
+        "Agents",
+        "Dealers",
+        "Commercial",
+        "Residential",
+        "Properties",
+        "Building",
+        "Construction"
+      ],
+      "externalRating": 0,
+      "name": "Shreeji Estate Agency",
+      "phones": [
+        "9824657921",
+        "9376908343"
+      ],
+      "id": 26430,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Advertising",
+        "Agencies",
+        "Services",
+        "Media",
+        "Promotions"
+      ],
+      "externalRating": 0,
+      "name": "Tej Publicity Co",
+      "phones": [
+        "9824016856",
+        "02652423080",
+        "02652432098"
+      ],
+      "id": 26431,
+      "category": "Promotions",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Jayraj Digital Photo & Video Shooting",
+      "phones": [
+        "9998965416"
+      ],
+      "id": 26432,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Aluminium",
+        "Products",
+        "Non-Ferrous",
+        "Metals",
+        "Alloys",
+        "Minerals"
+      ],
+      "externalRating": 0,
+      "name": "Mundra Sales Corporation",
+      "phones": [
+        "9825437311",
+        "02652423278"
+      ],
+      "id": 26433,
+      "category": "Minerals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Wire",
+        "Mesh",
+        "Welded",
+        "Building",
+        "Material",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Goodluck Hardware Mart",
+      "phones": [
+        "9376162471",
+        "02652419341"
+      ],
+      "id": 26434,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemicals",
+        "Multi",
+        "Range",
+        "Speciality",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "VBS Engineering & Chemicals",
+      "phones": [
+        "9825705672",
+        "9227666860"
+      ],
+      "id": 26435,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Design",
+        "Build",
+        "Contractors",
+        "Builders",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Kirti Builders",
+      "phones": [
+        "9825082671",
+        "02652791061"
+      ],
+      "id": 26436,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Cranes",
+        "Production",
+        "Process",
+        "Machinery",
+        "Equipments",
+        "Industrial"
+      ],
+      "externalRating": 0,
+      "name": "Kalyani Engineering Works",
+      "phones": [
+        "9925523282",
+        "02652655023"
+      ],
+      "id": 26437,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Access",
+        "Control",
+        "System",
+        "Security",
+        "Equipments",
+        "Systems",
+        "Safety"
+      ],
+      "externalRating": 0,
+      "name": "Gayatri Electricals",
+      "phones": [
+        "9825014659",
+        "02652714167"
+      ],
+      "id": 26438,
+      "category": "Security",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Domestic",
+        "Tours",
+        "Business",
+        "Promotion",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "Siddhi Marketing Services",
+      "phones": [
+        "9376504303"
+      ],
+      "id": 26439,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fuel",
+        "Oil",
+        "Additives",
+        "Automobile",
+        "Lubricants",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Ambika Lubricants",
+      "phones": [
+        "9427223627"
+      ],
+      "id": 26440,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vishal K Mistry",
+      "phones": [
+        "9898018448"
+      ],
+      "id": 26441,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Vacuum",
+        "Cleaners",
+        "Industrial",
+        "Cleaning",
+        "Equipment",
+        "Environment"
+      ],
+      "externalRating": 0,
+      "name": "Manmachine India Pvt Ltd",
+      "phones": [
+        "9327623706",
+        "02653256231"
+      ],
+      "id": 26442,
+      "category": "Environment",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Groceries",
+        "Provisions",
+        "Food",
+        "Supplies",
+        "Household",
+        "Home",
+        "Garden",
+        "Pets"
+      ],
+      "externalRating": 0,
+      "name": "Jyoti Stores",
+      "phones": [
+        "9898493364",
+        "02653242923"
+      ],
+      "id": 26443,
+      "category": "Housekeeping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Blue",
+        "Printing",
+        "Services",
+        "Equipments",
+        "Architects",
+        "Supplies",
+        "Building",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Krutika Architects",
+      "phones": [
+        "9825008496",
+        "02652460565"
+      ],
+      "id": 26444,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Appliances",
+        "Accessories",
+        "Life",
+        "Style",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Hariom Electronics",
+      "phones": [
+        "9898070625"
+      ],
+      "id": 26445,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Educational",
+        "Stationery",
+        "Aids",
+        "Accessories",
+        "Education",
+        "Training"
+      ],
+      "externalRating": 0,
+      "name": "Arki Stationery",
+      "phones": [
+        "9824507611"
+      ],
+      "id": 26446,
+      "category": "Learning",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Gift",
+        "Novelty",
+        "Shops",
+        "Supermarkets",
+        "Malls",
+        "High",
+        "Streets",
+        "Shopping"
+      ],
+      "externalRating": 0,
+      "name": "Presto Gifts",
+      "phones": [
+        "9925152662",
+        "02656530706"
+      ],
+      "id": 26447,
+      "category": "Shopping",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Electric",
+        "Motors",
+        "Electrical",
+        "Equipments",
+        "Supplies",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Agro Electric Corporation",
+      "phones": [
+        "9898903771",
+        "02652412364"
+      ],
+      "id": 26448,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Fasteners",
+        "Hardware",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Mayuri Enterprise",
+      "phones": [
+        "9328024244"
+      ],
+      "id": 26449,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Interior",
+        "Decorator",
+        "Designers",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Kwality Venetian Blinds",
+      "phones": [
+        "9426548419",
+        "02652436531"
+      ],
+      "id": 26450,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Doctors",
+        "Sexual",
+        "Medicine",
+        "Marital",
+        "Therapy",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Salil Acharya Dr",
+      "phones": [
+        "9227440252",
+        "02656533627"
+      ],
+      "id": 26451,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Event",
+        "Management",
+        "Companies",
+        "Planners",
+        "Organizers",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Oxford The Events & Promos",
+      "phones": [
+        "9376683514",
+        "9898683514"
+      ],
+      "id": 26452,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Acids",
+        "Organic",
+        "Chemicals"
+      ],
+      "externalRating": 0,
+      "name": "A C I Industrial Organic Pvt Ltd",
+      "phones": [
+        "9824024796",
+        "02653062741"
+      ],
+      "id": 26453,
+      "category": "Chemicals",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Welding",
+        "Equipments",
+        "Supplies",
+        "Industrial",
+        "Machinery",
+        "Parts"
+      ],
+      "externalRating": 0,
+      "name": "Best Technocrat India Pvt Ltd",
+      "phones": [
+        "9824045123",
+        "9825073795",
+        "02652762435",
+        "02656541938"
+      ],
+      "id": 26454,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Ticketing",
+        "Agencies",
+        "Air",
+        "Travel",
+        "Tourism"
+      ],
+      "externalRating": 0,
+      "name": "World Vision Tours & Travels",
+      "phones": [
+        "9925001176",
+        "9879545242",
+        "02652410929"
+      ],
+      "id": 26455,
+      "category": "Travel",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Life",
+        "Insurance",
+        "Finance"
+      ],
+      "externalRating": 0,
+      "name": "Lic Of India",
+      "phones": [
+        "9723124294",
+        "02652352188"
+      ],
+      "id": 26456,
+      "category": "Banking",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Digital",
+        "Photography",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Sai Digital Studio",
+      "phones": [
+        "9898527318",
+        "9879399716",
+        "02653043075"
+      ],
+      "id": 26457,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Sai Digital Studio",
+      "phones": [
+        "9824669007"
+      ],
+      "id": 26458,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Pest",
+        "Control",
+        "Domestic",
+        "Household",
+        "Services"
+      ],
+      "externalRating": 0,
+      "name": "D & R Pest Control",
+      "phones": [
+        "9427847118",
+        "9925001421"
+      ],
+      "id": 26459,
+      "category": "Services",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Machine",
+        "Tools",
+        "Parts",
+        "Industrial",
+        "Equipments",
+        "Machinery"
+      ],
+      "externalRating": 0,
+      "name": "Shank Technologies",
+      "phones": [
+        "9824499045",
+        "02652630581"
+      ],
+      "id": 26460,
+      "category": "Industrial",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Commercial",
+        "Vehicles",
+        "Service",
+        "Repair",
+        "Centre",
+        "Automobile",
+        "Repair-Centers",
+        "Automotive"
+      ],
+      "externalRating": 0,
+      "name": "Auto Care Smooth",
+      "phones": [
+        "9974074747",
+        "9825043646"
+      ],
+      "id": 26461,
+      "category": "Automotive",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Builders",
+        "Hardware",
+        "Material",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Kishanpuria Brickfield & Construction Company",
+      "phones": [
+        "9824063406",
+        "02668274373"
+      ],
+      "id": 26462,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Digital",
+        "Photography",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Abhiruchi The Art Studio",
+      "phones": [
+        "9825318993"
+      ],
+      "id": 26463,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Hitesh Pandya",
+      "phones": [
+        "9327521022"
+      ],
+      "id": 26464,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Lawyers",
+        "Civil",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Hitesh D Shah",
+      "phones": [
+        "9624042939",
+        "9824399926"
+      ],
+      "id": 26465,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "RO",
+        "Reverse",
+        "Osmosis",
+        "Water",
+        "Treatment",
+        "Processes",
+        "Environment"
+      ],
+      "externalRating": 0,
+      "name": "M Chandra",
+      "phones": [
+        "9227438951"
+      ],
+      "id": 26466,
+      "category": "Environment",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Photography",
+        "Studios",
+        "Arts",
+        "Events",
+        "Occasions"
+      ],
+      "externalRating": 0,
+      "name": "Shivani Digital Studio",
+      "phones": [
+        "9898367502"
+      ],
+      "id": 26467,
+      "category": "Events",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Switchgear",
+        "Electric",
+        "Charge",
+        "Carriers",
+        "Connectors",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Bosmark Enterprises",
+      "phones": [
+        "9924098264",
+        "9924098284",
+        "02652642284",
+        "02652642984"
+      ],
+      "id": 26468,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Microwaves",
+        "Kitchen",
+        "Appliances",
+        "Electric",
+        "Electricals",
+        "Electronics"
+      ],
+      "externalRating": 0,
+      "name": "Janata Sales Corporation",
+      "phones": [
+        "9601704402"
+      ],
+      "id": 26469,
+      "category": "Electronics",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Architects",
+        "Building",
+        "Construction",
+        "Consultants",
+        "Professionals"
+      ],
+      "externalRating": 0,
+      "name": "Vasantiben Phadnis",
+      "phones": [
+        "9825020224",
+        "02652428603"
+      ],
+      "id": 26470,
+      "category": "Experts",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Beauty",
+        "Parlors",
+        "Salons",
+        "Womens",
+        "Hair",
+        "Centers",
+        "Health"
+      ],
+      "externalRating": 0,
+      "name": "New Kaya Beauty Parlour",
+      "phones": [
+        "9228335690"
+      ],
+      "id": 26471,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Chemist",
+        "Day",
+        "Time",
+        "Health",
+        "Beauty"
+      ],
+      "externalRating": 0,
+      "name": "Sathi Medical & Provision Store",
+      "phones": [
+        "9228892568",
+        "02652392363",
+        "02656535175"
+      ],
+      "id": 26472,
+      "category": "Healthcare",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Restaurants",
+        "Gujarati",
+        "Dining",
+        "Leisure"
+      ],
+      "externalRating": 0,
+      "name": "Rasthal Gujarati Thali",
+      "phones": [
+        "9722226535",
+        "8238021057",
+        "02656590004",
+        "02653190004"
+      ],
+      "id": 26473,
+      "category": "Recreation",
+      "internalRating": 0,
+      "status": 0
+    },
+    {
+      "keywords": [
+        "Roofing",
+        "Ceiling",
+        "Material",
+        "Building",
+        "Requisites",
+        "Construction",
+        "Real",
+        "Estate"
+      ],
+      "externalRating": 0,
+      "name": "Bhagat Fibres",
+      "phones": [
+        "9227220677"
+      ],
+      "id": 26474,
+      "category": "Construction",
+      "internalRating": 0,
+      "status": 0
+    }
+  ],
+  "status": {
+    "statusMessage": "Ok",
+    "code": 200
+  }
+}

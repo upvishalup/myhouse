@@ -150,7 +150,7 @@ function initialisedPoi(){
             "location" : [50.076149, 14.436372],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -159,7 +159,7 @@ function initialisedPoi(){
             "location" : [50.075441, 14.438027],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -168,7 +168,7 @@ function initialisedPoi(){
             "location" : [50.078406, 14.446084],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -177,7 +177,7 @@ function initialisedPoi(){
             "location" : [45.57862, 9.9418],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -186,7 +186,7 @@ function initialisedPoi(){
             "location" : [50.075188, 14.457489],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -195,7 +195,7 @@ function initialisedPoi(){
             "location" : [50.075186, 14.457486],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
       ],
@@ -206,7 +206,7 @@ function initialisedPoi(){
             "location" : [50.077595, 14.444172],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -215,7 +215,7 @@ function initialisedPoi(){
             "location" : [50.081047, 14.451099],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -224,7 +224,7 @@ function initialisedPoi(){
             "location" : [50.079816, 14.450390],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },{
             "title" : "La Boheme Cafe",
@@ -232,7 +232,7 @@ function initialisedPoi(){
             "location" : [50.076713, 14.440858],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -241,7 +241,7 @@ function initialisedPoi(){
             "location" : [50.074226, 14.442974],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -250,7 +250,7 @@ function initialisedPoi(){
             "location" : [50.076143, 14.445368],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
       ],
@@ -261,7 +261,7 @@ function initialisedPoi(){
             "location" : [50.080435, 14.432975],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -270,7 +270,7 @@ function initialisedPoi(){
             "location" : [50.076380, 14.437040],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -279,7 +279,7 @@ function initialisedPoi(){
             "location" : [50.074982, 14.432051],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },{
             "title" : "Farmers markets and Cultural Events",
@@ -287,7 +287,7 @@ function initialisedPoi(){
             "location" : [50.078298, 14.449394],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
       ],
@@ -298,7 +298,7 @@ function initialisedPoi(){
             "location" : [50.076706, 14.442326],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -307,7 +307,7 @@ function initialisedPoi(){
             "location" : [50.078789, 14.461137],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -316,7 +316,7 @@ function initialisedPoi(){
             "location" : [50.084199, 14.441162],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
             {
@@ -325,7 +325,7 @@ function initialisedPoi(){
             "location" : [50.073458, 14.433983],
             "description" : "",
             "thubnail" : "",
-            "image" : "assets/img/content/g1.jpg",
+            "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
          ]

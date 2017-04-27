@@ -1,5 +1,5 @@
-<!DOCTYPE html ng-app="BohemiaRes">
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" ng-app="BohemiaRes">
 <head>
 	<title>Bohemia</title>
 	<meta charset="UTF-8">
@@ -107,57 +107,43 @@
 		
 	</div>
 
-	<div class="row section-container dark-green-bgk">
+	<div class="row section-container dark-green-bgk" ng-controller="PropertyDescription">
 		<div class="col-sm-5 inner-margin desc-image">
-			<img src="assets/img/chair-mac.jpg">
+			<img ng-repeat="desc in descriptions" ng-class="{'display-none': !desc.active}" ng-src={{desc.img}}>
+			<figcaption>
+				<span ng-click="previous()">Prev</span><span ng-click="next()">Next</span>
+			</figcaption>
 		</div>
 		<div class="col-sm-7 inner-margin">
-			<div>
-					<span class="section-heading property-heading-width">
+				<div>
+					<span class="section-heading heading-width">
 						PROPERTY DESCRIPTIONS
-					</span>
-					<span class="property-info-para theme-border-color">
-						Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical.
 					</span>
 				</div>
 				<div class="property-features-list">
-					<div class="row">
+					   <div class="row">
 						<div class="col-sm-12">
-							<div class="row">
-								<div class="col-sm-12 header-color-x">
-									INTERIOR FEATURES
+							<div class="row" ng-repeat="desc in descriptions" ng-class="{'display-none' : !desc.active}">
+								<div class="col-sm-12">
+									<span class="info-para theme-border-color">{{desc.detail}}
+								    </span>
 								</div>
-								<div class="row">
-									<div class="col-sm-7">
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>
-										<div class="col-sm-4">
-											Lorem	
-										</div>	
+								<span ng-repeat="feature in desc.features track by $index" ng-click="toggleFeature($index)">
+									<div class="col-sm-12 header-color-x property-header prop-width" ng-class="{'theme-border-color' : openedFeature !== $index}" style="padding-bottom: 10px;">
+									    	{{feature.label}} <i class="fa fa-plus" aria-hidden="true"></i>
 									</div>
-								</div>
+									<div class="col-sm-12 prop-width" ng-if="openedFeature === $index" ng-class="{'theme-border-color' : openedFeature === $index}">
+										<div class="row">
+											<div class="col-sm-7">
+												<div class="row"  style="padding-bottom: 25px;">
+													<div class="col-sm-4" ng-repeat="item in feature.list">
+														<span>></span>{{item}}	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</span>
 							</div>
 						</div>
 					</div>
@@ -176,17 +162,91 @@
 		</div>
 	</div>
 
-	<div class="row section-container dark-green-bgk">
-		<div class="col-sm-7 inner-margin">
-			<img src="assets/img/chair-mac.jpg">
+	<div class="row section-container dark-green-bgk" id="google-map-sec" ng-controller="LocationSection">
+		<div class="col-sm-12  inner-container-padding section-heading" style="text-align: center;">
+				Location & Neighboring
+		</div>			
+		<div class="col-sm-12 padding-no-top info-para" style="text-align: center;">	
+				Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs 
+			
 		</div>
-		<div class="col-sm-5 inner-margin">
-			<div>
-				<span class="section-heading property-heading-width">
-					PROPERTY DESCRIPTION
-				</span>
+		<!-- LOCATION ROW 1 -->
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5">
+				<div class="header-color-x">
+					Schools & University
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="header-color-x">
+					Schools & University
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		
+		<!-- LOCATION ROW 1 ENDS -->
+		<!-- LOCATION ROW 2 -->
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5">
+				<div class="header-color-x">
+					Schools & University
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="header-color-x">
+					Schools & University
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+			</div>
+			<div class="col-sm-1"></div>	
+		</div>
+		<!-- LOCATION ROW 1 ENDS -->
+		<!-- LOCATION and Google Map Starts -->
+		<div class ='row lod-neighbour-container padding-no-top radio-container' id='mapimageresult' ng-click="setMenu()">	
+			<div class="col-sm-{{12/(keys.length)}}" ng-repeat="key in keys track by $index">
+				<label class="show-case-title"><input class="btn-radio" id="custom-radio-nav-button" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)" ng-class="{'mac-os': isMacOs}"> {{key}}
+				</label>
 			</div>
 		</div>
+		<div class="row  padding-no-top">
+				<div class="col-sm-6" id="mapresult" style="margin-bottom: 60px;">
+					<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+				</div>
+				<div class="row">
+				<!--scrolled-assets-starts-here-->
+				<div class="col-xs-12 col-sm-6 col-md-6">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 15px 0; flex-direction: row; flex-wrap: wrap;" >
+				    <div class="image-poi-container loc-img" ng-click="toggle($index);" ng-repeat="poi in pois track by $index"  ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
+						<img ng-src={{poi.image}} class="poi-image">
+						<div class="img-title">
+							<h4 class="poi-header-h4">{{poi.title}}</h4>
+							<p class="address" >{{poi.name}}</p>
+							<p  class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
+							<div class="fa-icon" ng-class="{'fa-icon-upward' : !poi.isOpened}"></div>
+						</div>
+						<div style="height: 10px; background-color: white"></div>
+					</div>
+				</div>
+				</div>
+			</div><!-- end row-->
+			<!-- LOCATION and Google Map Starts -->
 	</div>
 
 	<div class="row section-container container-margin">
@@ -271,7 +331,6 @@
 					js = d.createElement(s); js.id = id;
 					js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
 					fjs.parentNode.insertBefore(js, fjs);
-					console.log("--------------",fjs);
 				}(document, 'script', 'facebook-jssdk'));
 				</script>
 				<div class="fb-page" style="overflow-y: hidden;" data-href="https://www.facebook.com/bohemiaresidences.eu" data-tabs="timeline" data-small-header="true" data-width=10000 data-height=550 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bohemiaresidences.eu"class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bohemiaresidences.eu">bohemiaresidences.eu</a></blockquote></div>
