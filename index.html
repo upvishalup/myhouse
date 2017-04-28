@@ -125,7 +125,7 @@
 						<div class="col-sm-12">
 							<div class="row" ng-repeat="desc in descriptions" ng-class="{'display-none' : !desc.active}">
 								<div class="col-sm-12">
-									<span class="info-para theme-border-color">{{desc.detail}}
+									<span class="info-para theme-border-color" style="padding:10px 40px 35px 0px;">{{desc.detail}}
 								    </span>
 								</div>
 								<span ng-repeat="feature in desc.features track by $index" ng-click="toggleFeature($index)">
@@ -135,7 +135,7 @@
 									<div class="col-sm-12 prop-width" ng-if="openedFeature === $index" ng-class="{'theme-border-color' : openedFeature === $index}">
 										<div class="row">
 											<div class="col-sm-7">
-												<div class="row"  style="padding-bottom: 25px;">
+												<div class="row"  style="padding-bottom: 30px;">
 													<div class="col-sm-4" ng-repeat="item in feature.list">
 														<span>></span>{{item}}	
 													</div>
