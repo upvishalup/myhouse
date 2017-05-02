@@ -91,8 +91,8 @@
 }
 
 .dark-green-bgk{
-	background: #213944;
-	color: #fff;
+	background: #213944 !important;
+	color: #fff !important;
 }
 
 .inner-margin{
@@ -267,7 +267,7 @@
 .figcaption-img{
 	display: inline-flex;
     position: relative;
-    left: 19px;
+    left: 55px;
     top: 10px;
 }
 
@@ -309,4 +309,157 @@
 
 .property-desc{
 	line-height: 2;
+}
+
+.img-circle{
+	border-radius: 50%; 
+	height: 100px;
+	width: 100px;
+}
+
+.sec-inner-paddding{
+	padding: 70px 0;
+}
+
+.facebook-title{
+	font-size: 30px;
+}
+
+.agent-name-title{
+	padding: 16px 12px;
+}
+
+.agent-desc{
+	
+    line-height: 1;
+    font-size: 20px;
+}
+
+.agent-padding-text{
+	padding: 30px 0 50px 0;
+}
+
+.agent-contacts{
+	font-size: 28px;
+	color: #cf865a;
+}
+
+.agent-contact-padding{
+	padding-bottom: 45px;
+}
+
+.contact-us-padding{
+	padding: 40px 0 50px 0;
+}
+
+.contact-desc-pad{
+	padding: 5px 0;
+}
+
+
+.icon-email{
+	background-image: url("../../assets/img/icons/12-email.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-address{
+	background-image: url("../../assets/img/icons/13-address.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-telephone{
+	background-image: url("../../assets/img/icons/14-phone.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.inner-text-cu{
+	position: relative;
+    left: 30px;
+    bottom: 4px;
+}
+
+.cu-bottom-padding{
+	padding-bottom: 40px;
+}
+
+.footer{
+	background-color: black;
+	font-size: #fff;
+}
+
+.footer-inner{
+	padding: 20px 0;
+}
+
+.icon-facebook{
+	background-image: url("../../assets/img/icons/15-fb.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-instagram{
+	background-image: url("../../assets/img/icons/16-instagram.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-pinterest{
+	background-image: url("../../assets/img/icons/17-pinterest.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;	
+}
+
+.icon-twitter{
+	background-image: url("../../assets/img/icons/18-twitter.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;	
+}
+
+.footer-inner a{
+	padding-right: 10px;
+}
+
+.inner-text-right{
+	position: relative;
+    left: 30px;
+    bottom: 4px;
+}
+
+.cu-textbox{
+	height: 100px;
+	width: 60%;
+}
+
+.icon-white-arrow{
+	background-image: url("../../assets/img/icons/05-arrow-right.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;		
+}
+
+.learn-more-icon{
+	background-image: url("../../assets/img/icons/01-arrow.png");
+	height: 18px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;		
+    background-position: 0px 10px;
 }
