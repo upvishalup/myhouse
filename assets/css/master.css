@@ -13,6 +13,39 @@
 	border-color: #cf865a !important;
 	border-bottom-style: solid;
 	border-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.brdr-bottom{
+	border-color: #cf865a !important;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-width: -1px;
+}
+
+.brdr-top{
+	border-color: #cf865a !important;
+	border-top-style: solid;
+	border-width: 1px;
+	border-top-width: 1px;
+}
+
+.brdr-left{
+	border-color: #cf865a !important;
+	border-left-style: solid;
+	border-width: 1px;
+	border-left-width: 1px;
+}
+
+.brdr-right{
+	border-color: #cf865a !important;
+	border-right-style: solid;
+	border-width: 1px;
+	border-right-width: 1px;
+}
+
+.theme-padding{
+	padding: 3px 0;
 }
 
 .carousel-inner > .item > img,
@@ -87,7 +120,12 @@
 }
 
 .nase-block{
-	margin: 40px 0px 0px 0px; 
+	padding: 40px 0px 0px 0px; 
+}
+
+
+.nase-para{
+	margin: 60px 0;
 }
 
 .dark-green-bgk{
@@ -100,7 +138,7 @@
 }
 
 .residence-details{
-	padding: 24px;
+	padding: 12px 24px 24px 24px;
     display: inline-block;
 }
 
@@ -117,14 +155,6 @@
     line-height: 1
 }
 
-.section-sub-heading{
-
-}
-
-.section-sub-heading-small{
-
-}
-
 .learn-more{
 	color: #000;
 	font-size: 12px;
@@ -136,7 +166,21 @@
 }
 
 /*COMMON CSS ENDS*/
+/*common heading font*/
+.chf{
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	text-transform: uppercase;
+}
 
+.cpf{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+/*common heading font ends*/
 .home-header-space{
 	padding: 50px 0;
     display: inline-block;
@@ -144,7 +188,7 @@
 
 .property-describe p{
 	line-height: 1;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .heading-width{
@@ -329,10 +373,9 @@
 	padding: 16px 12px;
 }
 
-.agent-desc{
-	
+.common-desc{
     line-height: 1;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .agent-padding-text{
@@ -398,6 +441,7 @@
 
 .footer-inner{
 	padding: 20px 0;
+	color: #fff;
 }
 
 .icon-facebook{
@@ -460,6 +504,31 @@
 	height: 18px;
     width: 20px;
     display: inline-block;
+    background-repeat: no-repeat;		
+    background-position: 0px 10px;
+}
+
+.number{
+	margin-bottom: 3px ; 
+}
+
+.nase-desc{
+	width: 80%;
+	line-height: 1.5 !important;
+}
+
+.nase-para-head{
+	font-size: 20px;
+}
+
+.header-desc{
+	font-size: 26px;
+}
+
+.icon-theme{
+	background-image: url("../../assets/img/icons/07-google-marker.png");
+	height: 75px;
+    width: 34px;
     background-repeat: no-repeat;		
     background-position: 0px 10px;
 }
