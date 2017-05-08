@@ -1,3 +1,4 @@
+
 .body-x-overflow{
 	overflow-x: hidden;
 }
@@ -182,7 +183,7 @@
 
 /*common heading font ends*/
 .home-header-space{
-	padding: 50px 0;
+	padding: 33% 0;
     display: inline-block;
 }
 
@@ -210,12 +211,12 @@
 
 .radio-container{
   background-color: #213944;
-  height: 30px;
+  height: 50px;
+  padding-top: 30px; 
 }
 
 .google-map {
-  margin-top: 3rem;
-  height: 85vh;
+  height: 700px;
   padding-bottom: 30px;
 }
 .google-map-assets {
@@ -311,8 +312,8 @@
 .figcaption-img{
 	display: inline-flex;
     position: relative;
-    left: 55px;
-    top: 10px;
+    right: 21px;
+    top: 7px;
 }
 
 .figcaption-img div{
@@ -362,7 +363,7 @@
 }
 
 .sec-inner-paddding{
-	padding: 70px 0;
+	padding: 70px 20px;
 }
 
 .facebook-title{
@@ -427,7 +428,8 @@
 .inner-text-cu{
 	position: relative;
     left: 30px;
-    bottom: 4px;
+    bottom: 7px;
+    font-size: 18px;
 }
 
 .cu-bottom-padding{
@@ -440,8 +442,8 @@
 }
 
 .footer-inner{
-	padding: 20px 0;
 	color: #fff;
+	padding: 50px 0;
 }
 
 .icon-facebook{
@@ -531,4 +533,220 @@
     width: 34px;
     background-repeat: no-repeat;		
     background-position: 0px 10px;
+    padding: 20px 0 64px 0; 
+}
+
+.icon-shopping{
+	background-image: url("../../assets/img/icons/08-icon-shopping.png");
+	height: 75px;
+    width: 34px;
+    background-repeat: no-repeat;		
+    background-position: 5px 0;
+}
+
+.icon-school{
+	background-image: url("../../assets/img/icons/10-icon-school.png");
+	height: 75px;
+    width: 34px;
+    background-repeat: no-repeat;		
+    background-position: 5px 0;
+}
+
+.icon-taxi{
+	background-image: url("../../assets/img/icons/09-icon-taxi.png");
+	height: 75px;
+    width: 34px;
+    background-repeat: no-repeat;		
+    background-position: 8px 0;
+}
+
+.icon-airport{
+	background-image: url("../../assets/img/icons/11-icon-airport.png");
+	height: 75px;
+    width: 34px;
+    background-repeat: no-repeat;		
+    background-position: 8px 0;
+}
+
+.neigh-para{
+	width: calc(100% - 120px);
+	padding: 14px 0 35px 20px;
+}
+
+.neigh-sec{
+	display: inline-flex;
+}
+
+.diff-locations{
+	margin: 15px 0;
+}
+
+.show-case-title{
+	padding-top: 15px; 
+}
+
+.home-desc-padding{
+	padding: 10% 0;
+}
+
+.inlineblock{
+	display: inline-block;
+}
+
+.padding-bgk{
+	padding: 100px 50px;
+}
+
+.row-margin{
+	margin: 0 30px;
+    width: calc(100% - 60px) !important;
+}
+
+.loc-menu-text{
+	margin-right: 6px !important;
+}
+
+.location-border{
+	padding: 18px 0 14px 0;
+}
+
+.location-menu{
+	border-color: #084C54 !important;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-top-style: solid;
+	margin: 25px 0;
+}
+
+.desc-img{
+	display: inline-flex;
+	height: 380px;
+	font-size: 18px;
+	background-color: #084C54;
+	margin-bottom: 10px;
+}
+.loc-img{
+	width: 40%;
+	background-size: 237px;
+    background-repeat: no-repeat;
+}
+
+.loc-img img{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.loc-desc{
+	width: 60%;
+	padding: 0 20px;
+}
+
+.loc-desc-desc{
+	overflow: auto;
+	height: calc(500px - 222px);
+}
+
+.loc-elispsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4; /* number of lines to show */
+	line-height: 1.3;        /* fallback */
+	max-height: 4 !important;
+}
+
+.loc-desc-title{
+	text-decoration: underline;
+	padding: 18px 0;
+}
+
+.loc-desc-more{
+	position: absolute;
+	bottom: 20px;
+}
+
+.tog-small{
+	height: 200px !important;
+}
+
+.icon-white-text{
+	font-family: arial;
+	font-size: 20px;
+	padding-left: 8px;
+}
+
+.theme-bck{
+	background: #cf865a !important;
+}
+
+.marker{
+	position: absolute;
+}
+
+.theme-marker-css {
+	background: #cf865a;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    width: 24px;
+    left: 86px;
+}
+.theme-marker-css:before {
+	width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #cf865a;
+    position: absolute;
+    content: "";
+    top: 40px;
+}
+
+.marker-css {
+	background: #084C54;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    width: 24px;
+    left: 86px;
+    bottom: 200px;
+}
+.marker-css:before {
+	width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #084C54;
+    position: absolute;
+    content: "";
+    bottom: -12px
+}
+.marker-img{
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/en/d/d5/Philadelphia_Soul_Helmet_Logo.png");*/
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 200px 200px;
+    bottom: 200px;
+}
+
+.marker-title{
+	position: absolute;
+    bottom: 0;
+    background-color: #084C54;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;     /* not currently supported */
+    -o-appearance: checkbox;      /* not currently supported */
 }

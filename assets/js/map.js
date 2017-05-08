@@ -1,54 +1,45 @@
-<!-- ================================================== -->
-<!-- =============== START GOOGLE MAP PLUGIN ================ -->
-<!-- ================================================== -->
+google.maps.event.addDomListener(window, 'load', initialize);
 
-window.google = window.google || {};
 
-google.maps = google.maps || {};
+function toggleMarker(){
+  customMarkers[0].toggle();
+}
 
-(function() {
-  initialisedPoi();
-  function getScript(src) {
-    document.write('<' + 'script src="' + src + '"' +
-      ' type="text/javascript"><' + '/script>');
+function changeMarker(index){
+  var self = customMarkers[index];
+  var newDiv = self.div;
+  if(!self.isSelected){
+    newDiv.innerHTML = self.args.selectedMarker;
+    newDiv.style.position = "absolute";
+  }else{
+    newDiv.innerHTML = self.args.themeMarker;
+    newDiv.style.position = "absolute";
+    newDiv.style.backgroundImage='url("")';
   }
-  
-  var modules = google.maps.modules = {};
+  self.isSelected = !self.isSelected;
+  //google.maps.event.trigger(self, "click");
+  closeMarkers(index);
+}
 
-  google.maps.__gjsload__ = function(name, text) {
-    modules[name] = text;
-  };
-  
-  google.maps.Load = function(apiLoad) {
-    delete google.maps.Load;
-    getScript("http://maps.googleapis.com/maps/api/js?key=AIzaSyBax2Z-Mm86035_JtrIP8YR-0I71dVWdIo&callback=initialize");
-  };
-
-  var loadScriptTime = (new Date).getTime();
-
-  getScript("https://maps.gstatic.com/maps-api-v3/api/js/18/15a/main.js");
-
-})();
-
-
-<!-- ================================================== -->
-<!-- =============== END GOOGLE MAP PLUGIN ================ -->
-<!-- ================================================== -->
-
-<!-- ================================================== -->
-<!-- =============== START GOOGLE MAP SETTINGS ================ -->
-<!-- ================================================== -->
+function closeMarkers(index){
+  for(var i = 0; i < customMarkers.length; i++){
+    if(i !== index){
+      var newDiv = customMarkers[i].div;
+      customMarkers[i].isSelected = false;
+      newDiv.innerHTML = customMarkers[i].args.themeMarker;
+      newDiv.style.position = "absolute";
+      newDiv.style.backgroundImage='url("")';   
+    }
+  }
+}
 
 var map = null;
-var locMarker = [];
-var locMarkerListener = {};
-jQuery(document).ready(function(){  
+var customMarkers=[];
+function initialize() {
   var lat = jQuery('#map-canvas').data('lat');
   var long = jQuery('#map-canvas').data('long');
   var myLatLng = new google.maps.LatLng(lat,long);
   var listenerFlag = null;
-
-  function initialize() {
     var roadAtlasStyles = [      
     ];
     var mapOptions = {
@@ -66,67 +57,24 @@ jQuery(document).ready(function(){
     };
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    displayLocInMap(getInitLocations());    
-    var img = jQuery('#map-canvas').data('img');    
+    displayMarkers(getMarkers());    
+    var img = jQuery('#map-canvas').data('img');   
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         icon: img,
-      title: ''
+        title: ''
     });
+}
+
+function displayMarkers(markers){
+  if(customMarkers){
+    clearMarkers(customMarkers);  
   }
-  google.maps.event.addDomListener(window, 'load', initialize);
-
-
-});
-
-var displayLocInMap = function (markers) {
-  if(locMarker !='undefined' && locMarker != null)
-  {
-    clearMarkers(locMarker);
-    locMarker = [];
-  }  
-
-  var lat_lng = new Array();
-  var latlngbounds = new google.maps.LatLngBounds();
-  for (i = 0; i < markers.length; i++) {
-    var data = markers[i];
-    var myLatlng = new google.maps.LatLng(data.lat, data.lng);
-    lat_lng.push(myLatlng);
-    
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        map: map,
-        id: data.locId,
-        title: data.title,
-        icon: {
-          url: getMarkerUrl()
-        }
-    });
-
-    locMarker.push(marker);    
-    var selectedMarker = null;
-      locMarkerListener[i] = google.maps.event.addListener(marker, 'click', function() {
-          var divId =   this.id;     
-          var container = $('#imageresult'),
-          scrollTo = $("div.loc-img[data-locid = '"+divId+"']");
-          $('html, body').animate({
-          scrollTop: (scrollTo.offset().top - 80)
-          },500); 
-          if (selectedMarker) {
-              selectedMarker.setIcon(getMarkerUrl());
-          }
-          this.setIcon('https://www.google.com/mapfiles/marker_green.png');
-          selectedMarker = this; 
-          if(!map.getBounds().contains(this.getPosition())){
-              map.setCenter(this.getPosition());
-              map.setZoom(13);
-          }
-          var event = new CustomEvent('marker-cliked', { 'detail': {"index" :divId, "loc" : "map" }}); 
-          window.dispatchEvent(event); 
-      });
+  for(var i=0; i < markers.length; i++){
+    var theLatLng = new google.maps.LatLng(markers[i].lat, markers[i].lng);
+    customMarkers[i] = new CustomMarker(theLatLng, map, markers[i]);
   }
-
 }
 
 function clearMarkers(markers) {
@@ -136,20 +84,106 @@ function clearMarkers(markers) {
     markers.length = 0;
 }
 
-<!-- ================================================== -->
-<!-- =============== END GOOGLE MAP SETTINGS ================ -->
-<!-- ================================================== -->
+function CustomMarker(latlng, map, args) {
+  console.log(latlng);
+  this.latlng = latlng; 
+  this.args = args;
+  this.map_ = map;
+  this.isSelected = false;  
+  this.setMap(map); 
+}
+
+CustomMarker.prototype = new google.maps.OverlayView();
+
+CustomMarker.prototype.onAdd = function(){
+  var self = this;
+  
+  var div = this.div;
+  
+  if (!div) {
+  
+    div = this.div = document.createElement('div');
+    
+    div.innerHTML = self.args.themeMarker;
+    div.style.position = "absolute";
+    if (typeof(self.args.marker_id) !== 'undefined') {
+      div.dataset.marker_id = self.args.locId;
+    }
+    
+    google.maps.event.addDomListener(div, "click", function(event) {
+      var newDiv = self.div;
+      var divId = newDiv.firstChild.id;
+      var event = new CustomEvent('marker-cliked', { 'detail': {"index" :divId, "loc" : "map" }}); 
+      window.dispatchEvent(event); 
+    });
+    
+    var panes = this.getPanes();
+    panes.overlayImage.appendChild(div);
+  }
+}
+
+CustomMarker.prototype.draw = function() {
+  var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
+  var div = this.div;
+  if (point) {
+    div.style.left = (point.x - 10) + 'px';
+    div.style.top = (point.y - 20) + 'px';
+  }
+};
+
+CustomMarker.prototype.remove = function() {
+  if (this.div) {
+    this.div.parentNode.removeChild(this.div);
+    this.div = null;
+  } 
+};
+
+CustomMarker.prototype.getPosition = function() {
+  return this.latlng; 
+};
+
+CustomMarker.prototype.hide = function() {
+  if (this.div) {
+    // The visibility property must be a string enclosed in quotes.
+    this.div.style.visibility = 'hidden';
+  }
+};
+
+CustomMarker.prototype.show = function() {
+  if (this.div) {
+    this.div.style.visibility = 'visible';
+  }
+};
+
+CustomMarker.prototype.toggleDOM = function(){
+  if (this.getMap()) {
+      this.setMap(null);
+    } else {
+      this.setMap(this.map_);
+    }
+}
+
+CustomMarker.prototype.toggle = function() {
+  if (this.div) {
+    if (this.div.style.visibility === 'hidden') {
+      this.show();
+    } else {
+      this.hide();
+    }
+  }
+};
 
 
-function initialisedPoi(){
-  var poiImageJsonData = {
+
+function propertyNearBy(){
+  var allFeatures = {
       "Gastronomy" : [
             {
             "title" : "Aromi",
             "name" : "Náměstí Míru 6, Prague 2",
             "location" : [50.076149, 14.436372],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -157,8 +191,8 @@ function initialisedPoi(){
             "title" : "Bruxx",
             "name" : "Náměstí Míru 9, Prague 2",
             "location" : [50.075441, 14.438027],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -166,8 +200,8 @@ function initialisedPoi(){
             "title" : "Yamato",
             "name" : "U Kanálky 14, Prague 2",
             "location" : [50.078406, 14.446084],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -175,8 +209,8 @@ function initialisedPoi(){
             "title" : "cologne",
             "name" : "Italy 106, Prague 2",
             "location" : [45.57862, 9.9418],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -184,8 +218,8 @@ function initialisedPoi(){
             "title" : "Vinohrady Brewery",
             "name" : "Korunní 106, Prague 2",
             "location" : [50.075188, 14.457489],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -193,8 +227,8 @@ function initialisedPoi(){
             "title" : "My Random",
             "name" : "Korunní 106, Prague 2",
             "location" : [50.075186, 14.457486],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
@@ -204,8 +238,8 @@ function initialisedPoi(){
             "title" : "Bar and Books",
             "name" : "Mánesova 64, Prague 2",
             "location" : [50.077595, 14.444172],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -213,8 +247,8 @@ function initialisedPoi(){
             "title" : "Zizkov Tower Bar",
             "name" : "Mahlerovy sady 1, Prague 3",
             "location" : [50.081047, 14.451099],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -222,16 +256,16 @@ function initialisedPoi(){
             "title" : "La Bottega Gastronomica",
             "name" : "Ondříčkova 17, Prague 3",
             "location" : [50.079816, 14.450390],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },{
             "title" : "La Boheme Cafe",
             "name" : "Sázavská 32, Prague 2",
             "location" : [50.076713, 14.440858],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -239,8 +273,8 @@ function initialisedPoi(){
             "title" : "Monolok Cafe",
             "name" : "Moravská 18, Prague 2",
             "location" : [50.074226, 14.442974],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -248,8 +282,8 @@ function initialisedPoi(){
             "title" : "Prosekarna",
             "name" : "Slezská 48, Prague 2",
             "location" : [50.076143, 14.445368],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
@@ -259,8 +293,8 @@ function initialisedPoi(){
             "title" : "The State Opera",
             "name" : "Wilsonova 4, Prague 1",
             "location" : [50.080435, 14.432975],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -268,8 +302,8 @@ function initialisedPoi(){
             "title" : "Vinohrady Theatre",
             "name" : "Náměstí Míru 7, Prague 2",
             "location" : [50.076380, 14.437040],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -277,16 +311,16 @@ function initialisedPoi(){
             "title" : "Farmers markets",
             "name" : "Tylovo náměstí, Prague 2",
             "location" : [50.074982, 14.432051],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },{
-            "title" : "Farmers markets and Cultural Events",
+            "title" : "Farmers markets",
             "name" : "Náměstí Jiřího z Poděbrad, Prague 3",
             "location" : [50.078298, 14.449394],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
@@ -296,8 +330,8 @@ function initialisedPoi(){
             "title" : "The Pavilon",
             "name" : "Vinohradská 50, Prague 2",
             "location" : [50.076706, 14.442326],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -305,8 +339,8 @@ function initialisedPoi(){
             "title" : "Atrium Flora",
             "name" : "Vinohradská 151, Prague 3",
             "location" : [50.078789, 14.461137],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -314,8 +348,8 @@ function initialisedPoi(){
             "title" : "Prague University of Economy",
             "name" : "náměstí W. Churchilla 4, Prague 3",
             "location" : [50.084199, 14.441162],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             },
@@ -323,18 +357,18 @@ function initialisedPoi(){
             "title" : "University of New York Prague",
             "name" : "Londýnská 41, Prague 2",
             "location" : [50.073458, 14.433983],
-            "description" : "",
-            "thubnail" : "",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "thubnail" : "assets/img/poi.jpg",
             "image" : "assets/img/poi.jpg",
             "isOpened" : false
             }
          ]
       };
-  return poiImageJsonData;
+  return allFeatures;
 }
 
-function getInitLocations() {
-    var poisAll = initialisedPoi();
+function getMarkers() {
+    var poisAll = propertyNearBy();
     var key = Object.keys(poisAll)[0];
     var pois = poisAll[key];
     var locations = [];
@@ -343,15 +377,12 @@ function getInitLocations() {
               locId : i,
               lat: pois[i].location[0],
               lng: pois[i].location[1],
-              title: pois[i].title
+              title: pois[i].title,
+              thumbnail:pois[i].thubnail,
+              themeMarker: '<div id="'+i+'" class="marker"><div class="theme-marker-css"></div></div>',
+              selectedMarker: '<div id="'+i+'" style="background-image:url('+pois[i].thubnail+');" class="chf marker-img"><span class="marker-title">'+pois[i].title+'</span></div><div class="marker-css"></div>'
             } 
            locations.push(locals);
      }
     return locations;
 }
-
-function getMarkerUrl(){
-  var fullUrl = window.location.protocol + "//" +window.location.hostname + ":" + window.location.port + window.location.pathname + "assets/img/icons/marker.png";
-  return fullUrl;
-}
-

@@ -45,7 +45,7 @@
 		      	<div>
 		      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
 			      	<span class="section-heading home-header-space chf">NEW DESIGN OF CAROUSEL BOHEMIA</span>
-			      	<p class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+			      	<p class="common-desc cpf home-desc-padding">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
 			      	<P class="learn-more chf">Learn More <span class="learn-more-icon"></span></P>
 		      	</div>
 		      </div>
@@ -111,13 +111,14 @@
 	</div>
 
 	<div class="row section-container dark-green-bgk" ng-controller="PropertyDescription">
-		<div class="col-sm-5 inner-margin desc-image">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4 inner-margin desc-image">
 			<img ng-repeat="desc in descriptions" ng-class="{'display-none': !desc.active}" ng-src={{desc.img}}>
 			<figcaption class="figcaption-img">
 				<div class="arrow-left" ng-click="previous()"></div><div class="arrow-right" ng-click="next()"></div>
 			</figcaption>
 		</div>
-		<div class="col-sm-7 inner-margin">
+		<div class="col-sm-6 inner-margin">
 				<div>
 					<span class="section-heading heading-width chf">
 						PROPERTY DESCRIPTIONS
@@ -137,7 +138,7 @@
 									</div>
 									<div class="col-sm-12 prop-width" ng-if="openedFeature === $index" ng-class="{'theme-border-color' : openedFeature === $index}">
 										<div class="row">
-											<div class="col-sm-7">
+											<div class="col-sm-9">
 												<div class="row"  style="padding-bottom: 30px;">
 													<div class="col-sm-4" ng-repeat="item in feature.list" style="margin-bottom: 2px;">
 														<span class="listing-buttet"></span><span class="cpf common-desc">{{item}}</span>
@@ -153,6 +154,7 @@
 				</div>
 			
 		</div>
+		<div class="col-sm-1"></div>
 	</div>
 
 	<div class="row section-container" id="br-section-2">
@@ -166,90 +168,67 @@
 	</div>
 
 	<div class="row section-container dark-green-bgk" id="google-map-sec" ng-controller="LocationSection">
-		<div class="col-sm-12  inner-container-padding section-heading chf" style="text-align: center;">
-				Location & Neighboring
-		</div>			
-		<div class="col-sm-12 padding-no-top info-para cpf common-desc" style="text-align: center;">	
-				Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs 
-			
-		</div>
-		<!-- LOCATION ROW 1 -->
-		<div class="row">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-5">
-				<div class="header-color-x chf nase-para-head">
-					Schools & University
-				</div>
-				<div class="cpf common-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="header-color-x chf nase-para-head">
-					Schools & University
-				</div>
-				<div class="cpf common-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				</div>
-			</div>
-			<div class="col-sm-1"></div>
-		</div>
-		
-		<!-- LOCATION ROW 1 ENDS -->
-		<!-- LOCATION ROW 2 -->
-		<div class="row">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-5">
-				<div class="header-color-x chf nase-para-head">
-					Schools & University
-				</div>
-				<div class="cpf common-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="header-color-x chf nase-para-head">
-					Schools & University
-				</div>
-				<div class="cpf common-desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				</div>
-			</div>
-			<div class="col-sm-1"></div>	
-		</div>
-		<!-- LOCATION ROW 1 ENDS -->
-		<!-- LOCATION and Google Map Starts -->
-		<div class ='row lod-neighbour-container padding-no-top radio-container' id='mapimageresult' ng-click="setMenu()">	
-			<div class="col-sm-{{12/(keys.length)}}" ng-repeat="key in keys track by $index">
-				<label class="show-case-title"><input class="btn-radio" id="custom-radio-nav-button" type="radio" name="radio-button" value={{key}} ng-checked="$index==0" ng-click="showPoi(key)" ng-class="{'mac-os': isMacOs}"> {{key}}
-				</label>
-			</div>
-		</div>
-		<div class="row  padding-no-top">
-				<div class="col-sm-6" id="mapresult" style="margin-bottom: 60px;">
-					<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/icons/logo-map.png"></div>
-				</div>
-				<div class="col-xs-12 col-sm-6">
-				</div>
-				<div class="row">
-				<!--scrolled-assets-starts-here-->
-				<div class="col-xs-12 col-sm-6 col-md-6">
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6" id="imageresult" style="display: flex; margin: 15px 0; flex-direction: row; flex-wrap: wrap;" >
-				    <div class="image-poi-container loc-img" ng-click="toggle($index);" ng-repeat="poi in pois track by $index"  ng-class="{'poi-container-full' : poi.isOpened}"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
-						<img ng-src={{poi.image}} class="poi-image">
-						<div class="img-title">
-							<h4 class="poi-header-h4">{{poi.title}}</h4>
-							<p class="address" >{{poi.name}}</p>
-							<p  class="poi-details" ng-class="{'poi-details  display-none' : !poi.isOpened}">One of the grandest edifices in Prague, the Rudolfinum is home to the Dvořák concert hall, where the Czech Philharmonic presents the grandest classical music and performance art events in the Prague calendar. The Rudolfinum also offers contemporary art exhibitions.</p>
-							<div class="fa-icon" ng-class="{'fa-icon-upward' : !poi.isOpened}"></div>
+		<div class="col-sm-12 padding-bgk row-margin">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-5">
+							<div class="section-heading chf">LOREM &</div>
+							<div class="section-heading chf">IMPSUM DOLOR</div>
 						</div>
-						<div style="height: 10px; background-color: white"></div>
+						<div class="col-sm-7">
+							<span class="residence-details cpf common-desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
+							</span>
+						</div>
 					</div>
 				</div>
 				</div>
-			</div><!-- end row-->
-			<!-- LOCATION and Google Map Starts -->
+				<!-- LOCATION and Google Map Starts -->
+				<div class ='row'>
+						<div class="col-sm-12  location-menu">
+							<div class="col-sm-2 location-border" ng-repeat="key in keys track by $index">
+								<label><input type="radio" name="menu-loc" ng-checked="{{result === key}}" ng-click="showPoi(key)"> {{key}}
+								</label>
+							</div>	
+						</div>
+				</div>
+
+				<div class="row">
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-sm-12" ng-repeat="poi in pois track by $index"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
+									<div class="desc-img" ng-class="{'tog-small': !poi.isOpened}">
+										<div class="loc-img" style="background-image: url({{poi.image}});">
+											
+										</div>
+										<div class="loc-desc">
+											<div class="loc-desc-title chf">
+												{{poi.title}}
+											</div>
+											<div class="loc-elispsis" ng-if="!poi.isOpened">
+												{{poi.description}}
+											</div>
+											<div class="loc-desc-desc" ng-if="poi.isOpened">
+												{{poi.description}}
+											</div>
+											<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="!poi.isOpened">
+												MORE +
+											</div>
+											<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="poi.isOpened">
+												less -
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-6" id="mapresult">
+						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/logo/logo-map.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="row section-container container-margin">
@@ -260,7 +239,7 @@
 				</div>
 				<div class="col-sm-9">
 					<span class="residence-details cpf common-desc">
-						Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města.	
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. 	
 					</span>
 				</div>
 			</div>
@@ -316,7 +295,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12 agent-contact-padding">
-					<div class="agent-contacts">office@bohemiaresidencies.com</div>
+					<div class="agent-contacts chf">office@bohemiaresidencies.com</div>
 					<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
 				</div>
 				<div class="col-sm-12">
@@ -395,7 +374,7 @@
 							</div>
 							<div class="col-sm-4"></div>
 							<div class="col-sm-8">
-								<button type="button" class="btn btn-primary dark-green-bgk">ODESLAT ZPRAVU <span class="icon-white-arrow"></span></button>
+								<button type="button" class="btn btn-primary dark-green-bgk">ODESLAT ZPRAVU</span></button>
 							</div>
 						</div>
 					</div>
@@ -421,10 +400,12 @@
 
 	<!-- CONTACT US ENDS -->
 
+	
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/jquery.stickit.js"></script>	
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBax2Z-Mm86035_JtrIP8YR-0I71dVWdIo"></script>
 	<script src="assets/js/map.js"></script>
 	<script src="assets/js/angular.min.js"></script>
 	<script src="assets/js/main.js"></script>
