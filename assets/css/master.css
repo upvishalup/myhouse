@@ -117,7 +117,7 @@
 
 .section-container{
 	margin: 35px 0;
-	overflow-x: hidden;	
+	overflow: hidden;	
 }
 
 .nase-block{
@@ -309,11 +309,17 @@
     background-repeat: no-repeat;
 }
 
+.property-img-container{
+	width:459px;
+	height:565px;
+	position: relative;
+}
+
 .figcaption-img{
 	display: inline-flex;
-    position: relative;
-    right: 21px;
-    top: 7px;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
 }
 
 .figcaption-img div{
@@ -749,4 +755,16 @@ input[type="radio"] {
     -moz-appearance: checkbox;
     -ms-appearance: checkbox;     /* not currently supported */
     -o-appearance: checkbox;      /* not currently supported */
+}
+
+ul{
+	padding: 0;
+}
+
+@media(min-width: 1360px){
+	.container-border{
+	 	width: 1200px !important;
+	 	margin-right: auto;
+    	margin-left: auto;
+	}	
 }

@@ -55,176 +55,183 @@
 	<!-- CORAUSEL ENDS -->
 
 	<div class="row section-container container-margin">
-		<div class="col-sm-12">
-			<span class="section-heading chf">NASE NAMOVITOSTI</span>
-		</div>
-		<div class="col-sm-12 property-describe">
-			<p class="cpf nase-desc">
-			Prague is a metropolis with a multifarious history, charming architecture and is a metropolis with a multifarious history
-			</p>
-		</div>
-		
-		<div class="col-sm-12 nase-para">
-			<div class="row">
-				<div class="col-sm-3 nase-block brdr-bottom  brdr-right">
-					<div class="header-color-x chf nase-para-head">dispozice</div>
-					<p class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+		<div class="container-border">
+			<div class="col-sm-12">
+				<span class="section-heading chf">NASE NAMOVITOSTI</span>
+			</div>
+			<div class="col-sm-12 property-describe">
+				<p class="cpf nase-desc">
+				Prague is a metropolis with a multifarious history, charming architecture and is a metropolis with a multifarious history
+				</p>
+			</div>
+			
+			<div class="col-sm-12 nase-para">
+				<div class="row">
+					<div class="col-sm-3 nase-block brdr-bottom  brdr-right">
+						<div class="header-color-x chf nase-para-head">dispozice</div>
+						<p class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-bottom brdr-right">
-					<div class="header-color-x chf nase-para-head">PAR2</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-bottom brdr-right">
+						<div class="header-color-x chf nase-para-head">PAR2</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-bottom brdr-right">
-					<div class="header-color-x chf nase-para-head">PAR3</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-bottom brdr-right">
+						<div class="header-color-x chf nase-para-head">PAR3</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-bottom">
-					<div class="header-color-x chf nase-para-head">PAR4</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-bottom">
+						<div class="header-color-x chf nase-para-head">PAR4</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-right">
-					<div class="header-color-x chf nase-para-head">PART5</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-right">
+						<div class="header-color-x chf nase-para-head">PART5</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-right">
-					<div class="header-color-x chf nase-para-head">PAR6</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-right">
+						<div class="header-color-x chf nase-para-head">PAR6</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block brdr-right">
-					<div class="header-color-x chf nase-para-head">PAR7</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
-				</div>
+					<div class="col-sm-3 nase-block brdr-right">
+						<div class="header-color-x chf nase-para-head">PAR7</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 
-				<div class="col-sm-3 nase-block">
-					<div class="header-color-x chf nase-para-head">PAR8</div>
-					<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					<div class="col-sm-3 nase-block">
+						<div class="header-color-x chf nase-para-head">PAR8</div>
+						<p  class="common-desc cpf">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		
 	</div>
 
+
 	<div class="row section-container dark-green-bgk" ng-controller="PropertyDescription">
-		<div class="col-sm-1"></div>
-		<div class="col-sm-4 inner-margin desc-image">
-			<img ng-repeat="desc in descriptions" ng-class="{'display-none': !desc.active}" ng-src={{desc.img}}>
-			<figcaption class="figcaption-img">
-				<div class="arrow-left" ng-click="previous()"></div><div class="arrow-right" ng-click="next()"></div>
-			</figcaption>
-		</div>
-		<div class="col-sm-6 inner-margin">
-				<div>
-					<span class="section-heading heading-width chf">
-						PROPERTY DESCRIPTIONS
-					</span>
+		<div class="container-border row-margin">
+			<div class="col-sm-5 inner-margin desc-image">
+				<div class="property-img-container">
+					<div ng-repeat="desc in descriptions" style="background-image: url({{desc.img}});background-repeat: no-repeat;width: 459px; height: 535px;background-size: 459px 535px;" ng-class="{'display-none': !desc.active}"></div>
+					<div class="figcaption-img">
+						<div class="arrow-left" ng-click="previous()"></div><div class="arrow-right" ng-click="next()"></div>
+					</div>
 				</div>
-				<div class="property-features-list">
-					   <div class="row">
-						<div class="col-sm-12">
-							<div class="row" ng-repeat="desc in descriptions" ng-class="{'display-none' : !desc.active}">
-								<div class="col-sm-12">
-									<span class="info-para theme-border-color property-desc cpf common-desc" style="padding:10px 40px 35px 0px;">{{desc.detail}}
-								    </span>
-								</div>
-								<span ng-repeat="feature in desc.features track by $index" ng-click="toggleFeature($index)">
-									<div class="col-sm-12 header-color-x property-header prop-width prop-icons" ng-class="{'theme-border-color' : openedFeature !== $index}" style="padding-bottom: 10px;">
-									    	<div class="ptitle-position chf">{{feature.label}}</div><div class="icon-plus pm-postion" ng-class="{'icon-minus': openedFeature == $index}"></div>
+			</div>
+			<div class="col-sm-7 inner-margin">
+					<div>
+						<span class="section-heading heading-width chf">
+							PROPERTY DESCRIPTIONS
+						</span>
+					</div>
+					<div class="property-features-list">
+						   <div class="row">
+							<div class="col-sm-12">
+								<div class="row" ng-repeat="desc in descriptions" ng-class="{'display-none' : !desc.active}">
+									<div class="col-sm-12">
+										<span class="info-para theme-border-color property-desc cpf common-desc" style="padding:10px 40px 35px 0px;">{{desc.detail}}
+									    </span>
 									</div>
-									<div class="col-sm-12 prop-width" ng-if="openedFeature === $index" ng-class="{'theme-border-color' : openedFeature === $index}">
-										<div class="row">
-											<div class="col-sm-9">
-												<div class="row"  style="padding-bottom: 30px;">
-													<div class="col-sm-4" ng-repeat="item in feature.list" style="margin-bottom: 2px;">
-														<span class="listing-buttet"></span><span class="cpf common-desc">{{item}}</span>
+									<span ng-repeat="feature in desc.features track by $index" ng-click="toggleFeature($index)">
+										<div class="col-sm-12 header-color-x property-header prop-width prop-icons" ng-class="{'theme-border-color' : openedFeature !== $index}" style="padding-bottom: 10px;">
+										    	<div class="ptitle-position chf">{{feature.label}}</div><div class="icon-plus pm-postion" ng-class="{'icon-minus': openedFeature == $index}"></div>
+										</div>
+										<div class="col-sm-12 prop-width" ng-if="openedFeature === $index" ng-class="{'theme-border-color' : openedFeature === $index}">
+											<div class="row">
+												<div class="col-sm-9">
+													<div class="row"  style="padding-bottom: 30px;">
+														<div class="col-sm-4" ng-repeat="item in feature.list" style="margin-bottom: 2px;">
+															<span class="listing-buttet"></span><span class="cpf common-desc">{{item}}</span>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-								</span>
+									</span>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			
+			</div>
 		</div>
-		<div class="col-sm-1"></div>
 	</div>
 
-	<div class="row section-container" id="br-section-2">
-		<div class="col-sm-12">
-			<div class="contentGallery row">
-				<ul class="clearfix">
-					<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3925342d7cac5696baa9365f27905649.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 92vw; height: 300px; border: 10px; overflow: hidden;"></iframe>
-				</ul>
-			</div><!-- end ContetnGallery -->
+	<div class="row section-container container-margin" id="br-section-2">
+		<div class="container-border">
+			<div class="col-sm-12">
+				<div class="contentGallery row">
+					<ul class="clearfix">
+						<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3925342d7cac5696baa9365f27905649.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; height: 300px; border: 10px; overflow: hidden;"></iframe>
+					</ul>
+				</div><!-- end ContetnGallery -->
+			</div>
 		</div>
 	</div>
 
 	<div class="row section-container dark-green-bgk" id="google-map-sec" ng-controller="LocationSection">
-		<div class="col-sm-12 padding-bgk row-margin">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="row">
-						<div class="col-sm-5">
-							<div class="section-heading chf">LOREM &</div>
-							<div class="section-heading chf">IMPSUM DOLOR</div>
-						</div>
-						<div class="col-sm-7">
-							<span class="residence-details cpf common-desc">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
-							</span>
+		<div class="container-border">
+			<div class="col-sm-12 padding-bgk row-margin">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-5">
+								<div class="section-heading chf">LOREM &</div>
+								<div class="section-heading chf">IMPSUM DOLOR</div>
+							</div>
+							<div class="col-sm-7">
+								<span class="residence-details cpf common-desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
+								</span>
+							</div>
 						</div>
 					</div>
-				</div>
-				</div>
-				<!-- LOCATION and Google Map Starts -->
-				<div class ='row'>
-						<div class="col-sm-12  location-menu">
-							<div class="col-sm-2 location-border" ng-repeat="key in keys track by $index">
-								<label><input type="radio" name="menu-loc" ng-checked="{{result === key}}" ng-click="showPoi(key)"> {{key}}
-								</label>
-							</div>	
-						</div>
-				</div>
+					</div>
+					<!-- LOCATION and Google Map Starts -->
+					<div class ='row'>
+							<div class="col-sm-12  location-menu">
+								<div class="col-sm-2 location-border" ng-repeat="key in keys track by $index">
+									<label><input type="radio" name="menu-loc" ng-checked="{{result === key}}" ng-click="showPoi(key)"> {{key}}
+									</label>
+								</div>	
+							</div>
+					</div>
 
-				<div class="row">
-						<div class="col-sm-6">
-							<div class="row">
-								<div class="col-sm-12" ng-repeat="poi in pois track by $index"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
-									<div class="desc-img" ng-class="{'tog-small': !poi.isOpened}">
-										<div class="loc-img" style="background-image: url({{poi.image}});">
-											
-										</div>
-										<div class="loc-desc">
-											<div class="loc-desc-title chf">
-												{{poi.title}}
+					<div class="row">
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-12" ng-repeat="poi in pois track by $index"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
+										<div class="desc-img" ng-class="{'tog-small': !poi.isOpened}">
+											<div class="loc-img" style="background-image: url({{poi.image}});">
+												
 											</div>
-											<div class="loc-elispsis" ng-if="!poi.isOpened">
-												{{poi.description}}
-											</div>
-											<div class="loc-desc-desc" ng-if="poi.isOpened">
-												{{poi.description}}
-											</div>
-											<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="!poi.isOpened">
-												MORE +
-											</div>
-											<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="poi.isOpened">
-												less -
+											<div class="loc-desc">
+												<div class="loc-desc-title chf">
+													{{poi.title}}
+												</div>
+												<div class="loc-elispsis" ng-if="!poi.isOpened">
+													{{poi.description}}
+												</div>
+												<div class="loc-desc-desc" ng-if="poi.isOpened">
+													{{poi.description}}
+												</div>
+												<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="!poi.isOpened">
+													MORE +
+												</div>
+												<div class="loc-desc-more chf" ng-click="toggle($index)" ng-if="poi.isOpened">
+													less -
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-6" id="mapresult">
-						<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/logo/logo-map.png"></div>
+						<div class="col-sm-6" id="mapresult">
+							<div id="map-canvas" class="google-map" data-lat="50.075323" data-long="14.463263" data-img="assets/img/logo/logo-map.png"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -232,39 +239,41 @@
 	</div>
 
 	<div class="row section-container container-margin">
-		<div class="col-sm-12">
-			<div class="row">
-				<div class="col-sm-3">
-					<span class="section-heading chf">BOHEMIA RESIDENCE</span>
-				</div>
-				<div class="col-sm-9">
-					<span class="residence-details cpf common-desc">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. 	
-					</span>
+		<div class="container-border">
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-3">
+						<span class="section-heading chf">BOHEMIA RESIDENCE</span>
+					</div>
+					<div class="col-sm-9">
+						<span class="residence-details cpf common-desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. 	
+						</span>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-sm-12">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="number section-heading chf theme-border-color theme-font-color theme-padding">01</div>
-					<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
-					<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="number section-heading chf theme-border-color theme-font-color theme-padding">02</div>
-					<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
-					<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="number section-heading chf theme-border-color theme-font-color theme-padding">03</div>
-					<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
-					<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="number section-heading chf theme-border-color theme-font-color theme-padding">04</div>
-					<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
-					<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+			<div class="col-sm-12">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="number section-heading chf theme-border-color theme-font-color theme-padding">01</div>
+						<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
+						<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="number section-heading chf theme-border-color theme-font-color theme-padding">02</div>
+						<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
+						<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="number section-heading chf theme-border-color theme-font-color theme-padding">03</div>
+						<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
+						<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="number section-heading chf theme-border-color theme-font-color theme-padding">04</div>
+						<div class="header-desc cpf theme-padding">LOREM IPSUM</div>
+						<div class="common-desc cpf">Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -272,56 +281,58 @@
 
 	
 	<div class="row section-container dark-green-bgk sec-inner-paddding">
-		<div class="col-sm-6">
-			<div class="row">
-				<div class="col-sm-2">
-					<img src="assets/img/poi.jpg" class="img-circle">
-				</div>
-				<div class="col-sm-10">
-					<div class="agent-name-title">
-					<div class="section-heading chf">
-						SIMON SCHUT
+		<div class="container-border row-margin">
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="assets/img/poi.jpg" class="img-circle">
 					</div>
-					<div class="chf">
-						JEDNATEL
+					<div class="col-sm-10">
+						<div class="agent-name-title">
+						<div class="section-heading chf">
+							SIMON SCHUT
+						</div>
+						<div class="chf">
+							JEDNATEL
+						</div>
+						</div>
 					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 common-desc agent-padding-text cpf">
+						Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města.	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 agent-contact-padding">
+						<div class="agent-contacts chf">office@bohemiaresidencies.com</div>
+						<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
+					</div>
+					<div class="col-sm-12">
+						<div class="agent-contacts chf">+420 607 543 563</div>
+						<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 common-desc agent-padding-text cpf">
-					Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města. Naprostá většina našich nemovitostí se vyskytuje na oblíbených adresách v klidné lokalitěs veškerou občanskou vybaveností včetně škol, školek, obchodů a restaurací v přilehlém okolí. Současně disponuje výbornou dostupností do centra města.	
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5">
+				<div class="row">
+					<div class="col-sm-12"><div class="facebook-title">Sledujte nas facebook</div></div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 agent-contact-padding">
-					<div class="agent-contacts chf">office@bohemiaresidencies.com</div>
-					<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
-				</div>
-				<div class="col-sm-12">
-					<div class="agent-contacts chf">+420 607 543 563</div>
-					<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-1"></div>
-		<div class="col-sm-5">
-			<div class="row">
-				<div class="col-sm-12"><div class="facebook-title">Sledujte nas facebook</div></div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id)) return;
-						js = d.createElement(s); js.id = id;
-						js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-						fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));
-					</script>
-					<div class="fb-page" style="overflow-y: hidden;" data-href="https://www.facebook.com/bohemiaresidences.eu" data-tabs="timeline" data-small-header="true" data-width=10000 data-height=550 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bohemiaresidences.eu"class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bohemiaresidences.eu">bohemiaresidences.eu</a></blockquote>
-					</div>						
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+						</script>
+						<div class="fb-page" style="overflow-y: hidden;" data-href="https://www.facebook.com/bohemiaresidences.eu" data-tabs="timeline" data-small-header="true" data-width=10000 data-height=550 data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bohemiaresidences.eu"class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bohemiaresidences.eu">bohemiaresidences.eu</a></blockquote>
+						</div>						
+					</div>
 				</div>
 			</div>
 		</div>
@@ -330,51 +341,53 @@
 
 	<!-- CONTACT US STARTS -->
 	<div class="row section-container container-margin">
+			<div class="container-border">
 			<!-- HEADER STARTS -->
-			<div class="col-sm-12 contact-us-padding">
-				<div class="section-heading chf">KONTAKTUJTE NAS</div>
-				<div class="contact-desc-pad cpf header-desc">Naprostá většina našich nemovitostí Naprostá většina našich nemovitostí</div>
-			</div>
-			<!-- HEADER ENDS -->
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-8">
-						<div class="row">
-							<div class="col-sm-12 cu-bottom-padding">
-								<div class="icon-email"><span class="inner-text-cu cpf">Email</span></div>
-								<div class="facebook-title theme-font-color chf">office@bohemiaresidencies.com</div>	
+				<div class="col-sm-12 contact-us-padding">
+					<div class="section-heading chf">KONTAKTUJTE NAS</div>
+					<div class="contact-desc-pad cpf header-desc">Naprostá většina našich nemovitostí Naprostá většina našich nemovitostí</div>
+				</div>
+				<!-- HEADER ENDS -->
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="row">
+								<div class="col-sm-12 cu-bottom-padding">
+									<div class="icon-email"><span class="inner-text-cu cpf">Email</span></div>
+									<div class="facebook-title theme-font-color chf">office@bohemiaresidencies.com</div>	
+								</div>
+								<div class="col-sm-12 cu-bottom-padding">
+									<div class="icon-email"><span class="inner-text-cu cpf">Address</span></div>
+									<div class="facebook-title theme-font-color chf">some addresss placeholer</div>	
+								</div>
+								<div class="col-sm-12 cu-bottom-padding">
+									<div class="icon-email"><span class="inner-text-cu cpf">Telephone</span></div>
+									<div class="facebook-title theme-font-color chf">+420 607 543 543</div>	
+								</div>	
 							</div>
-							<div class="col-sm-12 cu-bottom-padding">
-								<div class="icon-email"><span class="inner-text-cu cpf">Address</span></div>
-								<div class="facebook-title theme-font-color chf">some addresss placeholer</div>	
-							</div>
-							<div class="col-sm-12 cu-bottom-padding">
-								<div class="icon-email"><span class="inner-text-cu cpf">Telephone</span></div>
-								<div class="facebook-title theme-font-color chf">+420 607 543 543</div>	
-							</div>	
 						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Vase jmeno</p>
-								<p><input type="text" name=""></p>
-							</div>
-							<div class="col-sm-12">
-								<p>E-mail Address</p>
-								<p><input type="text" name=""></p>
-							</div>
-							<div class="col-sm-12">
-								<p>Predem zpvary</p>
-								<p><input type="text" name=""></p>
-							</div>
-							<div class="col-sm-12">
-								<p>Address</p>
-								<p><input type="textbox" name="" class="cu-textbox"></p>
-							</div>
-							<div class="col-sm-4"></div>
-							<div class="col-sm-8">
-								<button type="button" class="btn btn-primary dark-green-bgk">ODESLAT ZPRAVU</span></button>
+						<div class="col-sm-4">
+							<div class="row">
+								<div class="col-sm-12">
+									<p>Vase jmeno</p>
+									<p><input type="text" name=""></p>
+								</div>
+								<div class="col-sm-12">
+									<p>E-mail Address</p>
+									<p><input type="text" name=""></p>
+								</div>
+								<div class="col-sm-12">
+									<p>Predem zpvary</p>
+									<p><input type="text" name=""></p>
+								</div>
+								<div class="col-sm-12">
+									<p>Address</p>
+									<p><input type="textbox" name="" class="cu-textbox"></p>
+								</div>
+								<div class="col-sm-4"></div>
+								<div class="col-sm-8">
+									<button type="button" class="btn btn-primary dark-green-bgk">ODESLAT ZPRAVU</span></button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -385,14 +398,16 @@
 
 	
 	<div class="row footer">
-		<div class="col-sm-10 footer-inner cpf">
-			Copyright 2017. All Rights Reserved.
-		</div>
-		<div class="col-sm-2 footer-inner">
-			<a href="https://www.pinterest.com/bohemiares/"><span class="icon-facebook"></span></i></a>
-			<a href="https://twitter.com/bohemiares"><span class="icon-instagram"></span></i></a>
-			<a href="https://www.instagram.com/bohemiaresidences.eu/"><span class="icon-pinterest"></span></a>
-			<a href="https://www.facebook.com/bohemiaresidences.eu"><span class="icon-twitter"></span></a>
+		<div class="container-border">
+			<div class="col-sm-10 footer-inner cpf">
+				Copyright 2017. All Rights Reserved.
+			</div>
+			<div class="col-sm-2 footer-inner">
+				<a href="https://www.pinterest.com/bohemiares/"><span class="icon-facebook"></span></i></a>
+				<a href="https://twitter.com/bohemiares"><span class="icon-instagram"></span></i></a>
+				<a href="https://www.instagram.com/bohemiaresidences.eu/"><span class="icon-pinterest"></span></a>
+				<a href="https://www.facebook.com/bohemiaresidences.eu"><span class="icon-twitter"></span></a>
+			</div>
 		</div>
 	</div>	
 	
