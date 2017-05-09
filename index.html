@@ -139,7 +139,7 @@
 		<div class="container-border row-margin">
 			<div class="col-sm-5 inner-margin desc-image">
 				<div class="property-img-container">
-					<div ng-repeat="desc in descriptions" style="background-image: url({{desc.img}});background-repeat: no-repeat;width: 459px; height: 535px;background-size: 459px 535px;" ng-class="{'display-none': !desc.active}"></div>
+					<div ng-repeat="desc in descriptions" class="interior-image"style="background-image: url({{desc.img}});" ng-class="{'display-none': !desc.active}"></div>
 					<div class="figcaption-img">
 						<div class="arrow-left" ng-click="previous()"></div><div class="arrow-right" ng-click="next()"></div>
 					</div>
@@ -227,7 +227,7 @@
 
 					<div class="row">
 							<div class="col-sm-6">
-								<div class="row">
+								<div class="row  location-image-list">
 									<div class="col-sm-12" ng-repeat="poi in pois track by $index"   data-lat = {{poi.location[0]}} data-lang = {{poi.location[1]}} data-locid = {{$index}} id={{'poi'+$index}}>
 										<div class="desc-img" ng-class="{'tog-small': !poi.isOpened}">
 											<div class="loc-img" style="background-image: url({{poi.image}});">

@@ -18,28 +18,28 @@
 }
 
 .brdr-bottom{
-	border-color: #cf865a !important;
+	border-color: #f2f2f2 !important;
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-bottom-width: -1px;
 }
 
 .brdr-top{
-	border-color: #cf865a !important;
+	border-color: #f2f2f2 !important;
 	border-top-style: solid;
 	border-width: 1px;
 	border-top-width: 1px;
 }
 
 .brdr-left{
-	border-color: #cf865a !important;
+	border-color: #f2f2f2 !important;
 	border-left-style: solid;
 	border-width: 1px;
 	border-left-width: 1px;
 }
 
 .brdr-right{
-	border-color: #cf865a !important;
+	border-color: #f2f2f2 !important;
 	border-right-style: solid;
 	border-width: 1px;
 	border-right-width: 1px;
@@ -183,7 +183,7 @@
 
 /*common heading font ends*/
 .home-header-space{
-	padding: 33% 0;
+	padding: 8vh 0;
     display: inline-block;
 }
 
@@ -593,7 +593,7 @@
 }
 
 .home-desc-padding{
-	padding: 10% 0;
+	padding: 10% 0 0 0;
 }
 
 .inlineblock{
@@ -618,7 +618,7 @@
 }
 
 .location-menu{
-	border-color: #084C54 !important;
+	border-color: #0d687b !important;
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-top-style: solid;
@@ -629,7 +629,7 @@
 	display: inline-flex;
 	height: 380px;
 	font-size: 18px;
-	background-color: #084C54;
+	background-color: #0d687b;
 	margin-bottom: 10px;
 }
 .loc-img{
@@ -712,7 +712,7 @@
 }
 
 .marker-css {
-	background: #084C54;
+	background: #0d687b;
     display: inline-block;
     height: 40px;
     position: relative;
@@ -725,10 +725,10 @@
     height: 0;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
-    border-top: 12px solid #084C54;
+    border-top: 12px solid #0d687b;
     position: absolute;
     content: "";
-    bottom: -12px
+    bottom: -12px;
 }
 .marker-img{
 	/*background-image: url("https://upload.wikimedia.org/wikipedia/en/d/d5/Philadelphia_Soul_Helmet_Logo.png");*/
@@ -744,7 +744,7 @@
 .marker-title{
 	position: absolute;
     bottom: 0;
-    background-color: #084C54;
+    background-color: #0d687b;
     color: #fff;
     width: 100%;
     font-size: 20px;
@@ -762,9 +762,21 @@ ul{
 	padding: 0;
 }
 
+.interior-image{
+	background-repeat: no-repeat;
+    width: 459px;
+    height: 535px;
+    background-size: 459px 535px;
+}
+
+.location-image-list{
+	height: 700px !important;
+    overflow: auto;
+}
+
 input[type=text]{
 	background-color: #f2f2f2;
-	width: 240px !important;
+	width: 250px !important;
 }
 
 @media(min-width: 1360px){
@@ -773,4 +785,41 @@ input[type=text]{
 	 	margin-right: auto;
     	margin-left: auto;
 	}	
+}
+
+@media screen and (max-width: 1100px), screen  and (max-height: 600px){
+	body{
+		font-size: 12px !important;
+	}
+	.section-heading{
+		font-size: 30px;
+	}
+
+	.common-desc{
+		font-size: 15px;
+	}
+
+	.property-describe p{
+		font-size: 20px;
+		line-height: 1px;
+	}
+
+	.nase-para-head{
+		font-size: 18px;
+	}
+
+	.interior-image{
+		background-repeat: no-repeat;
+	    width: 400px;
+	    height: 500px;
+	    background-size: 400px 500px;
+	}
+
+	.figcaption-img{
+		bottom: 34px;
+	}
+
+	.desc-img{
+		font-size: 15px;
+	}
 }
