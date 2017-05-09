@@ -779,6 +779,16 @@ input[type=text]{
 	width: 250px !important;
 }
 
+#site-header-logo{
+	display: none;
+}
+
+.facebook-title-padding{
+	padding-bottom: 10px;
+	font-weight: 800;
+}
+
+/*-----------------------------------------------------------*/
 @media(min-width: 1360px){
 	.container-border{
 	 	width: 1200px !important;
@@ -823,3 +833,150 @@ input[type=text]{
 		font-size: 15px;
 	}
 }
+
+@media screen and (max-width: 1045px){
+	.interior-image{
+		background-repeat: no-repeat;
+	    width: 320px;
+	    height: 500px;
+	    background-size: 320px 500px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.interior-image{
+		background-repeat: no-repeat;
+	    width: 100%;
+	    height: 200px;
+	    background-size: 100% 200px;
+	    background-position: 0px -42px;
+	}
+
+	.property-img-container {
+	    width: 100%;
+	    height: 200px;
+	    position: relative;
+	}
+
+	.row-margin{
+		margin: 0;
+	    width: 100% !important;
+	}
+
+	.section-container{
+		margin: 0;
+		   padding: 30px 0;
+	}
+
+	.desc-image{
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.figcaption-img{
+		z-index: 999;
+	    right: 1px !important;
+	    left: initial;
+	    bottom: 16px;
+	}
+	.inner-margin {
+	    padding: 30px 30px;
+	}
+
+	#mapresult{
+		display: none;
+	}
+
+	.location-image-list{
+		height: 100% !important;
+	    overflow: visible;
+	}
+
+	.location-border {
+	    padding: 0px 0 5px 0;
+	}
+
+	.brdr-bottom{
+		border-color: #fff !important;
+	}
+
+	.brdr-top{
+		border-color: #fff !important;
+	}
+
+	.brdr-left{
+		border-color: #fff !important;
+	}
+
+	.brdr-right{
+		border-color: #fff !important;
+	}
+
+	#site-logo{
+		display: none;
+	}
+
+	#site-header-logo{
+		display: block;
+	}
+
+	.footer-inner{
+		text-align: center;
+	}
+	.footer{
+		background-color: #fff;
+	}
+
+	input[type=text] {
+    	background-color: #f2f2f2;
+    	width: 100% !important;
+    	height: 45px;
+	}
+	.cu-textbox{
+		width: 100%;
+		height: 200px;
+	}
+
+	.contact-submit-btn{
+		padding: 13px 35px;
+	}
+
+	.contact-submit{
+		text-align: center;
+		padding-top: 25px;
+	}
+	.facebook-title{
+		font-size: 15px;
+	}
+	.contact-us-padding {
+	    padding: 0px 0 50px 0;
+	}
+	.container-margin {
+	    margin: 50px 0px !important;
+	}
+	.residence-details {
+		padding: 0;
+    	display: inline-block;
+	}
+
+	.center-align{
+		text-align: center;
+	}
+
+	.agent-container{
+		position: relative;
+	}
+	.xs-padding-dp{
+		padding-top: 50px;
+	}
+
+	.xs-property-desc-padd{
+		padding: 0;
+	}
+
+	.padding-bgk{
+		padding: 20px 50px;
+	}
+	
+}
+

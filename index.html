@@ -16,23 +16,31 @@
 	<!--  HEADER STARTS	 -->
 	<nav class="navbar navbar-default custom-carousel nav-menu-top">
 	  <div class="container-fluid">
+	    
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#"></a>
+	     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	     	 <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	     </button>
+	      <a class="navbar-brand" href="#"><img src="assets/img/logo/Bohemia-Residences-logo.png" id="site-header-logo" width="50" height="30" class="d-inline-block align-top" alt="Bohemia-Residences-logo"></a>
 	    </div>
-	    <ul class="nav navbar-nav navbar-right">
-	      <li><a class="active" href="#br-section-1">STANDARY</a></li>
-	      <li><a href="#br-section-2">GALERIE</a></li>
-	      <li><a href="#br-section-3">LOCATION</a></li>
-	      <li><a href="#">ABOUT US</a></li>
-	      <li><a href="#">CONTACT</a></li>
-	      <li><a href="#">|</a></li>
-	      <li><a href="#">EN</a></li>
-	      <li><a href="#">CZ</a></li>
-	    </ul>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a class="active" href="#br-section-1">STANDARY</a></li>
+		      <li><a href="#br-section-2">GALERIE</a></li>
+		      <li><a href="#br-section-3">LOCATION</a></li>
+		      <li><a href="#">ABOUT US</a></li>
+		      <li><a href="#">CONTACT</a></li>
+		      <li><a href="#">|</a></li>
+		      <li><a href="#">EN</a></li>
+		      <li><a href="#">CZ</a></li>
+		    </ul>
+	    </div>
 	  </div>
 	</nav>
-	<!--  HEADER ENDS -->
-
+	
 
 	<!-- CORAUSEL STARTS -->
 	<div class="row section-container-bottom" id="br-section-1">
@@ -42,7 +50,7 @@
 		        <img src="assets/img/main3.jpg" alt="Chania" width="460" height="345">
 		        <div class="infotab">
 			      	<div>
-			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
+			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" id="site-logo" alt="Bohemia-Residences-logo">
 				      	<span class="section-heading home-header-space chf">NEW DESIGN OF CAROUSEL BOHEMIA 1</span>
 				      	<p class="common-desc cpf home-desc-padding">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical 1</p>
 				      	<P class="learn-more chf">Learn More 1<span class="learn-more-icon"></span></P>
@@ -53,7 +61,7 @@
 		        <img src="assets/img/main1.jpg" alt="Chania" width="460" height="345">
 		        <div class="infotab">
 			      	<div>
-			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
+			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo" id="site-logo">
 				      	<span class="section-heading home-header-space chf">NEW DESIGN OF CAROUSEL BOHEMIA</span>
 				      	<p class="common-desc cpf home-desc-padding">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical</p>
 				      	<P class="learn-more chf">Learn More <span class="learn-more-icon"></span></P>
@@ -64,7 +72,7 @@
 		        <img src="assets/img/main2.jpg" alt="Chania" width="460" height="345">
 		        <div class="infotab">
 			      	<div>
-			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo">
+			      		<img src="assets/img/logo/Bohemia-Residences-logo.png" alt="Bohemia-Residences-logo" id="site-logo">
 				      	<span class="section-heading home-header-space chf">NEW DESIGN OF CAROUSEL BOHEMIA 2</span>
 				      	<p class="common-desc cpf home-desc-padding">Prague is a metropolis with a multifarious history, charming architecture, rich culture and magical 2</p>
 				      	<P class="learn-more chf">Learn More 2<span class="learn-more-icon"></span></P>
@@ -135,9 +143,9 @@
 	</div>
 
 
-	<div class="row section-container dark-green-bgk" ng-controller="PropertyDescription">
+	<div class="row section-container dark-green-bgk xs-property-desc-padd" ng-controller="PropertyDescription">
 		<div class="container-border row-margin">
-			<div class="col-sm-5 inner-margin desc-image">
+			<div class="col-sm-5 col-xs-12 inner-margin desc-image">
 				<div class="property-img-container">
 					<div ng-repeat="desc in descriptions" class="interior-image"style="background-image: url({{desc.img}});" ng-class="{'display-none': !desc.active}"></div>
 					<div class="figcaption-img">
@@ -185,6 +193,7 @@
 
 	<div class="row section-container container-margin" id="br-section-2">
 		<div class="container-border">
+			<div class="col-sm-12"><div class="section-heading chf">Gallery</div></div>
 			<div class="col-sm-12">
 				<div class="contentGallery row">
 					<ul class="clearfix">
@@ -304,15 +313,20 @@
 		</div>
 	</div>
 
-	
+	<div class="row section-container row agent-container visible-xs" style="position: relative;
+    top: 70px;">
+		<div class="col-sm-2 col-xs-12 center-align">
+			<img src="assets/img/poi.jpg" class="img-circle">
+		</div>
+	</div>
 	<div class="row section-container dark-green-bgk sec-inner-paddding">
 		<div class="container-border row-margin">
 			<div class="col-sm-6">
-				<div class="row">
-					<div class="col-sm-2">
+				<div class="row agent-container">
+					<div class="col-sm-2 hidden-xs col-xs-12 center-align">
 						<img src="assets/img/poi.jpg" class="img-circle">
 					</div>
-					<div class="col-sm-10">
+					<div class="col-sm-10 col-xs-12 center-align xs-padding-dp">
 						<div class="agent-name-title">
 						<div class="section-heading chf">
 							SIMON SCHUT
@@ -330,11 +344,11 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 agent-contact-padding">
-						<div class="agent-contacts chf">office@bohemiaresidencies.com</div>
+						<div class="facebook-title theme-font-color chf">office@bohemiaresidencies.com</div>
 						<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
 					</div>
-					<div class="col-sm-12">
-						<div class="agent-contacts chf">+420 607 543 563</div>
+					<div class="col-sm-12 agent-contact-padding">
+						<div class="facebook-title theme-font-color chf">+420 607 543 563</div>
 						<div class="agent-desc cpf">Naprostá většina našich nemovitostí</div>
 					</div>
 				</div>
@@ -342,7 +356,7 @@
 			<div class="col-sm-1"></div>
 			<div class="col-sm-5">
 				<div class="row">
-					<div class="col-sm-12"><div class="facebook-title">Sledujte nas facebook</div></div>
+					<div class="col-sm-12"><div class="facebook-title facebook-title-padding">Sledujte nas facebook</div></div>
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
@@ -393,25 +407,25 @@
 						</div>
 						<div class="col-sm-4">
 							<div class="row">
-								<div class="col-sm-12">
+								<div class="col-sm-12 col-xs-12">
 									<p>Vase jmeno</p>
 									<p><input type="text" name=""></p>
 								</div>
-								<div class="col-sm-12">
+								<div class="col-sm-12 col-xs-12">
 									<p>E-mail Address</p>
 									<p><input type="text" name=""></p>
 								</div>
-								<div class="col-sm-12">
+								<div class="col-sm-12 col-xs-12">
 									<p>Predem zpvary</p>
 									<p><input type="text" name=""></p>
 								</div>
-								<div class="col-sm-12">
+								<div class="col-sm-12 col-xs-12">
 									<p>Address</p>
 									<p><input type="textbox" name="" class="cu-textbox"></p>
 								</div>
-								<div class="col-sm-3"></div>
-								<div class="col-sm-9">
-									<button type="button" class="btn btn-primary dark-green-bgk">ODESLAT ZPRAVU</span></button>
+								<div class="col-sm-3 hidden-xs"></div>
+								<div class="col-sm-9 col-xs-12 contact-submit">
+									<button type="button" class="btn btn-primary dark-green-bgk contact-submit-btn">ODESLAT ZPRAVU</span></button>
 								</div>
 							</div>
 						</div>
@@ -424,10 +438,10 @@
 	
 	<div class="row footer">
 		<div class="container-border">
-			<div class="col-sm-10 footer-inner cpf">
+			<div class="col-sm-10 hidden-xs footer-inner cpf">
 				Copyright 2017. All Rights Reserved.
 			</div>
-			<div class="col-sm-2 footer-inner">
+			<div class="col-sm-2 col-xs-12 footer-inner">
 				<a href="https://www.pinterest.com/bohemiares/"><span class="icon-facebook"></span></i></a>
 				<a href="https://twitter.com/bohemiares"><span class="icon-instagram"></span></i></a>
 				<a href="https://www.instagram.com/bohemiaresidences.eu/"><span class="icon-pinterest"></span></a>
