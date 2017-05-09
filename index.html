@@ -193,9 +193,11 @@
 					<!-- LOCATION and Google Map Starts -->
 					<div class ='row'>
 							<div class="col-sm-12  location-menu">
-								<div class="col-sm-2 location-border" ng-repeat="key in keys track by $index">
-									<label><input type="radio" name="menu-loc" ng-checked="{{result === key}}" ng-click="showPoi(key)"> {{key}}
-									</label>
+								<div class="row">
+									<div class="col-sm-2 location-border" ng-repeat="key in keys track by $index">
+										<label><input type="radio" name="menu-loc" ng-checked="{{result === key}}" ng-click="showPoi(key)"> {{key}}
+										</label>
+									</div>
 								</div>	
 							</div>
 					</div>
