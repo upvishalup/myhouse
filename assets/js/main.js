@@ -146,43 +146,27 @@ bohemia.controller("LocationSection", function($scope, $window){
 bohemia.controller("PropertyDescription", function($scope){
 	$scope.descriptions = [
 		{
-			"name" : "New Delhi",
+			"name" : "Property 1",
 			"img" : "assets/img/chair-mac.jpg",
-			"detail" : "New Delhi is the capital of India and one of Delhi city's 11 districts. Although colloquially Delhi and New Delhi are used interchangeably to refer to the National Capital Territory of Delhi, these are two distinct entities, with New Delhi forming a small part of Delhi. The National Capital Region is a much larger entity comprising the entire National Capital Territory of Delhi along with adjoining districts.",
+			"detail" : "Atraktivní nemovitosti zařízené stylovým nábytkem a vybavené moderními domácími spotřebiči. Při rekonstrukci vždy volíme tradiční materiály a postupy s důrazem na zachování původního charakteru a jedinečných architektonických prvků. Nemovitosti se nachází v historických budovách na oblíbených rezidenčních adresách Královských Vinohrad a širšího centra Prahy. Zažijte jedinečnou atmosféru bydlení v okolí zeleně v pěší vzdálenosti od historických památek.",
 			"active" : true,
 			"features" : [{
-				"label" : "Interior Features",
-				"list" : ["IFList1", "IFList2", "IFList3", "IFList4", "IFList5", "IFList6"]
+					"label" : "Vybavení interiérů",
+					"isList" : true,
+					"list" : ["Sporák", "Myčka", "Vinotéka", "Pračka", "Sušička", "Wi-Fi"]
 				},
 				{
-					"label" : "Dimenions",
-					"list" : ["DList1", "DList2", "DList3", "DList4", "DList5", "DList9"]
+					"label" : "Standardní rozměry",
+					"isList" : true,
+					"list" : ["Obývák 4x5", "Kuchyně 3x4", "Jídelna 3x4", "Ložnice 4x5", "Pracovna 2x2", "Parking 2x5"]
 				},
 				{
-					"label" : "Other Info",
-					"list" : ["OfList1", "OfList2", "OfList3", "OfList4", "OfList5", "OfList9"]
+					"label" : "Další informace",
+					"isList" : false,
+					"list" : ["V případě zájmu lze nemovitost individualně upravit dle vašich přání tak, aby veškeré vybavení perfektně odpovídalo vašemu vkusu, životnímu stylu a hodnotám. Pokud máte zájem získat více informací o možnostech personalizace vaší nemovitosti, neváhejte nás prosím kontaktovat."]
 				}
 			]
 		},
-		{
-			"name" : "Bangalore",
-			"img" : "assets/img/dummy_bng.jpg",
-			"detail" : "Bangalore  officially known as Bengaluru, is the capital of the Indian state of Karnataka. It has a population of about 8.42 million and a metropolitan population of about 8.52 million, making it the third most populous city and fifth most populous urban agglomeration in India. It is located in southern India on the Deccan Plateau. Its elevation is over 900 m (3,000 ft) above sea level, the highest of India's major cities.",
-			"active" : false,
-			"features" : [{
-				"label" : "Interior Features",
-				"list" : ["B IF List1", "B IF List 2", "B IF List3", "B IF List 4", "B IF List 5", "IF List 6"]
-				},
-				{
-					"label" : "Dimenions",
-					"list" : ["D List1", "B D List 2", "D List3", "B D List 4", "D List 5", "D List 9"]
-				},
-				{
-					"label" : "Other Info",																																																																																																																		
-					"list" : ["Of List1", "B Of List 2", "B Of List3", "B Of List 4", "Of List 5", "Of List 9"]
-				}
-			]
-		}
 	];
 
 	$scope.images = [];
